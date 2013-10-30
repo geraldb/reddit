@@ -3,4 +3,6 @@ Manifest.txt
 README.md
 Rakefile
 lib/upman.rb
+lib/upman/opts.rb
+lib/upman/runner.rb
 lib/upman/version.rb
