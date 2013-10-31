@@ -27,7 +27,7 @@ class Opts
   end
 
 
-  def install_dir
+  def install_dir    #### - fix: use root_dir ??? why? why not?
     # NB: assume current  working dir is $INSTALL_DIR/SYS
     path = File.expand_path( '..' )
     path

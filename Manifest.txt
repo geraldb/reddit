@@ -5,4 +5,5 @@ Rakefile
 lib/upman.rb
 lib/upman/opts.rb
 lib/upman/runner.rb
+lib/upman/utils.rb
 lib/upman/version.rb

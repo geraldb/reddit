@@ -9,6 +9,15 @@ require 'pp'
 require 'logger'
 require 'optparse'
 
+
+####
+# more gems
+
+require 'logutils'
+require 'fetcher'
+
+
+
 #
 # require 'java'     # Let's use some Java (needed for unzip)
 
@@ -26,6 +35,7 @@ require 'optparse'
 require 'upman/version'  # let it always go first
 
 require 'upman/opts'
+require 'upman/utils'
 require 'upman/runner'
 
 

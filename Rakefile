@@ -17,15 +17,15 @@ Hoe.spec 'upman' do
   self.readme_file  = 'README.md'
   self.history_file = 'History.md'
 
-#  self.extra_deps = [
-#    ['logutils', '>= 0.5']
-#  ]
+  self.extra_deps = [
+    ['logutils', '>= 0.6'],
+    ['fetcher', '>= 0.4']
+  ]
 
   self.licenses = ['Public Domain']
 
-#  self.spec_extras = {
-#   :required_ruby_version => '>= 1.9.2'
-#  }
-
+  self.spec_extras = {
+   :required_ruby_version => '>= 1.9.2'
+  }
 
 end
