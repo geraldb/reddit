@@ -13,6 +13,8 @@ require 'optparse'
 ####
 # more gems
 
+require 'zip'   # rubyzip gem
+
 require 'logutils'
 require 'fetcher'
 

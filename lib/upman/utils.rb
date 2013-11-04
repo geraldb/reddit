@@ -26,9 +26,36 @@ module Upman::Utils
   end
 
 
+  def calc_digest_md5( fn )
+    md5 = Digest::MD5.hexdigest( File.open( fn, 'rb') { |f| f.read } )
+    md5
+  end
+
+
   ## todo: catch IOException
 
   def unzip_file( src, dest_dir )
+    
+    ## using rubyzip
+    ### -- examples see http://stackoverflow.com/questions/966054/how-to-overwrite-existing-files-using-rubyzip-lib
+    
+    logger.info "unzip file src => #{src}, dest dir => #{dest_dir}"
+
+    Zip::File.open( src ) do |zipfile|
+      
+      ## todo: check if each also returns entries for folders/dirs???
+      
+      zipfile.each do |entry|
+        full_path = File.join( dest_dir, entry.name )
+        puts "  unpack #{entry.name}"
+        FileUtils.mkdir_p( File.dirname( full_path ) )
+        zipfile.extract( entry, full_path ) { true }    # note: will overwrite file if exists
+      end
+    end
+  end
+
+
+  def unzip_file_old( src, dest_dir )
   
     logger.info "unzip file src => #{src}, dest dir => #{dest_dir}"
 

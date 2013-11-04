@@ -183,12 +183,6 @@ class Runner
   end
 
 
-  def calc_digest_md5( fn )
-    md5 = Digest::MD5.hexdigest( File.open( fn, 'rb') { |f| f.read } )
-    md5
-  end
-
-
   def step1_download
     logger.info "==== step 1: download"
 
@@ -230,19 +224,27 @@ class Runner
 
   def step2_copy   ### step2_unpack  or use step2_prepare ???
     logger.info "==== step 2: copy"
-    
-    paket_on_update do |key, values_alt, values_neu|      
-      next if values_neu.length < 2   # we need at least to parameters for copy operation (2nd para has copy instructions)
-      
+
+    ## make sure folder updates n patches exists
+    ## FileUtils.makedirs( "#{opts.download_dir}/updates" ) unless File.directory?( "#{opts.download_dir}/updates" )
+    ## FileUtils.makedirs( "#{opts.download_dir}/patches" ) unless File.directory?( "#{opts.download_dir}/patches" )
+
+
+    paket_on_update do |key, values_alt, values_neu|
+      if values_neu.length < 2   # we need at least to parameters for copy operation (2nd para has copy instructions)
+        logger.error 'missing operation spec; expected min two values/args'
+        next
+      end
+
       copy_values = values_neu[1].strip.split( ' ' )
       if copy_values.length == 2
         copy_op     = copy_values[0].strip
         copy_dest   = copy_values[1].strip
          
         if copy_op.downcase == 'clean'
-          unzip_file( "#{opts.download_dir}/#{key}", "#{opts.install_dir}/#{copy_dest}" )
+          unzip_file( "#{opts.download_dir}/paket/#{key}", "#{opts.download_dir}/updates/#{copy_dest}" )
         elsif copy_op.downcase == 'update'
-          unzip_file( "#{opts.download_dir}/#{key}", "#{opts.install_dir}/#{copy_dest}" )
+          unzip_file( "#{opts.download_dir}/paket/#{key}", "#{opts.download_dir}/patches/#{copy_dest}" )
         else
           logger.error 'Unknown copy operation in instruction in paket.txt. Expected clean|update'
         end
