@@ -25,7 +25,7 @@ class Runner
 
   def run( args )
 
-    puts "upman version #{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"    
+    puts "upman version #{VERSION} on Ruby #{RUBY_VERSION}-#{RUBY_PATCHLEVEL} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
 
     optparse = OptionParser.new do |cmd|
     
@@ -33,6 +33,10 @@ class Runner
     
       cmd.on( '-f', '--fetch URI', 'Download Server Source' ) do |uri|
         opts.fetch_base = uri
+      end
+
+      cmd.on( '-n', '--name NAME', "Manifest Name (default: #{opts.manifest_name})" ) do |name|
+        opts.manifest_name = name
       end
     
       # todo: find different letter for debug trace switch (use v for version?)
@@ -62,24 +66,23 @@ class Runner
   def step0_config
     logger.info "===== step 0: config"
   
-    paket_alt = "#{opts.meta_dir}/paket.txt"
+    paket_alt = "#{opts.meta_dir}/#{opts.manifest_name}.txt"
     ts = Time.now
     # note: -- save to tmp (only change over to paket/paket.txt) if everything downloaded
-    paket_tmp = "#{opts.download_dir}/tmp/__#{ts.strftime('%Y-%m-%d_%H.%M-%S')}_paket.txt_tmp"
-    paket_neu = "#{opts.download_dir}/paket.txt"
+    @paket_tmp = paket_tmp = "#{opts.download_dir}/tmp/__#{ts.strftime('%Y-%m-%d_%H.%M-%S')}__#{opts.manifest_name}.txt.tmp"
 
     ## make sure downloads/tmp folder exists
     FileUtils.makedirs( "#{opts.download_dir}/tmp" ) unless File.directory?( "#{opts.download_dir}/tmp" )
 
 
     if File.exists?( paket_alt ) == false
-      logger.error "Unvollständige Installation (Manifest Datei 'paket.txt' nicht gefunden in META Ordner)"
+      logger.error "Unvollständige Installation (Manifest Datei '#{opts.manifest_name}.txt' nicht gefunden in META Ordner '#{opts.meta_dir}')"
       return 1 # Fehler
     end
 
-    # -- delete paket_neu if exists?
+    # todo/fix: -- delete paket_neu if exists?  - no! never delete; move to trash folder
   
-    paket_fetch_uri = "#{opts.fetch_base}/paket.txt"
+    paket_fetch_uri = "#{opts.fetch_base}/#{opts.manifest_name}.txt"
 
     ok = fetch_file( paket_fetch_uri, paket_tmp )
 
@@ -107,23 +110,28 @@ class Runner
   
     # Download Paketversion muss >= Installation sein.
 
-    version_alt = paket_alt_hash[ 'VERSION' ]  
+    version_alt = paket_alt_hash[ 'VERSION' ]
     version_neu = paket_neu_hash[ 'VERSION' ]
   
     logger.info "VERSION:  #{version_alt} => #{version_neu}"
- 
-    # convert version to number:
-    #  version info format:  (2013.06r01) - <YYYY>.<MM>r<RELEASE>
-    #     2013.06r01 becomes 20130601  for easy comparison using ints
-    #     2013.05r02 becomes 20130502  etc.
-    
-    version_alt_num  =  version_alt.to_s.gsub( /[A-Za-z\-._]/, '' ).to_i
-    version_neu_num  =  version_neu.to_s.gsub( /[A-Za-z\-._]/, '' ).to_i
 
-    if version_alt_num > version_neu_num 
-      logger.error "Downgrade nicht zulässig von Version #{version_alt} nach #{version_neu}."
-      return 1 # Fehler
+    if version_alt && version_neu
+      # convert version to number:
+      #  version info format:  (2013.06r01) - <YYYY>.<MM>r<RELEASE>
+      #     2013.06r01 becomes 20130601  for easy comparison using ints
+      #     2013.05r02 becomes 20130502  etc.
+
+      version_alt_num  =  version_alt.to_s.gsub( /[a-z\-._]/i, '' ).to_i
+      version_neu_num  =  version_neu.to_s.gsub( /[a-z\-._]/i, '' ).to_i
+
+      logger.info "VERSION NUM: #{version_alt_num} => #{version_neu_num}"
+
+      if version_alt_num > version_neu_num 
+        logger.error "Downgrade nicht zulässig von Version #{version_alt} nach #{version_neu}."
+        return 1 # Fehler
+      end
     end
+    
 
     # Wechsel von Produktion auf Test unterbinden
   
@@ -131,10 +139,12 @@ class Runner
     umgebung_neu = paket_neu_hash[ 'UMGEBUNG' ]
 
     logger.info "UMGEBUNG: #{umgebung_alt} => #{umgebung_neu}"
-      
-    if umgebung_alt == 'PRODUKTION' && umgebung_neu != 'PRODUKTION'
-       logger.error "Testpakete können nicht auf eine Produktionsversion installiert werden."
-       return 1 # Fehler
+  
+    if umgebung_alt && umgebung_neu
+       if umgebung_alt == 'PRODUKTION' && umgebung_neu != 'PRODUKTION'
+         logger.error "Testpakete können nicht auf eine Produktionsversion installiert werden."
+         return 1 # Fehler
+       end
     end
 
     return 0 # OK
@@ -179,7 +189,7 @@ class Runner
         logger.debug "#{key} => #{value_neu} != #{value_alt}"
         yield key, values_alt, values_neu
       end
-    end    
+    end
   end
 
 
@@ -190,12 +200,10 @@ class Runner
 
       entry_md5 = values_neu[0]
       entry_uri = "#{opts.fetch_base}/#{key}"
+
       ts = Time.now
       entry_tmp = "#{opts.download_dir}/tmp/__#{ts.strftime('%Y-%m-%d_%H.%M-%S')}_#{key}_tmp"
-
-      ## make sure paket folder exists
-      FileUtils.makedirs( "#{opts.download_dir}/paket" ) unless File.directory?( "#{opts.download_dir}/paket" )
-      entry_new = "#{opts.download_dir}/paket/#{key}"
+      entry_new = "#{opts.download_dir}/tmp/#{key}"
 
       ## todo: check if file exists w/ valid md5 in paket/ folder
       #   resume and skip to next file!
@@ -220,15 +228,20 @@ class Runner
  
     return 0 # OK  
   end # method step1_download
-  
+
 
   def step2_copy   ### step2_unpack  or use step2_prepare ???
     logger.info "==== step 2: copy"
 
-    ## make sure folder updates n patches exists
-    ## FileUtils.makedirs( "#{opts.download_dir}/updates" ) unless File.directory?( "#{opts.download_dir}/updates" )
-    ## FileUtils.makedirs( "#{opts.download_dir}/patches" ) unless File.directory?( "#{opts.download_dir}/patches" )
 
+    ## todo: use latest ?? or just use no folder ??? 
+    version_neu = paket_neu_hash[ 'VERSION' ] || 'latest'
+
+
+    # -- make sure folders updates n patches exist
+    FileUtils.makedirs( "#{opts.download_dir}/#{version_neu}/updates" ) unless File.directory?( "#{opts.download_dir}/#{version_neu}/updates" )
+    FileUtils.makedirs( "#{opts.download_dir}/#{version_neu}/patches" ) unless File.directory?( "#{opts.download_dir}/#{version_neu}/patches" )
+    FileUtils.makedirs( "#{opts.download_dir}/#{version_neu}/paket" ) unless File.directory?( "#{opts.download_dir}/#{version_neu}/paket" )
 
     paket_on_update do |key, values_alt, values_neu|
       if values_neu.length < 2   # we need at least to parameters for copy operation (2nd para has copy instructions)
@@ -240,11 +253,23 @@ class Runner
       if copy_values.length == 2
         copy_op     = copy_values[0].strip
         copy_dest   = copy_values[1].strip
-         
+
+        ## todo/fix - check: if paket/key exists? if yes, assume already unzipped
+        ##   - moved zip is confirmation
+        ##   - lets us resume unpack and try again and again etc.
+
         if copy_op.downcase == 'clean'
-          unzip_file( "#{opts.download_dir}/paket/#{key}", "#{opts.download_dir}/updates/#{copy_dest}" )
+          unzip_file( "#{opts.download_dir}/tmp/#{key}", "#{opts.download_dir}/#{version_neu}/updates/#{copy_dest}" )
+          
+          ## on success - move zip from /tmp to /paket
+          FileUtils.mv( "#{opts.download_dir}/tmp/#{key}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", force: true, verbose: true )
+
         elsif copy_op.downcase == 'update'
-          unzip_file( "#{opts.download_dir}/paket/#{key}", "#{opts.download_dir}/patches/#{copy_dest}" )
+          unzip_file( "#{opts.download_dir}/tmp/#{key}", "#{opts.download_dir}/#{version_neu}/patches/#{copy_dest}" )
+
+          ## on success - move zip from /tmp to /paket
+          FileUtils.mv( "#{opts.download_dir}/tmp/#{key}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", force: true, verbose: true )
+
         else
           logger.error 'Unknown copy operation in instruction in paket.txt. Expected clean|update'
         end
@@ -253,6 +278,12 @@ class Runner
       end      
     end
     
+    ## on success - move paket.txt as last step
+    paket_tmp = @paket_tmp
+    paket_neu = "#{opts.download_dir}/#{version_neu}/paket/#{opts.manifest_name}.txt"
+
+    FileUtils.mv( paket_tmp, paket_neu, force: true, verbose: true )
+
     return 0 # OK  
   end # method step2_copy
   
