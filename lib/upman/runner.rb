@@ -59,7 +59,7 @@ class Runner
       
     status = step0_config                   # get and check packages, only continue if status is OK, that is, 0
     status = step1_download if status == 0  
-             step2_copy     if status == 0  
+ #            step2_copy     if status == 0  
   end
 
 
@@ -95,8 +95,25 @@ class Runner
     end   
 
 
-    @paket_alt_hash = YAML.load_file( paket_alt )  
-    @paket_neu_hash = YAML.load_file( paket_tmp )
+    ### todo: use a yaml reader utility method
+    ##  move to utils ??? for reuse
+
+    yaml_alt = File.read( paket_alt )
+    yaml_alt = yaml_alt.gsub( /\t/ ) do |_|
+      ## replace tabs w/ spaces and issue warning
+      logger.info( "*** warn: tabs in manifest (yaml) - #{paket_alt}; please fix!!! e.g. replace w/ spaces" )
+      ' '
+    end
+
+    yaml_tmp = File.read( paket_tmp )
+    yaml_tmp = yaml_tmp.gsub( /\t/ ) do |_|
+      ## replace tabs w/ spaces and issue warning
+      logger.info( "*** warn: tabs in manifest (yaml) - #{paket_tmp}" )
+      ' '
+    end
+
+    @paket_alt_hash = YAML.load( yaml_alt )
+    @paket_neu_hash = YAML.load( yaml_tmp )
 
 
     ## todo/fix: add debug option to toggle dumping of package hash
@@ -151,6 +168,12 @@ class Runner
   end
 
 
+  ###
+  ###
+  ## todo/fix:
+  ##  -- make it into a (reusable) class - PackUpdateCursor ???
+  ##  e.g. pass in hash_new, hash_old , plus optional headers
+  
   def paket_on_update
     headers = [ 'VERSION', 'UMGEBUNG' ] + opts.headers
 
@@ -196,36 +219,17 @@ class Runner
   def step1_download
     logger.info "==== step 1: download"
 
-    paket_on_update do |key, values_alt, values_neu|      
+    dl = Downloader.new( opts.fetch_base, opts.download_dir )
 
+    paket_on_update do |key, values_alt, values_neu|
+      entry_key = key
       entry_md5 = values_neu[0]
-      entry_uri = "#{opts.fetch_base}/#{key}"
-
-      ts = Time.now
-      entry_tmp = "#{opts.download_dir}/tmp/__#{ts.strftime('%Y-%m-%d_%H.%M-%S')}_#{key}_tmp"
-      entry_new = "#{opts.download_dir}/tmp/#{key}"
-
-      ## todo: check if file exists w/ valid md5 in paket/ folder
-      #   resume and skip to next file!
-      if File.exists?( entry_new ) &&  calc_digest_md5( entry_new ) == entry_md5
-        logger.info "*** skipping manifest entry #{key}; download exists already w/ matching m5 hash"
-        next
-      end
-
-      ok = fetch_file( entry_uri, entry_tmp )
-
-      return 1  unless ok
-
-      # if checksum ok move to final destination!!
-      entry_md5_tmp = calc_digest_md5( entry_tmp )
-      if entry_md5 == entry_md5_tmp
-        FileUtils.mv( entry_tmp, entry_new, force: true, verbose: true )
-      else
-        logger.debug "  #{entry_md5} <=> #{entry_md5_tmp}"
-        return 1
-      end
+      
+      ok = dl.process( entry_key, entry_md5 )
+      
+      return 1  unless ok   # on error return; break
     end
- 
+
     return 0 # OK  
   end # method step1_download
 

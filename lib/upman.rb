@@ -38,6 +38,7 @@ require 'upman/version'  # let it always go first
 
 require 'upman/opts'
 require 'upman/utils'
+require 'upman/downloader'
 require 'upman/runner'
 
 
