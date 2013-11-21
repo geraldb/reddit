@@ -4,7 +4,6 @@
 # require 'java'     # Let's use some Java (needed for unzip)
 
 
-
 module Upman
 
 class Runner
@@ -58,9 +57,26 @@ class Runner
     # lets go - do it.
       
     status = step0_config                   # get and check packages, only continue if status is OK, that is, 0
-    status = step1_download if status == 0  
- #            step2_copy     if status == 0  
-  end
+    if status == 0 
+      puts "*** OK: step0_config"
+      status = step1_download 
+      if status == 0
+        puts "*** OK: step1_download"
+        status = step2_copy
+        if status == 0
+          puts "*** OK: step2_copy"
+        else
+          puts "*** FAIL: step2_copy"
+        end
+      else
+        puts "*** FAIL: step1_download"
+      end
+    else
+      puts "*** FAIL: step0_config"
+    end
+
+  end # method run
+
 
 
   def step0_config
@@ -168,70 +184,43 @@ class Runner
   end
 
 
-  ###
-  ###
-  ## todo/fix:
-  ##  -- make it into a (reusable) class - PackUpdateCursor ???
-  ##  e.g. pass in hash_new, hash_old , plus optional headers
-  
-  def paket_on_update
-    headers = [ 'VERSION', 'UMGEBUNG' ] + opts.headers
-
-    # get unique key from old and new
-
-    keys = paket_alt_hash.keys + paket_neu_hash.keys
-    keys = keys.uniq
-
-
-    keys.each do | key |
-      
-      # skip these keys (e.g. VERSION, UMGEBUNG, etc.
-      next   if headers.include?( key )
-      
-      lines_alt = paket_alt_hash[ key ]
-      lines_neu = paket_neu_hash[ key ]
-      
-      if lines_neu.nil?
-        logger.info( "*** skip old manifest entry #{key}; no longer available in new manifest" );
-        next
-      end
-    
-      if lines_alt.nil?
-        # new manifest entry
-        lines_alt = 'md5nil'
-      end
-
-      values_alt = lines_alt.strip.split( ',' )
-      values_neu = lines_neu.strip.split( ',' )
-      
-      value_alt = values_alt[ 0 ]  # assume first entry is checksum (md5 hash)
-      value_neu = values_neu[ 0 ]
-
-      # nur neue Pakete holen
-      if value_alt != value_neu
-        logger.debug "#{key} => #{value_neu} != #{value_alt}"
-        yield key, values_alt, values_neu
-      end
-    end
-  end
-
-
   def step1_download
     logger.info "==== step 1: download"
 
+    ## todo: use latest ?? or just use no folder ??? 
+    version_neu = paket_neu_hash[ 'VERSION' ] || 'latest'
+
     dl = Downloader.new( opts.fetch_base, opts.download_dir )
 
-    paket_on_update do |key, values_alt, values_neu|
+    packup = PackUpdateCursor.new( paket_alt_hash, paket_neu_hash, opts.headers )
+    packup.each do |key, values_alt, values_neu|
+      
       entry_key = key
       entry_md5 = values_neu[0]
       
-      ok = dl.process( entry_key, entry_md5 )
-      
-      return 1  unless ok   # on error return; break
+      ## check if exists alread in pack version
+      ## if yes, skip    -- move into dl.process ??? why? why not?
+      entry_pack = "#{opts.download_dir}/#{version_neu}/paket/#{key}" 
+
+      if File.exists?( entry_pack ) && calc_digest_md5( entry_pack ) == entry_md5
+        logger.info "*** skipping manifest entry #{entry_pack}; unzipped entry exists already w/ matching m5 hash"
+        next   # file already downloaded n unzipped -  in place; md5 match
+      end
+
+     ok = dl.process( entry_key, entry_md5 )
+     
+     if ok
+       logger.debug "  OK entry #{entry_key}"
+     else
+       logger.debug "  !!! FAIL entry #{entry_key}"
+       return 1  # on error return; break
+     end
+     
     end
 
     return 0 # OK  
   end # method step1_download
+
 
 
   def step2_copy   ### step2_unpack  or use step2_prepare ???
@@ -245,14 +234,17 @@ class Runner
     # -- make sure folders updates n patches exist
     FileUtils.makedirs( "#{opts.download_dir}/#{version_neu}/updates" ) unless File.directory?( "#{opts.download_dir}/#{version_neu}/updates" )
     FileUtils.makedirs( "#{opts.download_dir}/#{version_neu}/patches" ) unless File.directory?( "#{opts.download_dir}/#{version_neu}/patches" )
-    FileUtils.makedirs( "#{opts.download_dir}/#{version_neu}/paket" ) unless File.directory?( "#{opts.download_dir}/#{version_neu}/paket" )
+    FileUtils.makedirs( "#{opts.download_dir}/#{version_neu}/paket" )   unless File.directory?( "#{opts.download_dir}/#{version_neu}/paket" )
 
-    paket_on_update do |key, values_alt, values_neu|
-      if values_neu.length < 2   # we need at least to parameters for copy operation (2nd para has copy instructions)
-        logger.error 'missing operation spec; expected min two values/args'
-        next
+    packup = PackUpdateCursor.new( paket_alt_hash, paket_neu_hash, opts.headers )
+    packup.each do |key, values_alt, values_neu|
+
+      if values_neu.length < 2   # we need at least two parameters for copy operation (2nd para has copy instructions)
+         logger.error 'missing operation spec; expected min two values/args'
+         next
       end
 
+      entry_md5   = values_neu[0]
       copy_values = values_neu[1].strip.split( ' ' )
       if copy_values.length == 2
         copy_op     = copy_values[0].strip
@@ -263,17 +255,35 @@ class Runner
         ##   - lets us resume unpack and try again and again etc.
 
         if copy_op.downcase == 'clean'
-          unzip_file( "#{opts.download_dir}/tmp/#{key}", "#{opts.download_dir}/#{version_neu}/updates/#{copy_dest}" )
+
+          ## check if zip exists in /paket? if yes, assume already unzipped
+          ##  - convention:  assume moved zip is confirmiation of success
+          #
+          # todo/fix: check for md5 tooo!!! if file exists -must match - if not!!! move to trask and unpack again!!!
           
-          ## on success - move zip from /tmp to /paket
-          FileUtils.mv( "#{opts.download_dir}/tmp/#{key}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", force: true, verbose: true )
+          if File.exist?( "#{opts.download_dir}/#{version_neu}/paket/#{key}" )
+            ## assume zip exists; do nothing
+            logger.info "assuming unpacked zip exists; skip - do nothing"
+          else
+            unzip_file( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/updates/#{copy_dest}" )
+          
+            ## on success - move zip from /tmp to /paket
+            FileUtils.mv( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", force: true, verbose: true )
+          end
 
         elsif copy_op.downcase == 'update'
-          unzip_file( "#{opts.download_dir}/tmp/#{key}", "#{opts.download_dir}/#{version_neu}/patches/#{copy_dest}" )
 
-          ## on success - move zip from /tmp to /paket
-          FileUtils.mv( "#{opts.download_dir}/tmp/#{key}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", force: true, verbose: true )
+          # todo/fix: check for md5 tooo!!! if file exists -must match - if not!!! move to trask and unpack again!!!
+          
+          if File.exist?( "#{opts.download_dir}/#{version_neu}/paket/#{key}" ) 
+            ## assume zip exists; do nothing
+            logger.info "assuming unpacked zip exists; skip - do nothing"
+          else
+            unzip_file( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/patches/#{copy_dest}" )
 
+            ## on success - move zip from /tmp to /paket
+            FileUtils.mv( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", force: true, verbose: true )
+          end
         else
           logger.error 'Unknown copy operation in instruction in paket.txt. Expected clean|update'
         end

@@ -1,5 +1,64 @@
 
-module Upman::Utils
+module Upman
+
+class PackUpdateCursor
+
+  include LogUtils::Logging
+
+  def initialize( paket_alt_hash, paket_neu_hash, extra_headers=[] )
+    @paket_alt_hash = paket_alt_hash
+    @paket_neu_hash = paket_neu_hash
+    @headers = [ 'VERSION', 'UMGEBUNG' ] + extra_headers
+  end
+
+
+  def each
+    # headers = [ 'VERSION', 'UMGEBUNG' ] + opts.headers
+
+    # get unique key from old and new
+
+    keys = @paket_alt_hash.keys + @paket_neu_hash.keys
+    keys = keys.uniq
+
+    keys.each do | key |
+
+      ## todo/future:
+      #    make headers all upercase by convention??? why? why not??
+      
+      # skip these keys (e.g. VERSION, UMGEBUNG, etc.
+      next   if @headers.include?( key )
+      
+      lines_alt = @paket_alt_hash[ key ]
+      lines_neu = @paket_neu_hash[ key ]
+      
+      if lines_neu.nil?
+        logger.info( "*** skip old manifest entry #{key}; no longer available in new manifest" );
+        next
+      end
+    
+      if lines_alt.nil?
+        # new manifest entry
+        lines_alt = 'md5nil'
+      end
+
+      values_alt = lines_alt.strip.split( ',' )
+      values_neu = lines_neu.strip.split( ',' )
+      
+      value_alt = values_alt[ 0 ]  # assume first entry is checksum (md5 hash)
+      value_neu = values_neu[ 0 ]
+
+      # nur neue Pakete holen
+      if value_alt != value_neu
+        logger.debug "#{key} => #{value_neu} != #{value_alt}"
+        yield key, values_alt, values_neu
+      end
+    end
+  end
+end # class PackUpdateCursor
+
+
+
+module Utils
 
 
   def copy_file( src, dest )
@@ -132,4 +191,5 @@ module Upman::Utils
   end
 
 
-end # module Upman::Utils
+end # module Utils
+end # module Upman
