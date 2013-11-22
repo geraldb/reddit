@@ -96,10 +96,10 @@ class Runner
       return 1 # Fehler
     end
 
-    # todo/fix: -- delete paket_neu if exists?  - no! never delete; move to trash folder
   
     paket_fetch_uri = "#{opts.fetch_base}/#{opts.manifest_name}.txt"
 
+    ## fix: -- use fetch_text - do NOT save paket (until the very end!!!)
     ok = fetch_file( paket_fetch_uri, paket_tmp )
 
     return 1  unless ok   # error fetching paket.txt
@@ -179,6 +179,17 @@ class Runner
          return 1 # Fehler
        end
     end
+    
+    ###
+    ##  if version == version   ## note: we allow same version updates (e.g. versioned manifest might change (like latest) it's not frozen)
+    ### move up ?? todo/fix:
+    ##  option 1) check if  paket.txt exists already
+    ##    and if all entries and md5 match (and headers?? too match)
+    ##  - shortcircuit - do NOTHING; package ready for merge
+    ##
+    ## option 2)
+    ##   - check in paket.txt (installed) too
+    
 
     return 0 # OK
   end
@@ -291,10 +302,26 @@ class Runner
         logger.error 'Invalid copy instruction in paket.txt. Expected zip|file ziel'
       end      
     end
-    
+
     ## on success - move paket.txt as last step
     paket_tmp = @paket_tmp
     paket_neu = "#{opts.download_dir}/#{version_neu}/paket/#{opts.manifest_name}.txt"
+
+    # todo/fix: -- delete paket_neu if exists?  - no! never delete; move to trash folder
+
+    if( File.exist?( paket_neu ) )
+      ## make sure trash folder exits!!!
+      
+      trash_dir = "#{opts.download_dir}/trash"
+      FileUtils.makedirs( trash_dir )  # todo: check if dir exists
+
+      
+      ts = Time.now.strftime('%Y-%m-%d_%H.%M-%S')
+      paket_trash = "#{trash_dir}/#{ts}_#{opts.manifest_name}.txt.trash"
+
+      ## move (old) to trash
+      FileUtils.mv( paket_neu, paket_trash, force: true, verbose: true )
+    end
 
     FileUtils.mv( paket_tmp, paket_neu, force: true, verbose: true )
 
