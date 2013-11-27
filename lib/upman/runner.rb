@@ -139,7 +139,22 @@ class Runner
   
     puts "paket_alt_hash:"
     pp paket_alt_hash
-      
+
+
+    # Wechsel von Produktion auf Test unterbinden
+  
+    umgebung_alt = paket_alt_hash[ 'UMGEBUNG' ] 
+    umgebung_neu = paket_neu_hash[ 'UMGEBUNG' ]
+
+    logger.info "UMGEBUNG: #{umgebung_alt} => #{umgebung_neu}"
+  
+    if umgebung_alt && umgebung_neu
+       if umgebung_alt == 'PRODUKTION' && umgebung_neu != 'PRODUKTION'
+         logger.error "Testpakete können nicht auf eine Produktionsversion installiert werden."
+         return 1 # Fehler
+       end
+    end
+
   
     # Download Paketversion muss >= Installation sein.
 
@@ -148,7 +163,12 @@ class Runner
   
     logger.info "VERSION:  #{version_alt} => #{version_neu}"
 
-    if version_alt && version_neu
+
+    ###############
+    ##  do not care about versios in test
+    ##   in produktion do NOT allow downgrade etc.
+
+    if umgebung_alt != 'TEST' && (version_alt && version_neu)
       # convert version to number:
       #  version info format:  (2013.06r01) - <YYYY>.<MM>r<RELEASE>
       #     2013.06r01 becomes 20130601  for easy comparison using ints
@@ -165,20 +185,6 @@ class Runner
       end
     end
     
-
-    # Wechsel von Produktion auf Test unterbinden
-  
-    umgebung_alt = paket_alt_hash[ 'UMGEBUNG' ] 
-    umgebung_neu = paket_neu_hash[ 'UMGEBUNG' ]
-
-    logger.info "UMGEBUNG: #{umgebung_alt} => #{umgebung_neu}"
-  
-    if umgebung_alt && umgebung_neu
-       if umgebung_alt == 'PRODUKTION' && umgebung_neu != 'PRODUKTION'
-         logger.error "Testpakete können nicht auf eine Produktionsversion installiert werden."
-         return 1 # Fehler
-       end
-    end
     
     ###
     ##  if version == version   ## note: we allow same version updates (e.g. versioned manifest might change (like latest) it's not frozen)
