@@ -13,15 +13,9 @@ require 'optparse'
 ####
 # more gems
 
-require 'zip'   # rubyzip gem
-
 require 'logutils'
 require 'fetcher'
 
-
-
-#
-# require 'java'     # Let's use some Java (needed for unzip)
 
 
 ## todo:  copy paket.txt to meta/ folder

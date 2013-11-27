@@ -35,13 +35,15 @@ class Opts
     @manifest_name || 'paket'     # note: do NOT include default .txt extension; rename to manifest_basename? why? why not??
   end
 
+  def install_dir=(value)
+    @install_dir = value
+  end
 
   def install_dir    #### - fix: use root_dir ??? why? why not?
-    # NB: assume current  working dir is $INSTALL_DIR/SYS
-    path = File.expand_path( '..' )
-    path
+    @install_dir || '.' 
   end
   
+
   def download_dir
     path = "#{install_dir}/downloads"
     FileUtils.makedirs( path ) unless File.directory?( path )   # create dirs if not exists 

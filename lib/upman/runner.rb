@@ -285,7 +285,7 @@ class Runner
             unzip_file( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/updates/#{copy_dest}" )
           
             ## on success - move zip from /tmp to /paket
-            FileUtils.mv( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", force: true, verbose: true )
+            FileUtils.mv( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", :force => true, :verbose => true )
           end
 
         elsif copy_op.downcase == 'update'
@@ -299,7 +299,7 @@ class Runner
             unzip_file( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/patches/#{copy_dest}" )
 
             ## on success - move zip from /tmp to /paket
-            FileUtils.mv( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", force: true, verbose: true )
+            FileUtils.mv( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", :force => true, :verbose => true )
           end
         else
           logger.error 'Unknown copy operation in instruction in paket.txt. Expected clean|update'
@@ -326,10 +326,10 @@ class Runner
       paket_trash = "#{trash_dir}/#{ts}_#{opts.manifest_name}.txt.trash"
 
       ## move (old) to trash
-      FileUtils.mv( paket_neu, paket_trash, force: true, verbose: true )
+      FileUtils.mv( paket_neu, paket_trash, :force => true, :verbose => true )
     end
 
-    FileUtils.mv( paket_tmp, paket_neu, force: true, verbose: true )
+    FileUtils.mv( paket_tmp, paket_neu, :force => true, :verbose => true )
 
     return 0 # OK  
   end # method step2_copy

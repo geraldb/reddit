@@ -71,19 +71,6 @@ module Utils
   end
 
 
-  def copy_input_stream( input,  output )  # InputStream, OutputStream
-=begin
-    buffer = Java::byte[1024].new
- 
-    while (len = input.read( buffer )) >= 0 do
-      output.write(buffer, 0, len)
-    end
-  
-    input.close()
-    output.close()
-=end
-  end
-
 
   def calc_digest_md5( fn )
     md5 = Digest::MD5.hexdigest( File.open( fn, 'rb') { |f| f.read } )
@@ -93,7 +80,20 @@ module Utils
 
   ## todo: catch IOException
 
+
   def unzip_file( src, dest_dir )
+    if defined?( JRUBY_VERSION )
+      require 'java'
+      unzip_file_java( src, dest_dir )
+    else
+      require 'zip'
+      unzip_file_classic( src, dest_dir )
+    end
+  end
+
+
+
+  def unzip_file_classic( src, dest_dir )
     
     ## using rubyzip
     ### -- examples see http://stackoverflow.com/questions/966054/how-to-overwrite-existing-files-using-rubyzip-lib
@@ -114,14 +114,18 @@ module Utils
   end
 
 
-  def unzip_file_old( src, dest_dir )
+
+###
+##
+#  fix: move to Kaffe.unzip_file
+
+  def unzip_file_java( src, dest_dir )
   
     logger.info "unzip file src => #{src}, dest dir => #{dest_dir}"
 
     # Enumeration entries
     # ZipFile zipFile
 
-=begin      
     zipFile = java.util.zip.ZipFile.new( src )
   
     entries = zipFile.entries()  # returns Enumeration
@@ -143,15 +147,27 @@ module Utils
       input  = zipFile.getInputStream( entry )
       output = java.io.BufferedOutputStream.new( java.io.FileOutputStream.new( dest ))
         
-      copy_input_stream( input, output )
+      copy_input_stream_java( input, output )
     end # end while
       
     zipFile.close()
-=end
   end # method unzip_file
 
-  # lets you change update (server )base using -f/--fetch URI switch
 
+  def copy_input_stream_java( input,  output )  # InputStream, OutputStream
+    buffer = Java::byte[1024].new
+ 
+    while (len = input.read( buffer )) >= 0 do
+      output.write(buffer, 0, len)
+    end
+  
+    input.close()
+    output.close()
+  end
+
+
+
+  # lets you change update (server )base using -f/--fetch URI switch
 
 
   def fetch_file( src, dest )

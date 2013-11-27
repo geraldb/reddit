@@ -46,7 +46,7 @@ class Downloader
     # if checksum ok move to final destination!!
     entry_md5_tmp = calc_digest_md5( entry_tmp )
     if entry_md5 == entry_md5_tmp
-      FileUtils.mv( entry_tmp, entry_new, force: true, verbose: true )
+      FileUtils.mv( entry_tmp, entry_new, :force => true, :verbose => true )
       puts "  OK md5 match/check - #{entry_key}"
     else
       logger.debug " !!! FAIL md5 mismatch - expected: #{entry_md5} <=>  actual: #{entry_md5_tmp}"
