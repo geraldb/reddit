@@ -26,7 +26,7 @@ class PackManifest
     @text = text
     @text = @text.gsub( /\t/ ) do |_|
       ## replace tabs w/ spaces and issue warning
-      logger.info( "*** warn: tabs in manifest (yaml) - #{path}; please fix!!! e.g. replace w/ spaces" )
+      logger.info( "*** warn: tabs in manifest (yaml format does NOT allow tabs; sorry); please fix!!! e.g. replace w/ spaces" )
       ' '
     end
   end
