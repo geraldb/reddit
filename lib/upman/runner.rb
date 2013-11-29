@@ -1,8 +1,5 @@
 # encoding: utf-8
 
-#
-# require 'java'     # Let's use some Java (needed for unzip)
-
 
 module Upman
 
@@ -13,7 +10,6 @@ class Runner
   include Utils  # e.g. fetch_file, unzip_file etc  - use FileUtils instead  - why ??? why not???
 
   def initialize
-  
     @opts = Opts.new
   end
 
@@ -99,37 +95,19 @@ class Runner
   
     paket_fetch_uri = "#{opts.fetch_base}/#{opts.manifest_name}.txt"
 
-    ## fix: -- use fetch_text - do NOT save paket (until the very end!!!)
-    ok = fetch_file( paket_fetch_uri, paket_tmp )
 
-    return 1  unless ok   # error fetching paket.txt
+    response = Fetcher::Worker.new.get_response( paket_fetch_uri )
 
-
-    if File.exists?( paket_tmp ) == false
-      logger.error "Unvollständiges Paket (Manifest Datei 'paket.txt' nicht gefunden in DOWNLOAD Ordner)"
-      return 1 # Fehler
-    end   
-
-
-    ### todo: use a yaml reader utility method
-    ##  move to utils ??? for reuse
-
-    yaml_alt = File.read( paket_alt )
-    yaml_alt = yaml_alt.gsub( /\t/ ) do |_|
-      ## replace tabs w/ spaces and issue warning
-      logger.info( "*** warn: tabs in manifest (yaml) - #{paket_alt}; please fix!!! e.g. replace w/ spaces" )
-      ' '
+    if response.code != '200'
+      logger.error "Failed to fetch new (Manifest Datei 'paket.txt')"
+      return 1  # Fehler
     end
 
-    yaml_tmp = File.read( paket_tmp )
-    yaml_tmp = yaml_tmp.gsub( /\t/ ) do |_|
-      ## replace tabs w/ spaces and issue warning
-      logger.info( "*** warn: tabs in manifest (yaml) - #{paket_tmp}" )
-      ' '
-    end
+    @paket_neu_text = response.body  # todo: do we need to call respone.body.read (e.g. use .read)
 
-    @paket_alt_hash = YAML.load( yaml_alt )
-    @paket_neu_hash = YAML.load( yaml_tmp )
+
+    @paket_alt_hash = PackManifest.load_file( paket_alt )
+    @paket_neu_hash = PackManifest.laod( @paket_neu_text )   # load from string - not yet saved to disk
 
 
     ## todo/fix: add debug option to toggle dumping of package hash
@@ -207,35 +185,26 @@ class Runner
     ## todo: use latest ?? or just use no folder ??? 
     version_neu = paket_neu_hash[ 'VERSION' ] || 'latest'
 
-    dl = Downloader.new( opts.fetch_base, opts.download_dir )
+    dl = Downloader.new( opts.fetch_base, opts.tmp_dir, opts.cache_dir )
 
     packup = PackUpdateCursor.new( paket_alt_hash, paket_neu_hash, opts.headers )
     packup.each do |key, values_alt, values_neu|
       
       entry_key = key
       entry_md5 = values_neu[0]
-      
-      ## check if exists alread in pack version
-      ## if yes, skip    -- move into dl.process ??? why? why not?
-      entry_pack = "#{opts.download_dir}/#{version_neu}/paket/#{key}" 
 
-      if File.exists?( entry_pack ) && calc_digest_md5( entry_pack ) == entry_md5
-        logger.info "*** skipping manifest entry #{entry_pack}; unzipped entry exists already w/ matching m5 hash"
-        next   # file already downloaded n unzipped -  in place; md5 match
-      end
-
-     ok = dl.process( entry_key, entry_md5 )
+      ok = dl.process( entry_key, entry_md5 )
      
-     if ok
-       logger.debug "  OK entry #{entry_key}"
-     else
-       logger.debug "  !!! FAIL entry #{entry_key}"
-       return 1  # on error return; break
-     end
+      if ok
+        logger.debug "  OK entry #{entry_key}"
+      else
+        logger.debug "  !!! FAIL entry #{entry_key}"
+        return 1  # 1-error - on error return; break
+      end
      
     end
 
-    return 0 # OK  
+    return 0 # 0-OK-succes  
   end # method step1_download
 
 

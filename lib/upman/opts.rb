@@ -32,8 +32,13 @@ class Opts
   end
 
   def manifest_name
-    @manifest_name || 'paket'     # note: do NOT include default .txt extension; rename to manifest_basename? why? why not??
+    # note: do NOT include default .txt extension; rename to manifest_basename? why? why not??
+    @manifest_name || 'paket'
   end
+
+  ######################
+  # install dirs  (root of app to get updated)
+  #  - paket  (meta_dir/pack_dir)
 
   def install_dir=(value)
     @install_dir = value
@@ -42,17 +47,34 @@ class Opts
   def install_dir    #### - fix: use root_dir ??? why? why not?
     @install_dir || '.' 
   end
-  
 
+  def meta_dir    ## todo: rename to pack_dir ??? or add alias??
+    "#{install_dir}/paket"
+  end
+
+  #################################
+  # download (update) dirs
+  #  - cache
+  #  - tmp
+  
   def download_dir
     path = "#{install_dir}/downloads"
     FileUtils.makedirs( path ) unless File.directory?( path )   # create dirs if not exists 
     path
   end
 
-  def meta_dir    ## todo: rename to package_dir ???
-    "#{install_dir}/paket"
+  def cache_dir
+    path = "#{install_dir}/downloads/cache"
+    FileUtils.makedirs( path ) unless File.directory?( path )   # create dirs if not exists 
+    path
   end
+
+  def tmp_dir
+    path = "#{install_dir}/downloads/tmp"
+    FileUtils.makedirs( path ) unless File.directory?( path )   # create dirs if not exists 
+    path
+  end
+
 
 end # class Opts
 

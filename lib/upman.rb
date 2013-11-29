@@ -28,9 +28,10 @@ require 'fetcher'
 
 
 
-require 'upman/version'  # let it always go first
+require 'upman/version'  # let version always go first
 
 require 'upman/opts'
+require 'upman/pack'
 require 'upman/utils'
 require 'upman/downloader'
 require 'upman/runner'
