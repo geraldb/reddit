@@ -53,10 +53,10 @@ class Opts
   end
 
   #################################
-  # download (update) dirs
+  # download (update) dirs - might not exist - check and create if missing
   #  - cache
   #  - tmp
-  
+
   def download_dir
     path = "#{install_dir}/downloads"
     FileUtils.makedirs( path ) unless File.directory?( path )   # create dirs if not exists 
@@ -64,13 +64,13 @@ class Opts
   end
 
   def cache_dir
-    path = "#{install_dir}/downloads/cache"
+    path = "#{download_dir}/cache"
     FileUtils.makedirs( path ) unless File.directory?( path )   # create dirs if not exists 
     path
   end
 
   def tmp_dir
-    path = "#{install_dir}/downloads/tmp"
+    path = "#{download_dir}/tmp"
     FileUtils.makedirs( path ) unless File.directory?( path )   # create dirs if not exists 
     path
   end

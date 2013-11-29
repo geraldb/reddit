@@ -54,21 +54,21 @@ class Runner
       
     status = step0_config                   # get and check packages, only continue if status is OK, that is, 0
     if status == 0 
-      puts "*** OK: step0_config"
+      puts "OK: step0_config"
       status = step1_download 
       if status == 0
-        puts "*** OK: step1_download"
+        puts "OK: step1_download"
         status = step2_copy
         if status == 0
-          puts "*** OK: step2_copy"
+          puts "OK: step2_copy"
         else
-          puts "*** FAIL: step2_copy"
+          puts "!!! *** FAIL: step2_copy"
         end
       else
-        puts "*** FAIL: step1_download"
+        puts "!!! *** FAIL: step1_download"
       end
     else
-      puts "*** FAIL: step0_config"
+      puts "!!! *** FAIL: step0_config"
     end
 
   end # method run
@@ -79,27 +79,19 @@ class Runner
     logger.info "===== step 0: config"
   
     paket_alt = "#{opts.meta_dir}/#{opts.manifest_name}.txt"
-    ts = Time.now
-    # note: -- save to tmp (only change over to paket/paket.txt) if everything downloaded
-    @paket_tmp = paket_tmp = "#{opts.download_dir}/tmp/__#{ts.strftime('%Y-%m-%d_%H.%M-%S')}__#{opts.manifest_name}.txt.tmp"
 
-    ## make sure downloads/tmp folder exists
-    FileUtils.makedirs( "#{opts.download_dir}/tmp" ) unless File.directory?( "#{opts.download_dir}/tmp" )
-
-
-    if File.exists?( paket_alt ) == false
-      logger.error "Unvollständige Installation (Manifest Datei '#{opts.manifest_name}.txt' nicht gefunden in META Ordner '#{opts.meta_dir}')"
+    if File.exist?( paket_alt ) == false
+      logger.error "!!! *** Unvollständige Installation (Manifest Datei >#{opts.manifest_name}.txt< nicht gefunden in META Ordner '#{opts.meta_dir}')"
       return 1 # Fehler
     end
 
   
-    paket_fetch_uri = "#{opts.fetch_base}/#{opts.manifest_name}.txt"
+    paket_neu_fetch_uri = "#{opts.fetch_base}/#{opts.manifest_name}.txt"
 
-
-    response = Fetcher::Worker.new.get_response( paket_fetch_uri )
+    response = Fetcher::Worker.new.get_response( paket_neu_fetch_uri )
 
     if response.code != '200'
-      logger.error "Failed to fetch new (Manifest Datei 'paket.txt')"
+      logger.error "!!! *** failed to fetch manifest file >#{opts.manifest_name}.txt<"
       return 1  # Fehler
     end
 
@@ -107,7 +99,8 @@ class Runner
 
 
     @paket_alt_hash = PackManifest.load_file( paket_alt )
-    @paket_neu_hash = PackManifest.laod( @paket_neu_text )   # load from string - not yet saved to disk
+    # load from string - not yet saved to disk - do NOT fill up tmp folder for every check (just keep it in memory)
+    @paket_neu_hash = PackManifest.load( @paket_neu_text )   
 
 
     ## todo/fix: add debug option to toggle dumping of package hash
@@ -119,7 +112,26 @@ class Runner
     pp paket_alt_hash
 
 
-    # Wechsel von Produktion auf Test unterbinden
+    ############################### 
+    ### quick check
+    ##  -- pack already prepared and ready to merge? check if manifest exists in latest or <version> meta folder
+
+    version_neu = paket_neu_hash[ 'VERSION' ] || 'latest'   # todo: use latest ?? or just use no folder ??? 
+    paket_neu = "#{opts.download_dir}/#{version_neu}/paket/#{opts.manifest_name}.txt"
+
+    if File.exist?( paket_neu )
+      ## use /force flag or /clean to force full/clean install/update
+      logger.info "note: prepared pack in place ready for merge - >#{opts.manifest_name}.txt<; do nothing"
+      return 1  # not really an error;  prepared pack in place; merge; nothing to do
+      ### todo: move it out config ?? make error real error every time -- fix, fix
+      ## report error to user in message box??? why? why not??
+    end
+
+
+    ####################################################
+    # check #1
+    #   production only allows production packs e.g. 
+    #  -- no downgrade to test or other allowed
   
     umgebung_alt = paket_alt_hash[ 'UMGEBUNG' ] 
     umgebung_neu = paket_neu_hash[ 'UMGEBUNG' ]
@@ -133,20 +145,19 @@ class Runner
        end
     end
 
-  
-    # Download Paketversion muss >= Installation sein.
+
+
+    ####################################################
+    # check #2
+    #  download Paketversion muss >= Installation sein (in production only)
+    # --  in produktion do NOT allow downgrade etc.
 
     version_alt = paket_alt_hash[ 'VERSION' ]
     version_neu = paket_neu_hash[ 'VERSION' ]
   
     logger.info "VERSION:  #{version_alt} => #{version_neu}"
 
-
-    ###############
-    ##  do not care about versios in test
-    ##   in produktion do NOT allow downgrade etc.
-
-    if umgebung_alt != 'TEST' && (version_alt && version_neu)
+    if umgebung_alt == 'PRODUKTION' && (version_alt && version_neu)
       # convert version to number:
       #  version info format:  (2013.06r01) - <YYYY>.<MM>r<RELEASE>
       #     2013.06r01 becomes 20130601  for easy comparison using ints
@@ -158,22 +169,10 @@ class Runner
       logger.info "VERSION NUM: #{version_alt_num} => #{version_neu_num}"
 
       if version_alt_num > version_neu_num 
-        logger.error "Downgrade nicht zulässig von Version #{version_alt} nach #{version_neu}."
+        logger.error "Downgrade in Produktion nicht zulässig von Version #{version_alt} nach #{version_neu}."
         return 1 # Fehler
       end
     end
-    
-    
-    ###
-    ##  if version == version   ## note: we allow same version updates (e.g. versioned manifest might change (like latest) it's not frozen)
-    ### move up ?? todo/fix:
-    ##  option 1) check if  paket.txt exists already
-    ##    and if all entries and md5 match (and headers?? too match)
-    ##  - shortcircuit - do NOTHING; package ready for merge
-    ##
-    ## option 2)
-    ##   - check in paket.txt (installed) too
-    
 
     return 0 # OK
   end
@@ -209,18 +208,22 @@ class Runner
 
 
 
-  def step2_copy   ### step2_unpack  or use step2_prepare ???
+  def step2_copy
     logger.info "==== step 2: copy"
 
 
     ## todo: use latest ?? or just use no folder ??? 
     version_neu = paket_neu_hash[ 'VERSION' ] || 'latest'
 
+    updates_dir = "#{opts.download_dir}/#{version_neu}/updates"    ## use updates_root ??
+    patches_dir = "#{opts.download_dir}/#{version_neu}/patches"    ## use patches_root ??
+    paket_dir   = "#{opts.download_dir}/#{version_neu}/paket"    
 
     # -- make sure folders updates n patches exist
-    FileUtils.makedirs( "#{opts.download_dir}/#{version_neu}/updates" ) unless File.directory?( "#{opts.download_dir}/#{version_neu}/updates" )
-    FileUtils.makedirs( "#{opts.download_dir}/#{version_neu}/patches" ) unless File.directory?( "#{opts.download_dir}/#{version_neu}/patches" )
-    FileUtils.makedirs( "#{opts.download_dir}/#{version_neu}/paket" )   unless File.directory?( "#{opts.download_dir}/#{version_neu}/paket" )
+    FileUtils.makedirs( updates_dir ) unless File.directory?( updates_dir )
+    FileUtils.makedirs( patches_dir ) unless File.directory?( patches_dir )
+    FileUtils.makedirs( paket_dir )   unless File.directory?( paket_dir )
+
 
     packup = PackUpdateCursor.new( paket_alt_hash, paket_neu_hash, opts.headers )
     packup.each do |key, values_alt, values_neu|
@@ -232,73 +235,51 @@ class Runner
 
       entry_md5   = values_neu[0]
       copy_values = values_neu[1].strip.split( ' ' )
+
       if copy_values.length == 2
         copy_op     = copy_values[0].strip
         copy_dest   = copy_values[1].strip
 
-        ## todo/fix - check: if paket/key exists? if yes, assume already unzipped
-        ##   - moved zip is confirmation
-        ##   - lets us resume unpack and try again and again etc.
-
-        if copy_op.downcase == 'clean'
-
-          ## check if zip exists in /paket? if yes, assume already unzipped
-          ##  - convention:  assume moved zip is confirmiation of success
-          #
-          # todo/fix: check for md5 tooo!!! if file exists -must match - if not!!! move to trask and unpack again!!!
-          
-          if File.exist?( "#{opts.download_dir}/#{version_neu}/paket/#{key}" )
-            ## assume zip exists; do nothing
-            logger.info "assuming unpacked zip exists; skip - do nothing"
-          else
-            unzip_file( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/updates/#{copy_dest}" )
-          
-            ## on success - move zip from /tmp to /paket
-            FileUtils.mv( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", :force => true, :verbose => true )
-          end
-
-        elsif copy_op.downcase == 'update'
-
-          # todo/fix: check for md5 tooo!!! if file exists -must match - if not!!! move to trask and unpack again!!!
-          
-          if File.exist?( "#{opts.download_dir}/#{version_neu}/paket/#{key}" ) 
-            ## assume zip exists; do nothing
-            logger.info "assuming unpacked zip exists; skip - do nothing"
-          else
-            unzip_file( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/patches/#{copy_dest}" )
-
-            ## on success - move zip from /tmp to /paket
-            FileUtils.mv( "#{opts.download_dir}/tmp/#{key}_#{entry_md5}", "#{opts.download_dir}/#{version_neu}/paket/#{key}", :force => true, :verbose => true )
-          end
-        else
-          logger.error 'Unknown copy operation in instruction in paket.txt. Expected clean|update'
+        entry_ack   =  "#{paket_dir}/#{key}_#{entry_md5}"
+        if File.exist?( entry_ack )
+          ## assume zip already unpacked!; do nothing
+          logger.info "assuming zip >#{key}< already unpacked; skip - do nothing"
+          next
         end
+        
+        entry_cache = "#{opts.cache_dir}/#{key}_#{entry_md5}"
+        
+        if copy_op.downcase == 'clean'
+          entry_dest  = "#{updates_dir}/#{copy_dest}"
+        elsif copy_op.downcase == 'update'
+          entry_dest  = "#{patches_dir}/#{copy_dest}"
+        else
+          logger.error '***** Unknown copy operation in instruction in paket.txt. Expected clean|update'
+          ## todo: make it into an error e.g. return 1 ?? why? why not??
+          next
+        end
+        
+        ## note: on retry should just overwrite!! - check if it works  
+        unzip_file( entry_cache, entry_dest )
+
+        ## on success - add acknowledgment/confirmation file
+        ## -- just create an empty file -- add anything to the file -why? why not?? use append mode (a)??
+        File.open( entry_ack, 'w') do |f|
+          # do nothing; empty file
+        end  
       else
-        logger.error 'Invalid copy instruction in paket.txt. Expected zip|file ziel'
+        logger.error '***** Invalid copy instruction in paket.txt. Expected zip|file ziel'
+        ## todo: make it into an error e.g. return 1?? why? why not??
       end      
     end
 
-    ## on success - move paket.txt as last step
-    paket_tmp = @paket_tmp
+
+    ## on success - save paket.txt as last step;
+    #  note: if it exists already - we will overwrite it
     paket_neu = "#{opts.download_dir}/#{version_neu}/paket/#{opts.manifest_name}.txt"
-
-    # todo/fix: -- delete paket_neu if exists?  - no! never delete; move to trash folder
-
-    if( File.exist?( paket_neu ) )
-      ## make sure trash folder exits!!!
-      
-      trash_dir = "#{opts.download_dir}/trash"
-      FileUtils.makedirs( trash_dir )  # todo: check if dir exists
-
-      
-      ts = Time.now.strftime('%Y-%m-%d_%H.%M-%S')
-      paket_trash = "#{trash_dir}/#{ts}_#{opts.manifest_name}.txt.trash"
-
-      ## move (old) to trash
-      FileUtils.mv( paket_neu, paket_trash, :force => true, :verbose => true )
+    File.open( paket_neu, 'w' ) do |f|
+      f.write @paket_neu_text
     end
-
-    FileUtils.mv( paket_tmp, paket_neu, :force => true, :verbose => true )
 
     return 0 # OK  
   end # method step2_copy

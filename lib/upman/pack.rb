@@ -19,7 +19,7 @@ class PackManifest
   end
 
   def self.load( text )
-    PackFile.new( text ).parse
+    PackManifest.new( text ).parse
   end
 
   def initialize( text )

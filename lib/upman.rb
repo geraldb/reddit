@@ -43,12 +43,6 @@ module Upman
     "upman/#{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
   end
 
-=begin
-  def self.root
-    "#{File.expand_path( File.dirname(File.dirname(__FILE__)) )}"
-  end
-=end
-
   def self.main( args )
     runner = Runner.new
     runner.run( args )

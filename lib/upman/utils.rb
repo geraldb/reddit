@@ -4,17 +4,6 @@ module Upman
 module Utils
 
 
-  def copy_file( src, dest )
-    logger.info "copy file src => #{src}, dest => #{dest}"
-
-=begin  
-    FileUtils.makedirs( File.dirname( dest ))  # todo: check if dir exists
-    FileUtils.cp src, dest                     # todo: check for overwrite/force option??
-=end
-  end
-
-
-
   def calc_digest_md5( fn )
     md5 = Digest::MD5.hexdigest( File.open( fn, 'rb') { |f| f.read } )
     md5
@@ -22,7 +11,6 @@ module Utils
 
 
   ## todo: catch IOException
-
 
   def unzip_file( src, dest_dir )
     if defined?( JRUBY_VERSION )
@@ -117,12 +105,13 @@ module Utils
 
     logger.info "fetch file src => #{src}, dest => #{dest}"
   
-    if src.include?( 'http://' ) == false
-      # for non-http uris use File copy
-      FileUtils.makedirs( File.dirname( dest ))  # todo: check if dir exists
-      FileUtils.cp src, dest                     # todo: check for overwrite/force option??
-      return true
-    end
+#    if src.include?( 'http://' ) == false && src.include?( 'https://' ) == false
+#      # for non-http uris use File copy
+#      FileUtils.makedirs( File.dirname( dest ))  # todo: check if dir exists
+#      FileUtils.cp src, dest                     # todo: check for overwrite/force option??
+#      return true
+#    end
+
 
     response = Fetcher::Worker.new.get_response( src )
 
@@ -148,6 +137,17 @@ module Utils
 
     return true
   end
+
+
+
+=begin  
+  def copy_file( src, dest )
+    logger.info "copy file src => #{src}, dest => #{dest}"
+
+    FileUtils.makedirs( File.dirname( dest ))  # todo: check if dir exists
+    FileUtils.cp src, dest                     # todo: check for overwrite/force option??
+  end
+=end
 
 
 end # module Utils
