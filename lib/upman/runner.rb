@@ -65,7 +65,7 @@ class Runner
     #      check if manifest exists in latest or <version> meta folder
 
     version_neu = paket_neu_hash[ 'VERSION' ] || 'latest'   # todo: use latest ?? or just use no folder ??? 
-    paket_neu = "#{opts.download_dir}/#{version_neu}/paket/#{opts.manifest_name}.txt"
+    paket_neu = "#{opts.download_dir}/#{opts.manifest_name}-#{version_neu}/paket/#{opts.manifest_name}.txt"
 
     if File.exist?( paket_neu )
       ## use /force flag or /clean to force full/clean install/update
@@ -198,9 +198,6 @@ class Runner
   def step1_download
     logger.info "==== step 1: download"
 
-    ## todo: use latest ?? or just use no folder ??? 
-    version_neu = paket_neu_hash[ 'VERSION' ] || 'latest'
-
     dl = Downloader.new( opts.fetch_base, opts.tmp_dir, opts.cache_dir )
 
     packup = PackUpdateCursor.new( paket_alt_hash, paket_neu_hash, opts.headers )
@@ -232,9 +229,9 @@ class Runner
     ## todo: use latest ?? or just use no folder ??? 
     version_neu = paket_neu_hash[ 'VERSION' ] || 'latest'
 
-    updates_dir = "#{opts.download_dir}/#{version_neu}/updates"    ## use updates_root ??
-    patches_dir = "#{opts.download_dir}/#{version_neu}/patches"    ## use patches_root ??
-    paket_dir   = "#{opts.download_dir}/#{version_neu}/paket"    
+    updates_dir = "#{opts.download_dir}/#{opts.manifest_name}-#{version_neu}/updates"    ## use updates_root ??
+    patches_dir = "#{opts.download_dir}/#{opts.manifest_name}-#{version_neu}/patches"    ## use patches_root ??
+    paket_dir   = "#{opts.download_dir}/#{opts.manifest_name}-#{version_neu}/paket"
 
     # -- make sure folders updates n patches exist
     FileUtils.makedirs( updates_dir ) unless File.directory?( updates_dir )
@@ -293,7 +290,7 @@ class Runner
 
     ## on success - save paket.txt as last step;
     #  note: if it exists already - we will overwrite it
-    paket_neu = "#{opts.download_dir}/#{version_neu}/paket/#{opts.manifest_name}.txt"
+    paket_neu = "#{paket_dir}/#{opts.manifest_name}.txt"
     File.open( paket_neu, 'w' ) do |f|
       f.write @paket_neu_text
     end
