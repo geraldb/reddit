@@ -52,15 +52,46 @@ class Runner
     
     # lets go - do it.
       
-    status = step0_config                   # get and check packages, only continue if status is OK, that is, 0
+    status = step0a_load_manifests    # get install and new manifests; only continue if status is OK, that is, 0
+    unless status == 0
+      puts "!!! *** FAIL: step0a_load_manifests"
+      return status    # failure code
+    end
+
+
+    ############################### 
+    # quick check #1
+    #   -- pack already prepared and ready to merge?
+    #      check if manifest exists in latest or <version> meta folder
+
+    version_neu = paket_neu_hash[ 'VERSION' ] || 'latest'   # todo: use latest ?? or just use no folder ??? 
+    paket_neu = "#{opts.download_dir}/#{version_neu}/paket/#{opts.manifest_name}.txt"
+
+    if File.exist?( paket_neu )
+      ## use /force flag or /clean to force full/clean install/update
+      logger.info "OK -- prepared pack in place ready for merge - >#{opts.manifest_name}.txt<; do nothing"
+      return 0
+    end
+
+    ########################
+    # quick check #2
+    #  -- up-to-date (version match and md5 entries match)
+
+    packup = PackUpdateCursor.new( paket_alt_hash, paket_neu_hash, opts.headers )
+    if packup.up_to_date?
+      logger.info "OK -- up-to-date - >#{opts.manifest_name}.txt<; do nothing"
+      return 0
+    end
+
+    status = step0b_config
     if status == 0 
-      puts "OK: step0_config"
+      puts "OK -- step0b_config"
       status = step1_download 
       if status == 0
-        puts "OK: step1_download"
+        puts "OK -- step1_download"
         status = step2_copy
         if status == 0
-          puts "OK: step2_copy"
+          puts "OK -- step2_copy"
         else
           puts "!!! *** FAIL: step2_copy"
         end
@@ -74,23 +105,21 @@ class Runner
   end # method run
 
 
-
-  def step0_config
-    logger.info "===== step 0: config"
+  def step0a_load_manifests
+    logger.info "===== step 0a: load manifests"
   
     paket_alt = "#{opts.meta_dir}/#{opts.manifest_name}.txt"
 
-    if File.exist?( paket_alt ) == false
+    unless File.exist?( paket_alt )
       logger.error "!!! *** Unvollständige Installation (Manifest Datei >#{opts.manifest_name}.txt< nicht gefunden in META Ordner '#{opts.meta_dir}')"
       return 1 # Fehler
     end
 
-  
     paket_neu_fetch_uri = "#{opts.fetch_base}/#{opts.manifest_name}.txt"
 
     response = Fetcher::Worker.new.get_response( paket_neu_fetch_uri )
 
-    if response.code != '200'
+    unless response.code == '200'
       logger.error "!!! *** failed to fetch manifest file >#{opts.manifest_name}.txt<"
       return 1  # Fehler
     end
@@ -110,23 +139,12 @@ class Runner
   
     puts "paket_alt_hash:"
     pp paket_alt_hash
+    
+    return 0  # 0-OK/SUCCESS  
+  end
 
 
-    ############################### 
-    ### quick check
-    ##  -- pack already prepared and ready to merge? check if manifest exists in latest or <version> meta folder
-
-    version_neu = paket_neu_hash[ 'VERSION' ] || 'latest'   # todo: use latest ?? or just use no folder ??? 
-    paket_neu = "#{opts.download_dir}/#{version_neu}/paket/#{opts.manifest_name}.txt"
-
-    if File.exist?( paket_neu )
-      ## use /force flag or /clean to force full/clean install/update
-      logger.info "note: prepared pack in place ready for merge - >#{opts.manifest_name}.txt<; do nothing"
-      return 1  # not really an error;  prepared pack in place; merge; nothing to do
-      ### todo: move it out config ?? make error real error every time -- fix, fix
-      ## report error to user in message box??? why? why not??
-    end
-
+  def step0b_config
 
     ####################################################
     # check #1
@@ -144,7 +162,6 @@ class Runner
          return 1 # Fehler
        end
     end
-
 
 
     ####################################################

@@ -52,6 +52,43 @@ class PackUpdateCursor
   end
 
 
+  def up_to_date?
+    # check if installation is up-to-date
+    #  all checksums/md5 must match; no new zips/files etc.
+
+    # chech #1
+    #  VERSION must match
+    
+    version_alt = @paket_alt_hash[ 'VERSION' ] || 'latest'  # todo: use latest ?? or just use no folder ??? 
+    version_neu = @paket_neu_hash[ 'VERSION' ] || 'latest'
+
+    unless version_alt == version_neu
+      logger.info( "up-to-date check failed - version mismatch #{version_alt} <=> #{version_neu}" )
+      return false
+    end
+
+    # check #2
+    #   entries md5/checksum must match
+    #
+    #  note: will ignore deleted zips for now (delete zips will not invalidate up-to-date status; fix later)
+
+    new_entries = 0
+    
+    each do |key, values_alt, values_neu|
+      new_entries += 1
+    end
+    
+    if new_entries == 0
+      logger.info( "up-to-date check OK" )
+      return true
+    else
+      logger.info( "up-to-date check failed - found #{new_entries} new entries" )
+      return false
+    end
+  end
+
+
+
   def each
     # headers = [ 'VERSION', 'UMGEBUNG' ] + opts.headers
 
