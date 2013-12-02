@@ -284,14 +284,18 @@ class Runner
       else
         logger.error '***** Invalid copy instruction in paket.txt. Expected zip|file ziel'
         ## todo: make it into an error e.g. return 1?? why? why not??
-      end      
+      end
     end
 
 
     ## on success - save paket.txt as last step;
     #  note: if it exists already - we will overwrite it
+
+    ## note: !!!!!! always safe a binary for now
+    ##  -- otherwise we get mixed up w/ cr lf and so on
+
     paket_neu = "#{paket_dir}/#{opts.manifest_name}.txt"
-    File.open( paket_neu, 'w' ) do |f|
+    File.open( paket_neu, 'wb' ) do |f|
       f.write @paket_neu_text
     end
 
