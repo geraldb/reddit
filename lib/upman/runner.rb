@@ -1,6 +1,5 @@
 # encoding: utf-8
 
-
 module Upman
 
 class Runner
@@ -9,16 +8,47 @@ class Runner
   
   include Utils  # e.g. fetch_file, unzip_file etc  - use FileUtils instead  - why ??? why not???
 
-  def initialize
-    @opts = Opts.new
+  module State
+    UNKNOWN       = 0    # start state
+    UP_TO_DATE    = 1
+    NEW_VERSION   = 2    # new version ready - find a better name - state??
+    ERROR         = 9 
   end
+
+  def initialize
+    @opts  = Opts.new
+    @state = UNKNOWN   # undefined (unknown) state - needs to run first
+    @error_msg = ''   # last error message
+  end
+
+  # -- start state
+  def unknown?()     @state == UNKNOWN;     end
+  
+  # -- end states
+  def up_to_date?()   @state == UP_TO_DATE;   end
+  def new_version?()  @state == NEW_VERSION;  end
+  def error?()        @state == ERROR;        end
+  
+  def error_msg()    @error_msg;   end
+  
+  def error( msg )   # report error
+    logger.error "  !!! *** #{msg}"
+    @error_msg = msg
+    @state = ERROR
+  end
+
 
   attr :paket_alt_hash    # note: attr only creates readers (getters) 
   attr :paket_neu_hash
   attr :opts
 
 
+
   def run( args )
+    
+    # resest state to unkownn
+    @state = UNKNOWN   # undefined (unknown) state - needs to run first 
+    @error_msg = ''    # rest last error message
 
     puts "upman version #{VERSION} on Ruby #{RUBY_VERSION}-#{RUBY_PATCHLEVEL} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
 
@@ -70,6 +100,7 @@ class Runner
     if File.exist?( paket_neu )
       ## use /force flag or /clean to force full/clean install/update
       logger.info "OK -- prepared pack in place ready for merge - >#{opts.manifest_name}.txt<; do nothing"
+      @state = NEW_VERSION
       return 0
     end
 
@@ -80,6 +111,7 @@ class Runner
     packup = PackUpdateCursor.new( paket_alt_hash, paket_neu_hash, opts.headers )
     if packup.up_to_date?
       logger.info "OK -- up-to-date - >#{opts.manifest_name}.txt<; do nothing"
+      @state = UP_TO_DATE
       return 0
     end
 
@@ -92,6 +124,7 @@ class Runner
         status = step2_copy
         if status == 0
           puts "OK -- step2_copy"
+          @state = NEW_VERSION     # assume everything is ok; new version ready!
         else
           puts "!!! *** FAIL: step2_copy"
         end
@@ -111,7 +144,7 @@ class Runner
     paket_alt = "#{opts.meta_dir}/#{opts.manifest_name}.txt"
 
     unless File.exist?( paket_alt )
-      logger.error "!!! *** Unvollständige Installation (Manifest Datei >#{opts.manifest_name}.txt< nicht gefunden in META Ordner '#{opts.meta_dir}')"
+      error "Unvollständige Installation (Manifest Datei >#{opts.manifest_name}.txt< nicht gefunden in META Ordner '#{opts.meta_dir}')"
       return 1 # Fehler
     end
 
@@ -120,7 +153,7 @@ class Runner
     response = Fetcher::Worker.new.get_response( paket_neu_fetch_uri )
 
     unless response.code == '200'
-      logger.error "!!! *** failed to fetch manifest file >#{opts.manifest_name}.txt<"
+      error "failed to fetch manifest file >#{opts.manifest_name}.txt<"
       return 1  # Fehler
     end
 
@@ -158,7 +191,7 @@ class Runner
   
     if umgebung_alt && umgebung_neu
        if umgebung_alt == 'PRODUKTION' && umgebung_neu != 'PRODUKTION'
-         logger.error "Testpakete können nicht auf eine Produktionsversion installiert werden."
+         error "Testpakete können nicht auf eine Produktionsversion installiert werden."
          return 1 # Fehler
        end
     end
@@ -186,13 +219,14 @@ class Runner
       logger.info "VERSION NUM: #{version_alt_num} => #{version_neu_num}"
 
       if version_alt_num > version_neu_num 
-        logger.error "Downgrade in Produktion nicht zulässig von Version #{version_alt} nach #{version_neu}."
+        error "Downgrade in Produktion nicht zulässig von Version #{version_alt} nach #{version_neu}."
         return 1 # Fehler
       end
     end
 
     return 0 # OK
   end
+
 
 
   def step1_download
@@ -211,7 +245,7 @@ class Runner
       if ok
         logger.debug "  OK entry #{entry_key}"
       else
-        logger.debug "  !!! FAIL entry #{entry_key}"
+        error "FAIL entry #{entry_key}"
         return 1  # 1-error - on error return; break
       end
      
