@@ -2,39 +2,42 @@
 
 module Upman
 
+
+module State
+  UNKNOWN       = 0    # start state
+  UP_TO_DATE    = 1
+  NEW_VERSION   = 2    # new version ready - find a better name - state??
+  ERROR         = 9
+end  # module State
+
+
 class Runner
+
 
   include LogUtils::Logging
   
   include Utils  # e.g. fetch_file, unzip_file etc  - use FileUtils instead  - why ??? why not???
 
-  module State
-    UNKNOWN       = 0    # start state
-    UP_TO_DATE    = 1
-    NEW_VERSION   = 2    # new version ready - find a better name - state??
-    ERROR         = 9 
-  end
-
   def initialize
     @opts  = Opts.new
-    @state = UNKNOWN   # undefined (unknown) state - needs to run first
+    @state = State::UNKNOWN   # undefined (unknown) state - needs to run first
     @error_msg = ''   # last error message
   end
 
   # -- start state
-  def unknown?()     @state == UNKNOWN;     end
+  def unknown?()     @state == State::UNKNOWN;     end
   
   # -- end states
-  def up_to_date?()   @state == UP_TO_DATE;   end
-  def new_version?()  @state == NEW_VERSION;  end
-  def error?()        @state == ERROR;        end
+  def up_to_date?()   @state == State::UP_TO_DATE;   end
+  def new_version?()  @state == State::NEW_VERSION;  end
+  def error?()        @state == State::ERROR;        end
   
   def error_msg()    @error_msg;   end
   
   def error( msg )   # report error
     logger.error "  !!! *** #{msg}"
     @error_msg = msg
-    @state = ERROR
+    @state = State::ERROR
   end
 
 
@@ -47,7 +50,7 @@ class Runner
   def run( args )
     
     # resest state to unkownn
-    @state = UNKNOWN   # undefined (unknown) state - needs to run first 
+    @state = State::UNKNOWN   # undefined (unknown) state - needs to run first
     @error_msg = ''    # rest last error message
 
     puts "upman version #{VERSION} on Ruby #{RUBY_VERSION}-#{RUBY_PATCHLEVEL} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
@@ -100,7 +103,7 @@ class Runner
     if File.exist?( paket_neu )
       ## use /force flag or /clean to force full/clean install/update
       logger.info "OK -- prepared pack in place ready for merge - >#{opts.manifest_name}.txt<; do nothing"
-      @state = NEW_VERSION
+      @state = State::NEW_VERSION
       return 0
     end
 
@@ -111,7 +114,7 @@ class Runner
     packup = PackUpdateCursor.new( paket_alt_hash, paket_neu_hash, opts.headers )
     if packup.up_to_date?
       logger.info "OK -- up-to-date - >#{opts.manifest_name}.txt<; do nothing"
-      @state = UP_TO_DATE
+      @state = State::UP_TO_DATE
       return 0
     end
 
@@ -124,7 +127,7 @@ class Runner
         status = step2_copy
         if status == 0
           puts "OK -- step2_copy"
-          @state = NEW_VERSION     # assume everything is ok; new version ready!
+          @state = State::NEW_VERSION     # assume everything is ok; new version ready!
         else
           puts "!!! *** FAIL: step2_copy"
         end
