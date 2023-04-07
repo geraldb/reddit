@@ -1,7 +1,0 @@
-
-###############################
-# ignore ruby package builds
-
-pkg
-pkg/
-
