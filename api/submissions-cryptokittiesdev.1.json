@@ -1,0 +1,3486 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": null,
+    "dist": 20,
+    "modhash": null,
+    "geo_filter": "",
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "FYI:   I (Gerald Bauer) am the subreddit / forum mod and r/CryptoKittiesDev is now set to read-only, that is, archived.  \n\nIf you have any questions or comments, you are welcome to post at my [Help &amp; Support](https://github.com/geraldb/help) page.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "r/CryptoKittiesDev Now Read-Only - For Help &amp; Support (From The Mod - Gerald Bauer) See github.com/geraldb/help",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_134kmg1",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1682942706.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;FYI:   I (Gerald Bauer) am the subreddit / forum mod and &lt;a href=\"/r/CryptoKittiesDev\"&gt;r/CryptoKittiesDev&lt;/a&gt; is now set to read-only, that is, archived.  &lt;/p&gt;\n\n&lt;p&gt;If you have any questions or comments, you are welcome to post at my &lt;a href=\"https://github.com/geraldb/help\"&gt;Help &amp;amp; Support&lt;/a&gt; page.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?auto=webp&amp;v=enabled&amp;s=a2d36efd92d5c1bdd2ac28bbb001b46a7e3fb5f5",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=1cbdf4e1cca2116aa819919ba5ef84cded267fff",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=eeece7aea01c05aef99e9f0a30a1567739ee89c3",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=dddf92e301cb1964a35196706f0c40352f209833",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=995fdbbe2c9d28aecdbffa0dfbf078cb366a7d95",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=59485f61b4df1c76fc873ad5a3607fd77dacb6fc",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=901202b4ce54dad2e99a14c2b01ffce29d92f124",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "I-ZR0JawgkKfDjb6-OKjB2ADOcFPjF_FV_7L_Guxrkk"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "134kmg1",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/134kmg1/rcryptokittiesdev_now_readonly_for_help_support/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/134kmg1/rcryptokittiesdev_now_readonly_for_help_support/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1682942706.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "32px Originals Presents: Collect'em All! - Lucky (Pixel) Cats / Kitties in All Nine Colors - Black, Purple, Blue, Green, Red, Pink, Orange, Yellow, White - Right Click &amp; Save To Download",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 140,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_vcu1eb",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "i.redd.it",
+          "media_embed": {
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": true,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/fE6VAC-e_2xUBySv3kTOdNVQbP0iPcMp2-eyi1nAGoA.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "subreddit_type": "restricted",
+          "created": 1655298189.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://i.redd.it/n4bsnf1u9s591.png",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://preview.redd.it/n4bsnf1u9s591.png?auto=webp&amp;v=enabled&amp;s=d81c7047e76fa71edba2fe8281085110b09452c9",
+                  "width": 384,
+                  "height": 384
+                },
+                "resolutions": [
+                  {
+                    "url": "https://preview.redd.it/n4bsnf1u9s591.png?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=4a385d88345ce5e0c93f74984805800055261191",
+                    "width": 108,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://preview.redd.it/n4bsnf1u9s591.png?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=346be565fcacae3828d3c4d3338f32e66f3a4aab",
+                    "width": 216,
+                    "height": 216
+                  },
+                  {
+                    "url": "https://preview.redd.it/n4bsnf1u9s591.png?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=6db1e86c28a56d2f20d3bc13901c71ec966bb7a5",
+                    "width": 320,
+                    "height": 320
+                  }
+                ],
+                "variants": {
+                },
+                "id": "bOBJ8kzDBvDWTsl7-ek4ZLGJ_7wiyzZ2_BCNtHceMcc"
+              }
+            ],
+            "enabled": true
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "vcu1eb",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/vcu1eb/32px_originals_presents_collectem_all_lucky_pixel/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://i.redd.it/n4bsnf1u9s591.png",
+          "subreddit_subscribers": 128,
+          "created_utc": 1655298189.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "i've got a genetic question. On the low ID kittie the genome was readible in the etherscan when we check the \"givebirth\" function (Hexa number), no i'm not able to find the genome of the cat, somebody knows how to do it ?\n\n\\[20:31\\]\n\nOld format : \n\nMethodID: 0x56129134\n\n\\[0\\]:  00004a52931ce4085c14bdce014a0318846a0c808c60294a6314a34a1295b9ce\n\n\\[1\\]:  0000000000000000000000000000000000000000000000000000000000000000\n\n&amp;#x200B;\n\nNew format :\n\nMethodID: 0x88c2a0bf\n\n\\[0\\]:  00000000000000000000000000000000000000000000000000000000001e8f90\n\n\\[20:31\\]\n\non the old you can read the genome on \\[0\\] on the second i have no idea",
+          "author_fullname": "t2_40ywlfaw",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "how to acces to the kitty genome ?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_omwy2g",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1626634892.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.CryptoKittiesDev",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;i&amp;#39;ve got a genetic question. On the low ID kittie the genome was readible in the etherscan when we check the &amp;quot;givebirth&amp;quot; function (Hexa number), no i&amp;#39;m not able to find the genome of the cat, somebody knows how to do it ?&lt;/p&gt;\n\n&lt;p&gt;[20:31]&lt;/p&gt;\n\n&lt;p&gt;Old format : &lt;/p&gt;\n\n&lt;p&gt;MethodID: 0x56129134&lt;/p&gt;\n\n&lt;p&gt;[0]:  00004a52931ce4085c14bdce014a0318846a0c808c60294a6314a34a1295b9ce&lt;/p&gt;\n\n&lt;p&gt;[1]:  0000000000000000000000000000000000000000000000000000000000000000&lt;/p&gt;\n\n&lt;p&gt;&amp;#x200B;&lt;/p&gt;\n\n&lt;p&gt;New format :&lt;/p&gt;\n\n&lt;p&gt;MethodID: 0x88c2a0bf&lt;/p&gt;\n\n&lt;p&gt;[0]:  00000000000000000000000000000000000000000000000000000000001e8f90&lt;/p&gt;\n\n&lt;p&gt;[20:31]&lt;/p&gt;\n\n&lt;p&gt;on the old you can read the genome on [0] on the second i have no idea&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": true,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": 0,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "omwy2g",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "kodi_saltstorm",
+          "discussion_type": null,
+          "num_comments": 4,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/omwy2g/how_to_acces_to_the_kitty_genome/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/omwy2g/how_to_acces_to_the_kitty_genome/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1626634892.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "CryptoKitties Doppelganger - Mint Yourself Free CryptoCats or MoonCats Using Your Kitties Color Scheme",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 100,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_n4z525",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 3,
+          "domain": "i.redd.it",
+          "media_embed": {
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": true,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 3,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/8BJvMDlv8k2oAVIFksFRcPXxefjlKqa8HYdLecobg7U.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "subreddit_type": "restricted",
+          "created": 1620164546.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 1,
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://i.redd.it/os7w7q7gb6x61.png",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://preview.redd.it/os7w7q7gb6x61.png?auto=webp&amp;v=enabled&amp;s=c9028eda8fbbb3ffff1fd5bfcf144f9807a1b6b2",
+                  "width": 584,
+                  "height": 418
+                },
+                "resolutions": [
+                  {
+                    "url": "https://preview.redd.it/os7w7q7gb6x61.png?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=0f8522f3ee5e03ab9c64e95c00d48450a23fd2a0",
+                    "width": 108,
+                    "height": 77
+                  },
+                  {
+                    "url": "https://preview.redd.it/os7w7q7gb6x61.png?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=b79068dbc336b621c4164b10a1c2ee3b07238c37",
+                    "width": 216,
+                    "height": 154
+                  },
+                  {
+                    "url": "https://preview.redd.it/os7w7q7gb6x61.png?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=fc140c0d8f0cced713c939ed9f313c31105287f2",
+                    "width": 320,
+                    "height": 229
+                  }
+                ],
+                "variants": {
+                },
+                "id": "Nv4fXE0GAf8ofaz5QUZ3pPXYStP-6XR-U4Vca4jdDNc"
+              }
+            ],
+            "enabled": true
+          },
+          "all_awardings": [
+            {
+              "giver_coin_reward": null,
+              "subreddit_id": null,
+              "is_new": false,
+              "days_of_drip_extension": null,
+              "coin_price": 125,
+              "id": "award_5f123e3d-4f48-42f4-9c11-e98b566d5897",
+              "penny_donate": null,
+              "award_sub_type": "GLOBAL",
+              "coin_reward": 0,
+              "icon_url": "https://i.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png",
+              "days_of_premium": null,
+              "tiers_by_required_awardings": null,
+              "resized_icons": [
+                {
+                  "url": "https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=16&amp;height=16&amp;auto=webp&amp;v=enabled&amp;s=082e8a6ce98b1d4a23352a066805ad80c4613ef0",
+                  "width": 16,
+                  "height": 16
+                },
+                {
+                  "url": "https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=32&amp;height=32&amp;auto=webp&amp;v=enabled&amp;s=b3a82cbce99aee9ab58568a6deaecfb665b8c23e",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "url": "https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;v=enabled&amp;s=2efd28f79c4ecd09f21aa3d215e8581027425ed4",
+                  "width": 48,
+                  "height": 48
+                },
+                {
+                  "url": "https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=64&amp;height=64&amp;auto=webp&amp;v=enabled&amp;s=5a2c69f0958d075865c5ef5de68e6cafdbc8e8b0",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=128&amp;height=128&amp;auto=webp&amp;v=enabled&amp;s=3b9381ef976af3298b22fc5103c37e9217c3a50b",
+                  "width": 128,
+                  "height": 128
+                }
+              ],
+              "icon_width": 2048,
+              "static_icon_width": 2048,
+              "start_date": null,
+              "is_enabled": true,
+              "awardings_required_to_grant_benefits": null,
+              "description": "When you come across a feel-good thing.",
+              "end_date": null,
+              "sticky_duration_seconds": null,
+              "subreddit_coin_reward": 0,
+              "count": 1,
+              "static_icon_height": 2048,
+              "name": "Wholesome",
+              "resized_static_icons": [
+                {
+                  "url": "https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=16&amp;height=16&amp;auto=webp&amp;v=enabled&amp;s=082e8a6ce98b1d4a23352a066805ad80c4613ef0",
+                  "width": 16,
+                  "height": 16
+                },
+                {
+                  "url": "https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=32&amp;height=32&amp;auto=webp&amp;v=enabled&amp;s=b3a82cbce99aee9ab58568a6deaecfb665b8c23e",
+                  "width": 32,
+                  "height": 32
+                },
+                {
+                  "url": "https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;v=enabled&amp;s=2efd28f79c4ecd09f21aa3d215e8581027425ed4",
+                  "width": 48,
+                  "height": 48
+                },
+                {
+                  "url": "https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=64&amp;height=64&amp;auto=webp&amp;v=enabled&amp;s=5a2c69f0958d075865c5ef5de68e6cafdbc8e8b0",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=128&amp;height=128&amp;auto=webp&amp;v=enabled&amp;s=3b9381ef976af3298b22fc5103c37e9217c3a50b",
+                  "width": 128,
+                  "height": 128
+                }
+              ],
+              "icon_format": null,
+              "icon_height": 2048,
+              "penny_price": null,
+              "award_type": "global",
+              "static_icon_url": "https://i.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png"
+            }
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "n4z525",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 4,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/n4z525/cryptokitties_doppelganger_mint_yourself_free/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://i.redd.it/os7w7q7gb6x61.png",
+          "subreddit_subscribers": 128,
+          "created_utc": 1620164546.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "I understand that genes play a role in deciding the catributes which are nothing but individual svg/png files?\nI’d like to understand how exactly are they brought all together to form one single image and How is it stored?\nSimilarly for cryptopunks which stores png on canvas and then makes a single png.\nPlease enlighten how this process takes place",
+          "author_fullname": "t2_8wjstd58",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "How exactly is the image (png) of the Kitty generated?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mzw6xm",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "subreddit_type": "restricted",
+          "ups": 4,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 4,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1619550961.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.CryptoKittiesDev",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I understand that genes play a role in deciding the catributes which are nothing but individual svg/png files?\nI’d like to understand how exactly are they brought all together to form one single image and How is it stored?\nSimilarly for cryptopunks which stores png on canvas and then makes a single png.\nPlease enlighten how this process takes place&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": true,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": 0,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mzw6xm",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "manan26",
+          "discussion_type": null,
+          "num_comments": 4,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mzw6xm/how_exactly_is_the_image_png_of_the_kitty/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mzw6xm/how_exactly_is_the_image_png_of_the_kitty/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1619550961.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello,\n\n   In the ongoing reorg I have moved all CryptoKitties cheat sheets, reference pages, timelines &amp; updates to the all new Kittypedia - the free CryptoKitties Encylopedia.\n\nPages\n\n- [**Cattributes Rarity / Popularity Statistics**](https://github.com/cryptocopycats/kittypedia/blob/master/CATTRIBUTES.md)\n- [**Genome / Genes Cheat Sheet**](https://github.com/cryptocopycats/kittypedia/blob/master/GENES.md) - Fur (FU) · Pattern (PA) · Eye Color (EC) · Eye Shape (ES) · Base Color (BC) · Highlight Color (HC) · Accent Color (AC) · Wild Element (WE) · Mouth (MO) · Environment (EN) · Secret Y Gene (SE) · Purrstige (PU)\n- [**Traits Cheat Sheet (with Codes, Mewtation Levels / Tiers, Search Links and More)**](https://github.com/cryptocopycats/kittypedia/blob/master/TRAITS.md)\n\nUpdates &amp; Timelines\n\n- [**Fancy / Exclusive / Special Edition Cats - Timeline**](https://github.com/cryptocopycats/kittypedia/blob/master/TIMELINE-FANCIES.md)\n- [**Purrstige Trait Recipes / Formulas - Timeline**](https://github.com/cryptocopycats/kittypedia/blob/master/TIMELINE-PURRSTIGES.md)\n- [**Traits - Timeline**](https://github.com/cryptocopycats/kittypedia/blob/master/TIMELINE-TRAITS.md)\n\nThat's it for now. Cheers. Prost. The future is meow.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Kittypedia - The Free CryptoKitties Encyclopedia ++ All About Rarity &amp; Popularity Statistics, Traits &amp; Cattributes, Fancy (Exclusive, Special Edition) Timelines, &amp; More",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvehmr",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 3,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 3,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1619007713.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;In the ongoing reorg I have moved all CryptoKitties cheat sheets, reference pages, timelines &amp;amp; updates to the all new Kittypedia - the free CryptoKitties Encylopedia.&lt;/p&gt;\n\n&lt;p&gt;Pages&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://github.com/cryptocopycats/kittypedia/blob/master/CATTRIBUTES.md\"&gt;&lt;strong&gt;Cattributes Rarity / Popularity Statistics&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://github.com/cryptocopycats/kittypedia/blob/master/GENES.md\"&gt;&lt;strong&gt;Genome / Genes Cheat Sheet&lt;/strong&gt;&lt;/a&gt; - Fur (FU) · Pattern (PA) · Eye Color (EC) · Eye Shape (ES) · Base Color (BC) · Highlight Color (HC) · Accent Color (AC) · Wild Element (WE) · Mouth (MO) · Environment (EN) · Secret Y Gene (SE) · Purrstige (PU)&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://github.com/cryptocopycats/kittypedia/blob/master/TRAITS.md\"&gt;&lt;strong&gt;Traits Cheat Sheet (with Codes, Mewtation Levels / Tiers, Search Links and More)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Updates &amp;amp; Timelines&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://github.com/cryptocopycats/kittypedia/blob/master/TIMELINE-FANCIES.md\"&gt;&lt;strong&gt;Fancy / Exclusive / Special Edition Cats - Timeline&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://github.com/cryptocopycats/kittypedia/blob/master/TIMELINE-PURRSTIGES.md\"&gt;&lt;strong&gt;Purrstige Trait Recipes / Formulas - Timeline&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://github.com/cryptocopycats/kittypedia/blob/master/TIMELINE-TRAITS.md\"&gt;&lt;strong&gt;Traits - Timeline&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;That&amp;#39;s it for now. Cheers. Prost. The future is meow.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/jxXlz7YmnEC-5OkROHz69x537pOfZu3vOpWVi7Y_a9o.jpg?auto=webp&amp;v=enabled&amp;s=9c38c134b565318870e7e1f3152f2fab4d61d91e",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/jxXlz7YmnEC-5OkROHz69x537pOfZu3vOpWVi7Y_a9o.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=d3c5e96d9ca95bdb534818424d535784d72af1a6",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jxXlz7YmnEC-5OkROHz69x537pOfZu3vOpWVi7Y_a9o.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=fe9b41c741602b8fc238f80efd0549c03d77a07f",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jxXlz7YmnEC-5OkROHz69x537pOfZu3vOpWVi7Y_a9o.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=7ad4e70af8f4744883ad89e3259bc0e71c2c81b8",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jxXlz7YmnEC-5OkROHz69x537pOfZu3vOpWVi7Y_a9o.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=99bd484fd158c01c8fb8c1f01f87e96b907c5a84",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jxXlz7YmnEC-5OkROHz69x537pOfZu3vOpWVi7Y_a9o.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=ccb4f799c251bef66921b56c5c5f90e055797e3e",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jxXlz7YmnEC-5OkROHz69x537pOfZu3vOpWVi7Y_a9o.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=76ef3e24e6bbb8d88086e7cf3336d494156159be",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "uDwAOtR9r4UMWMigzOgMK_0GV5182AYhqQd0EK-YDzw"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvehmr",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 2,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvehmr/kittypedia_the_free_cryptokitties_encyclopedia/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvehmr/kittypedia_the_free_cryptokitties_encyclopedia/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1619007713.0,
+          "num_crossposts": 1,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello,\n\n  At the new [cache.kitties.json - CryptoKitties (Meta) Data in JSON](https://github.com/cryptocopycats/cache.kitties.json) project I try to collect all (off-chain) official meta data tagging kitties as exclusive, fancy, shinyfancy, etc.\n\n   Anyways, while the download is still early currently about 30_000. Some first insights and data quirks:\n\n  Did you know a total of 1369 kitties / ids of the low id (&lt;10000) are known 404 not found kitty ids / pages.  See [Low Id (&lt; 10000) Kitties](https://github.com/cryptocopycats/cache.kitties.json#low-id--10000-kitties) for a list of all retired / reserved IDs.\n\n  Does that match with your list of 404 IDs? Comments and corrections welcome.\n\n   Cheers. Prost. The future is meow.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Data Quirks - Low Id (&lt; 10000) Kitties - Known 404 Not Found Kitty IDs / Pages (1369 Total)",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mveglv",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 2,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1619007614.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;At the new &lt;a href=\"https://github.com/cryptocopycats/cache.kitties.json\"&gt;cache.kitties.json - CryptoKitties (Meta) Data in JSON&lt;/a&gt; project I try to collect all (off-chain) official meta data tagging kitties as exclusive, fancy, shinyfancy, etc.&lt;/p&gt;\n\n&lt;p&gt;Anyways, while the download is still early currently about 30_000. Some first insights and data quirks:&lt;/p&gt;\n\n&lt;p&gt;Did you know a total of 1369 kitties / ids of the low id (&amp;lt;10000) are known 404 not found kitty ids / pages.  See &lt;a href=\"https://github.com/cryptocopycats/cache.kitties.json#low-id--10000-kitties\"&gt;Low Id (&amp;lt; 10000) Kitties&lt;/a&gt; for a list of all retired / reserved IDs.&lt;/p&gt;\n\n&lt;p&gt;Does that match with your list of 404 IDs? Comments and corrections welcome.&lt;/p&gt;\n\n&lt;p&gt;Cheers. Prost. The future is meow.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/dSndiaShctLUTzzfy2dFjEx-iwNYPu1IQ1ovnpiClKw.jpg?auto=webp&amp;v=enabled&amp;s=5d43c5035079e6a8ec463941759dd9b05564363e",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/dSndiaShctLUTzzfy2dFjEx-iwNYPu1IQ1ovnpiClKw.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=661f927da82915f85dd5446c1168b548fb31432b",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/dSndiaShctLUTzzfy2dFjEx-iwNYPu1IQ1ovnpiClKw.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=5fa3071495cf813c2f723a70a2fe56911f70ae4c",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/dSndiaShctLUTzzfy2dFjEx-iwNYPu1IQ1ovnpiClKw.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=2f896e94958b9576244339d4909b51ad01006ba3",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/dSndiaShctLUTzzfy2dFjEx-iwNYPu1IQ1ovnpiClKw.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=d97a8db12fbb1f63761e66c993587e340383fbb1",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/dSndiaShctLUTzzfy2dFjEx-iwNYPu1IQ1ovnpiClKw.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=9d127ad091d41a8b1e47f0590129528656a85d55",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/dSndiaShctLUTzzfy2dFjEx-iwNYPu1IQ1ovnpiClKw.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=964dd607c61182fd11504674f4a4deb7e625ff51",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "oh3TGFHZVsxcFXBwGBMKT9zNvvamB1QJ7Su1GT6pDEY"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mveglv",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mveglv/data_quirks_low_id_10000_kitties_known_404_not/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mveglv/data_quirks_low_id_10000_kitties_known_404_not/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1619007614.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello, \n\nI am trying to update the Awesome CryptoKitties collection. I have started a new \"[What's News? What happened in 2020? What happened in 2021?](https://github.com/cryptocopycats/awesome-cryptokitties-bubble/blob/master/NEWS.md)\" page that highlights:\n\n- CryptoKitties v2.0 (From Ethereum to Flow)\n- Wrapped Gen-0 CryptoKitties (WG0)\n- Wrapped CryptoKitties (WCK)\n- and More\n\nAnything missing? As always comments or corrections more than welcome. Cheers. Prost. The future is meow.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "New Awesome CryptoKitties Page - What's News? In 2021? In 2020? - CryptoKitties v2.0 (From Ethereum to Flow), Wrapped Gen-0 CryptoKitties (WG0), Wrapped CryptoKitties (WCK) and More",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvecfv",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 2,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1619007199.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello, &lt;/p&gt;\n\n&lt;p&gt;I am trying to update the Awesome CryptoKitties collection. I have started a new &amp;quot;&lt;a href=\"https://github.com/cryptocopycats/awesome-cryptokitties-bubble/blob/master/NEWS.md\"&gt;What&amp;#39;s News? What happened in 2020? What happened in 2021?&lt;/a&gt;&amp;quot; page that highlights:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;CryptoKitties v2.0 (From Ethereum to Flow)&lt;/li&gt;\n&lt;li&gt;Wrapped Gen-0 CryptoKitties (WG0)&lt;/li&gt;\n&lt;li&gt;Wrapped CryptoKitties (WCK)&lt;/li&gt;\n&lt;li&gt;and More&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Anything missing? As always comments or corrections more than welcome. Cheers. Prost. The future is meow.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?auto=webp&amp;v=enabled&amp;s=883add5ed49492e5d0ac896436b2a77d359d5e11",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=128b0761aa4085959e329cec0d73a8af95e86fe0",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=574cf6f9f3636c91fbfc554a90b42eb2a34fbc22",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=50245c8e83d1b7342d285aa724e74adbe21387c9",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=01918b3498344b92190e63f15e2d9405f2bbbf9d",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=cb75afcc420b19b65adabb54bbb61783fb935ecb",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=8d0a8ff0f29aaa909508b3fb5f7279fd2c7acaa9",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "HZJsyXUKJY2iqzPVZfy2sD1MvghvTv_6Nx4FA3-QaLw"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvecfv",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvecfv/new_awesome_cryptokitties_page_whats_news_in_2021/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvecfv/new_awesome_cryptokitties_page_whats_news_in_2021/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1619007199.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello,\n\n I've recently discovered the Graph that lets you create your own open graphql blockchain data services or (re)use existing ones.\n\n   Searching for kitty and kitties I only found what looks like one functional one:\n\n- [CryptoKitties Sales Subgraphs](https://thegraph.com/explorer/subgraph/nieldlr/cryptokitties-sales), [(Source)](https://github.com/nieldlr/cryptokitties-sales-subgraph)\n\nAnyone know (or using) any others? Or any other open data blockchain service for CryptoKitties?  Please, tell. Thanks.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Open GraphQL Blockchain Data Query Service for CryptoKitties - Any Recommendations?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mve7fg",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1619006690.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;ve recently discovered the Graph that lets you create your own open graphql blockchain data services or (re)use existing ones.&lt;/p&gt;\n\n&lt;p&gt;Searching for kitty and kitties I only found what looks like one functional one:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://thegraph.com/explorer/subgraph/nieldlr/cryptokitties-sales\"&gt;CryptoKitties Sales Subgraphs&lt;/a&gt;, &lt;a href=\"https://github.com/nieldlr/cryptokitties-sales-subgraph\"&gt;(Source)&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Anyone know (or using) any others? Or any other open data blockchain service for CryptoKitties?  Please, tell. Thanks.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mve7fg",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mve7fg/open_graphql_blockchain_data_query_service_for/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mve7fg/open_graphql_blockchain_data_query_service_for/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1619006690.0,
+          "num_crossposts": 1,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "&gt; I have not played this in ages and I noticed this kitty had some\n&gt; special traits so I was wondering how much I could sell it for https://www.cryptokitties.co/kitty/457874\n\nMy take:\n\nHint: Do you realize that you can just right-click and save the image for free? Now do your own research and figure out the price point.\n\n&gt; Do you own ownership then?\n\nYes, you own the copy if you save the image and you can use it under the \"fair use\" copyright doctrine.   FYI: If you buy a token you own only your private key (256-bit integer) that lets you access the token on the blockchain (another 256-bit integer).  Please, note that  you do NOT own the picture.  For a funnier version on the ownership theme, see [Come See My Collection](https://www.ic.unicamp.br/~stolfi/bitcoin/2021-04-02-come-see-my-collection.html) by Jorge Stolfi - a Standford University PhD and Computer Science Professor in Brazil trying to educate greater fools about what might arguably be called a fraud.\n\nWhat's your take?",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "How Much Can I Sell This Cat For?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvback",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618993990.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;blockquote&gt;\n&lt;p&gt;I have not played this in ages and I noticed this kitty had some\nspecial traits so I was wondering how much I could sell it for &lt;a href=\"https://www.cryptokitties.co/kitty/457874\"&gt;https://www.cryptokitties.co/kitty/457874&lt;/a&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;My take:&lt;/p&gt;\n\n&lt;p&gt;Hint: Do you realize that you can just right-click and save the image for free? Now do your own research and figure out the price point.&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;Do you own ownership then?&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;Yes, you own the copy if you save the image and you can use it under the &amp;quot;fair use&amp;quot; copyright doctrine.   FYI: If you buy a token you own only your private key (256-bit integer) that lets you access the token on the blockchain (another 256-bit integer).  Please, note that  you do NOT own the picture.  For a funnier version on the ownership theme, see &lt;a href=\"https://www.ic.unicamp.br/%7Estolfi/bitcoin/2021-04-02-come-see-my-collection.html\"&gt;Come See My Collection&lt;/a&gt; by Jorge Stolfi - a Standford University PhD and Computer Science Professor in Brazil trying to educate greater fools about what might arguably be called a fraud.&lt;/p&gt;\n\n&lt;p&gt;What&amp;#39;s your take?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/8oEbturI2Wt1uWXWaQoJwF7LmkMhSCkOXrC47XLlvqs.jpg?auto=webp&amp;v=enabled&amp;s=4774d3d084efe4005515cf291427814a64394ede",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/8oEbturI2Wt1uWXWaQoJwF7LmkMhSCkOXrC47XLlvqs.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=51618f305e18a3678cdcb6b3883f4cbd22fbd841",
+                    "width": 108,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/8oEbturI2Wt1uWXWaQoJwF7LmkMhSCkOXrC47XLlvqs.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=6ffe226eb7cc4332b3c03b24ccffcfd964ae8c6e",
+                    "width": 216,
+                    "height": 216
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/8oEbturI2Wt1uWXWaQoJwF7LmkMhSCkOXrC47XLlvqs.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=c4a8423f91fb6b68304ca6dd565083505110b866",
+                    "width": 320,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/8oEbturI2Wt1uWXWaQoJwF7LmkMhSCkOXrC47XLlvqs.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=12275d573d826f8b23b168fa835c9516b1538767",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/8oEbturI2Wt1uWXWaQoJwF7LmkMhSCkOXrC47XLlvqs.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=4b6267373f0c5d4ab8dc9f815740becd48a62b6b",
+                    "width": 960,
+                    "height": 960
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/8oEbturI2Wt1uWXWaQoJwF7LmkMhSCkOXrC47XLlvqs.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=50188c26ea063391639ebe6a3f9c8f260ab26319",
+                    "width": 1080,
+                    "height": 1080
+                  }
+                ],
+                "variants": {
+                },
+                "id": "CmROUkV2bU04f3TfqhsJFAUmzv7jBo958kxnOasCUVo"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvback",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvback/how_much_can_i_sell_this_cat_for/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvback/how_much_can_i_sell_this_cat_for/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618993990.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "\n&gt; Are the KittyHats and KittyBattles still active projects? \n&gt; The KittyBattles site is not active anymore and KittyHats doesn't connect to metamask...\n\nMy take:\n\nThe \"Kittyverse\" - that is, third-party apps - is pretty much dead because CryptoKitties is itself is a dead horse. The old is new again and the future is \"off-chain\".    \n\nPS: Look for [open source \"kittyverse\" code](https://github.com/topics/kittyverse) and more or less you will only find my humble freebies. What else it out there?    Not sure how the $7.5 billion dollar Dapper Labs plans to build out an ecosystem?  I guess they are a successful (casino or is that ponzi?) operator raking in all the money to themselves.  Fool the world once...    I hear Dapper Labs is nowadays promoting Gen 0 Kitties as a great \"investment\" (even with a dedicated miniwebsite, see [gen0.co](https://gen0.co/)).  No news on the kittyverse for a long time as far as I can tell.    Contributions to my humble open source kittyverse freebies pretty much zero, nada (since the very beginning).  Now figure out the state of the \"kittyverse\".\n\nIt is and was always about:\n\n&gt; If we all buy CryptoKitties from one another at ever higher prices \n&gt; we'll all be rich beyond our wildest dreams.\n\nAll that's left is [kittyhelper](https://kittyhelper.co/) where you can look up a made-up \"floor price\" trying to push up the price for your worthless kitties. Now try to cash out using the quoted \"floor price\" - good luck finding a greater fool.\n\nWhat's your take?",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Are KittyHats and KittyBattles still active projects?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvb8g2",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618993719.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;blockquote&gt;\n&lt;p&gt;Are the KittyHats and KittyBattles still active projects? \nThe KittyBattles site is not active anymore and KittyHats doesn&amp;#39;t connect to metamask...&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;My take:&lt;/p&gt;\n\n&lt;p&gt;The &amp;quot;Kittyverse&amp;quot; - that is, third-party apps - is pretty much dead because CryptoKitties is itself is a dead horse. The old is new again and the future is &amp;quot;off-chain&amp;quot;.    &lt;/p&gt;\n\n&lt;p&gt;PS: Look for &lt;a href=\"https://github.com/topics/kittyverse\"&gt;open source &amp;quot;kittyverse&amp;quot; code&lt;/a&gt; and more or less you will only find my humble freebies. What else it out there?    Not sure how the $7.5 billion dollar Dapper Labs plans to build out an ecosystem?  I guess they are a successful (casino or is that ponzi?) operator raking in all the money to themselves.  Fool the world once...    I hear Dapper Labs is nowadays promoting Gen 0 Kitties as a great &amp;quot;investment&amp;quot; (even with a dedicated miniwebsite, see &lt;a href=\"https://gen0.co/\"&gt;gen0.co&lt;/a&gt;).  No news on the kittyverse for a long time as far as I can tell.    Contributions to my humble open source kittyverse freebies pretty much zero, nada (since the very beginning).  Now figure out the state of the &amp;quot;kittyverse&amp;quot;.&lt;/p&gt;\n\n&lt;p&gt;It is and was always about:&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;If we all buy CryptoKitties from one another at ever higher prices \nwe&amp;#39;ll all be rich beyond our wildest dreams.&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;All that&amp;#39;s left is &lt;a href=\"https://kittyhelper.co/\"&gt;kittyhelper&lt;/a&gt; where you can look up a made-up &amp;quot;floor price&amp;quot; trying to push up the price for your worthless kitties. Now try to cash out using the quoted &amp;quot;floor price&amp;quot; - good luck finding a greater fool.&lt;/p&gt;\n\n&lt;p&gt;What&amp;#39;s your take?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?auto=webp&amp;v=enabled&amp;s=711dbe3eeeb6d84cd4afe302df6c2c8a4c3d9384",
+                  "width": 1200,
+                  "height": 1200
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=606e312c60d3e7fa5c72ce8c30fa5bfc083627f8",
+                    "width": 108,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=130921c5487faa047b5b46eda2f1add8de604ec5",
+                    "width": 216,
+                    "height": 216
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=0cc0fab626dd87f3dad9fce31e7eefb120423489",
+                    "width": 320,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=cb59e11f8535baa280f1209140bd6f924d5183f0",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=82b24d8a84dae51a990e85852cff43119550f164",
+                    "width": 960,
+                    "height": 960
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=a3e0bb1d712241f70b97151d34bcc7148d2729b5",
+                    "width": 1080,
+                    "height": 1080
+                  }
+                ],
+                "variants": {
+                },
+                "id": "LtKtt6txZ-QrVhG54gL73uTj3IfQTG0w8wIIdqF-0s0"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvb8g2",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 2,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvb8g2/are_kittyhats_and_kittybattles_still_active/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvb8g2/are_kittyhats_and_kittybattles_still_active/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618993719.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello, \n\n   BUIDL! BUIDL! BUIDL! a reminder - let's use the [#kittyverse](https://github.com/topics/kittyverse) Topic / Tag on GitHub to find open source CryptoKitties-related projects.\n\n  Did you find something new? Anyone building or planning something in 2021? \n\n  Comments welcome. Cheers. Prost. The future is meow.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Reminder - Let's Use the #kittyverse Topic / Tag on GitHub to Find Open Source CryptoKitties-Related Projects - Anything New? Comments Welcome",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvarxn",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618991464.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello, &lt;/p&gt;\n\n&lt;p&gt;BUIDL! BUIDL! BUIDL! a reminder - let&amp;#39;s use the &lt;a href=\"https://github.com/topics/kittyverse\"&gt;#kittyverse&lt;/a&gt; Topic / Tag on GitHub to find open source CryptoKitties-related projects.&lt;/p&gt;\n\n&lt;p&gt;Did you find something new? Anyone building or planning something in 2021? &lt;/p&gt;\n\n&lt;p&gt;Comments welcome. Cheers. Prost. The future is meow.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?auto=webp&amp;v=enabled&amp;s=711dbe3eeeb6d84cd4afe302df6c2c8a4c3d9384",
+                  "width": 1200,
+                  "height": 1200
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=606e312c60d3e7fa5c72ce8c30fa5bfc083627f8",
+                    "width": 108,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=130921c5487faa047b5b46eda2f1add8de604ec5",
+                    "width": 216,
+                    "height": 216
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=0cc0fab626dd87f3dad9fce31e7eefb120423489",
+                    "width": 320,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=cb59e11f8535baa280f1209140bd6f924d5183f0",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=82b24d8a84dae51a990e85852cff43119550f164",
+                    "width": 960,
+                    "height": 960
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/YMPZTYosGtHGXv1uS9w78kPJEjf83SgwfzqnRn2z1ug.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=a3e0bb1d712241f70b97151d34bcc7148d2729b5",
+                    "width": 1080,
+                    "height": 1080
+                  }
+                ],
+                "variants": {
+                },
+                "id": "LtKtt6txZ-QrVhG54gL73uTj3IfQTG0w8wIIdqF-0s0"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvarxn",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvarxn/reminder_lets_use_the_kittyverse_topic_tag_on/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvarxn/reminder_lets_use_the_kittyverse_topic_tag_on/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618991464.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello,\n\n   To make it easier to study and to update and contribute commentary and notes on the cryptokitties and wrapped cryptokitties blockchain contracts I moved everything into a new [/contracts project / repository](https://github.com/cryptocopycats/contracts) - formerly housed inside the [Awesome CryptoKitties Bubble (Anno 2017)](https://github.com/cryptocopycats/awesome-cryptokitties-bubble) project. \n\n  Comments and corrections welcome. Cheers. Prost. The future is meow.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Inside the CryptoKitties Blockchain Contracts / Services incl. Wrapped CryptoKitties (WCK, WG0, WVG0) - New Home @ /contracts",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvar7b",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618991362.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;To make it easier to study and to update and contribute commentary and notes on the cryptokitties and wrapped cryptokitties blockchain contracts I moved everything into a new &lt;a href=\"https://github.com/cryptocopycats/contracts\"&gt;/contracts project / repository&lt;/a&gt; - formerly housed inside the &lt;a href=\"https://github.com/cryptocopycats/awesome-cryptokitties-bubble\"&gt;Awesome CryptoKitties Bubble (Anno 2017)&lt;/a&gt; project. &lt;/p&gt;\n\n&lt;p&gt;Comments and corrections welcome. Cheers. Prost. The future is meow.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/3oNwr47AsvGY3JxFYfOd0iTxGgeZk6H4blDfnv37TIQ.jpg?auto=webp&amp;v=enabled&amp;s=4b4d4f8091750b5f943c9377ef7403a16dc40b6d",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/3oNwr47AsvGY3JxFYfOd0iTxGgeZk6H4blDfnv37TIQ.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=31398cdd468f87f1b9d76ca327e30e7eb99ed834",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/3oNwr47AsvGY3JxFYfOd0iTxGgeZk6H4blDfnv37TIQ.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=30662247c09ddd833377bfde0f9d017b32dc9716",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/3oNwr47AsvGY3JxFYfOd0iTxGgeZk6H4blDfnv37TIQ.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=de83d6a9abdaff635fe35e91594f8bf7d921eece",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/3oNwr47AsvGY3JxFYfOd0iTxGgeZk6H4blDfnv37TIQ.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=7e663efe0eb57659c468bfc4c3b79d527110e017",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/3oNwr47AsvGY3JxFYfOd0iTxGgeZk6H4blDfnv37TIQ.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=8dfec815474a1d70b572bbac0c5e51c9c5e7cc59",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/3oNwr47AsvGY3JxFYfOd0iTxGgeZk6H4blDfnv37TIQ.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=e53f41bcdf7ed169db2c489979d7d74329a5c58b",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "zQG5hgcB9NRBLmgN2HlTp4Gfxte3YMUwMcprGXHD6qI"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvar7b",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvar7b/inside_the_cryptokitties_blockchain_contracts/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvar7b/inside_the_cryptokitties_blockchain_contracts/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618991362.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello,   \n\n  How do you deal with backups of your cryptokitty pic or pics? The pic is NOT stored on the blockchain BUT on the central cryptokitties.co servers managed by Dapper Labs.  The pics are owned by Dapper Labs anyways :-), but still - what's your cold or hot storage strategy on handling your non-fungible tokens? \n\n  Are you happy with just owning the name plate for the art?  Comments or insight and help much appreciated.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "How do you backup the cryptokitty pic that you \"own\"? Best practices in 2021?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvaqdu",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618991251.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,   &lt;/p&gt;\n\n&lt;p&gt;How do you deal with backups of your cryptokitty pic or pics? The pic is NOT stored on the blockchain BUT on the central cryptokitties.co servers managed by Dapper Labs.  The pics are owned by Dapper Labs anyways :-), but still - what&amp;#39;s your cold or hot storage strategy on handling your non-fungible tokens? &lt;/p&gt;\n\n&lt;p&gt;Are you happy with just owning the name plate for the art?  Comments or insight and help much appreciated.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvaqdu",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvaqdu/how_do_you_backup_the_cryptokitty_pic_that_you/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvaqdu/how_do_you_backup_the_cryptokitty_pic_that_you/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618991251.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello, \n   \n  you can argue [CryptoKitties back in 2017](https://github.com/cryptocopycats/awesome-cryptokitties-bubble) started it all - now in 2021 non-fungible tokens (NFTs) are the latest and greatest in crypto (get-rich-quick schemes).\n\n   Blockchain Journalist / Historian David Gerard writes:\n\n&gt; When I buy an NFT, what do I get?\n&gt;\n&gt; The art itself is not in the blockchain - the NFT is just a pointer\n&gt; to a piece of art on a website.\n&gt;\n&gt; You’re buying the key to a crypto-token. \n&gt; You’re not buying anything else.\n&gt;\n&gt; An NFT doesn’t convey copyright, usage rights, moral rights, \n&gt; or any other rights, unless there’s an explicit licence saying so.\n&gt;\n&gt; It’s like a “Certificate of Authenticity” that’s in Comic Sans,\n&gt; and misspelt.\n&gt;\n&gt; At absolute best, you’re buying a piece of official merchandise -\n&gt; one that’s just a number pointing to a website.\n\nSource: [NFTs: crypto grifters try to scam artists, again](https://davidgerard.co.uk/blockchain/2021/03/11/nfts-crypto-grifters-try-to-scam-artists-again/).\n\nWhat's your take? Discuss.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "All about non-fungible tokens (NFTs) and crypto art on the blockchain - Are NFTs just another get-rich-quick scheme? Article by Blockchain Journalist / Chronicler David Gerard. Discuss.",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvapqw",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.5,
+          "ignore_reports": false,
+          "ups": 0,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 0,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618991153.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello, &lt;/p&gt;\n\n&lt;p&gt;you can argue &lt;a href=\"https://github.com/cryptocopycats/awesome-cryptokitties-bubble\"&gt;CryptoKitties back in 2017&lt;/a&gt; started it all - now in 2021 non-fungible tokens (NFTs) are the latest and greatest in crypto (get-rich-quick schemes).&lt;/p&gt;\n\n&lt;p&gt;Blockchain Journalist / Historian David Gerard writes:&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;When I buy an NFT, what do I get?&lt;/p&gt;\n\n&lt;p&gt;The art itself is not in the blockchain - the NFT is just a pointer\nto a piece of art on a website.&lt;/p&gt;\n\n&lt;p&gt;You’re buying the key to a crypto-token. \nYou’re not buying anything else.&lt;/p&gt;\n\n&lt;p&gt;An NFT doesn’t convey copyright, usage rights, moral rights, \nor any other rights, unless there’s an explicit licence saying so.&lt;/p&gt;\n\n&lt;p&gt;It’s like a “Certificate of Authenticity” that’s in Comic Sans,\nand misspelt.&lt;/p&gt;\n\n&lt;p&gt;At absolute best, you’re buying a piece of official merchandise -\none that’s just a number pointing to a website.&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;Source: &lt;a href=\"https://davidgerard.co.uk/blockchain/2021/03/11/nfts-crypto-grifters-try-to-scam-artists-again/\"&gt;NFTs: crypto grifters try to scam artists, again&lt;/a&gt;.&lt;/p&gt;\n\n&lt;p&gt;What&amp;#39;s your take? Discuss.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?auto=webp&amp;v=enabled&amp;s=883add5ed49492e5d0ac896436b2a77d359d5e11",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=128b0761aa4085959e329cec0d73a8af95e86fe0",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=574cf6f9f3636c91fbfc554a90b42eb2a34fbc22",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=50245c8e83d1b7342d285aa724e74adbe21387c9",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=01918b3498344b92190e63f15e2d9405f2bbbf9d",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=cb75afcc420b19b65adabb54bbb61783fb935ecb",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/py3OjFstCG3ijh68Yr3QJ0UdL5TJ_VISxBET2vLAPDE.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=8d0a8ff0f29aaa909508b3fb5f7279fd2c7acaa9",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "HZJsyXUKJY2iqzPVZfy2sD1MvghvTv_6Nx4FA3-QaLw"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvapqw",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvapqw/all_about_nonfungible_tokens_nfts_and_crypto_art/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvapqw/all_about_nonfungible_tokens_nfts_and_crypto_art/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618991153.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": 1618990964,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello,  \n\n  as follow-up to a recent question on how to generate CryptoKitties. Here are all the open source projects I've found:\n\nAbout CryptoKitties: I assume it's composing scalable vector graphics (SVG), see [Hacking the CryptoKitties Genome](https://hackernoon.com/hacking-the-cryptokitties-genome-1cb3e7dddab3) for an article and reverse-engineered remake from 2017 - that's the best (and only?) [open source version](https://github.com/achadha235/cryptokitty-designer) I found.\n\n&gt; Opening up the SVGs it was easy to see the different parts of the kitty...\n&gt; Isolating the SVG elements for each of these genes allowed me build a quick\n&gt; React.js prototype that was able to render a kitty of any possible phenotype.\n\nThe (build in public) next-gen CryptoKitties 2.0 (demo) designer / renderer for the flow (blockchain meowgration) is starting up unity in the browser - as far as I can remember, see [CryptoKitties v2.0 - From Ethereum to Flow (Blockchain) - Build In Public](https://github.com/cryptocopycats/awesome-cryptokitties-bubble/blob/master/NEWS.md#cryptokitties-v20---from-ethereum-to-flow-blockchain---build-in-public) to try it yourself.\n\nMore insights or points to articles, open source projects and more welcome.\n\n\nPS:  About Cryptopunks:  Cryptopunks works different, that is, with composing 24x24 pixel images on top of each other I assume, see [Inside the Punk Art Machinery - How To Generate 10 000 Punks (and Punkettes), Algorithmically - Paint by Numbers](https://github.com/cryptopunksnotdead/programming-cryptopunks/blob/master/03_generate.md) for a (reverse-engineered) open source remake (incl. the pixel images for composing punks).",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "How to Generate CryptoKitties w/ Open Source Code",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvao3b",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.76,
+          "ignore_reports": false,
+          "ups": 2,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 2,
+          "approved_by": "geraldbauer",
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618990920.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,  &lt;/p&gt;\n\n&lt;p&gt;as follow-up to a recent question on how to generate CryptoKitties. Here are all the open source projects I&amp;#39;ve found:&lt;/p&gt;\n\n&lt;p&gt;About CryptoKitties: I assume it&amp;#39;s composing scalable vector graphics (SVG), see &lt;a href=\"https://hackernoon.com/hacking-the-cryptokitties-genome-1cb3e7dddab3\"&gt;Hacking the CryptoKitties Genome&lt;/a&gt; for an article and reverse-engineered remake from 2017 - that&amp;#39;s the best (and only?) &lt;a href=\"https://github.com/achadha235/cryptokitty-designer\"&gt;open source version&lt;/a&gt; I found.&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;Opening up the SVGs it was easy to see the different parts of the kitty...\nIsolating the SVG elements for each of these genes allowed me build a quick\nReact.js prototype that was able to render a kitty of any possible phenotype.&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;The (build in public) next-gen CryptoKitties 2.0 (demo) designer / renderer for the flow (blockchain meowgration) is starting up unity in the browser - as far as I can remember, see &lt;a href=\"https://github.com/cryptocopycats/awesome-cryptokitties-bubble/blob/master/NEWS.md#cryptokitties-v20---from-ethereum-to-flow-blockchain---build-in-public\"&gt;CryptoKitties v2.0 - From Ethereum to Flow (Blockchain) - Build In Public&lt;/a&gt; to try it yourself.&lt;/p&gt;\n\n&lt;p&gt;More insights or points to articles, open source projects and more welcome.&lt;/p&gt;\n\n&lt;p&gt;PS:  About Cryptopunks:  Cryptopunks works different, that is, with composing 24x24 pixel images on top of each other I assume, see &lt;a href=\"https://github.com/cryptopunksnotdead/programming-cryptopunks/blob/master/03_generate.md\"&gt;Inside the Punk Art Machinery - How To Generate 10 000 Punks (and Punkettes), Algorithmically - Paint by Numbers&lt;/a&gt; for a (reverse-engineered) open source remake (incl. the pixel images for composing punks).&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/WfAQpfw0O0xLCW5GWVeKEBnD66VFDyTTzIa_04MiSuE.jpg?auto=webp&amp;v=enabled&amp;s=b34f0c9c7b56eafdda1ceed82a5667584c5e019f",
+                  "width": 1800,
+                  "height": 900
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/WfAQpfw0O0xLCW5GWVeKEBnD66VFDyTTzIa_04MiSuE.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=ddc321879984c15066cf721497755e22a7d96d03",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/WfAQpfw0O0xLCW5GWVeKEBnD66VFDyTTzIa_04MiSuE.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=ce6007dc6436d3b189dd9e3ea211ef7c471fc5e0",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/WfAQpfw0O0xLCW5GWVeKEBnD66VFDyTTzIa_04MiSuE.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=4f798ef3bf265c35aca421f12f8ded3abab7f894",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/WfAQpfw0O0xLCW5GWVeKEBnD66VFDyTTzIa_04MiSuE.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=d2ed3fb56590a7573ac029945f2c610470dba56c",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/WfAQpfw0O0xLCW5GWVeKEBnD66VFDyTTzIa_04MiSuE.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=f9762e7636c58050e3ae87083044df0d231d4b1a",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/WfAQpfw0O0xLCW5GWVeKEBnD66VFDyTTzIa_04MiSuE.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=c2f7629d6cf3e88dcd245a6aa6c46e1ddf9b9ff9",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "JlAxfrRA4V3i_fMRBfFYVHPV5Chx7LdMsb0dlmFtGdw"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvao3b",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": true,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvao3b/how_to_generate_cryptokitties_w_open_source_code/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvao3b/how_to_generate_cryptokitties_w_open_source_code/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618990920.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello,\n    \n  If anyone followed the crypto news - this friday MoonCatRescue got discoverd on ethereum after four years! And all 25,000 cats rescued (from the moon) and claimed for free (paying a $35-50 gas fee) in a 4-hour craze / mania / window. \n\n   MoonCatRescue started / launched some month before CryptoKitties  (in August 2017)  and  just had its best day today.\n\n  Anyways, I have started a new [Awesome MoonCatRescue](https://github.com/cryptocopycats/awesome-mooncatrescue-bubble) page - trying to collect notes &amp; quotes on all things moon cats. Still early. \n\nCheers. Prost. The future is meow.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "History Corner - New Awesome MoonCatRescue Page - Collecting / Curating Notes &amp; Quotes About World's 1st Cat on Blockchain Digital Collectible",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvandc",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618990823.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;If anyone followed the crypto news - this friday MoonCatRescue got discoverd on ethereum after four years! And all 25,000 cats rescued (from the moon) and claimed for free (paying a $35-50 gas fee) in a 4-hour craze / mania / window. &lt;/p&gt;\n\n&lt;p&gt;MoonCatRescue started / launched some month before CryptoKitties  (in August 2017)  and  just had its best day today.&lt;/p&gt;\n\n&lt;p&gt;Anyways, I have started a new &lt;a href=\"https://github.com/cryptocopycats/awesome-mooncatrescue-bubble\"&gt;Awesome MoonCatRescue&lt;/a&gt; page - trying to collect notes &amp;amp; quotes on all things moon cats. Still early. &lt;/p&gt;\n\n&lt;p&gt;Cheers. Prost. The future is meow.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/wsnVTsSGHt7dnOQZeWwsR42EBSovaHCZ8LIJjIykoDA.jpg?auto=webp&amp;v=enabled&amp;s=71633bbf3081978d8fea769be0bc1cecdbd8e95b",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/wsnVTsSGHt7dnOQZeWwsR42EBSovaHCZ8LIJjIykoDA.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=88ccffeff5ac3498c7e31868f94a3cbb79bdbce2",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/wsnVTsSGHt7dnOQZeWwsR42EBSovaHCZ8LIJjIykoDA.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=7f0eddba0c3b4bd64783cfb38422688ba41fa115",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/wsnVTsSGHt7dnOQZeWwsR42EBSovaHCZ8LIJjIykoDA.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=6e175fb6e91a7603706f6223a2b893cd7b509360",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/wsnVTsSGHt7dnOQZeWwsR42EBSovaHCZ8LIJjIykoDA.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=bb14a74ced50429c63f49620fe6991773e3be247",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/wsnVTsSGHt7dnOQZeWwsR42EBSovaHCZ8LIJjIykoDA.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=506026eacb2afc4c4fec1e739d8d4455d8c68f52",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/wsnVTsSGHt7dnOQZeWwsR42EBSovaHCZ8LIJjIykoDA.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=58a40e518db32c7ba07e909ab8ab64de5b117fa9",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "jbJFF8F6FvtpPvuBfF2Wr-QUjv_nRnD6rR5mTuoGWgk"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvandc",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvandc/history_corner_new_awesome_mooncatrescue_page/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvandc/history_corner_new_awesome_mooncatrescue_page/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618990823.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello,\n \n   This friday MoonCatRescue got discovered on ethereum after four years! It's CryptoKitties earliest ancestor. Does anyone care if CryptoKitties is the first, second or third cat collectible on the blockchain?  What's your take?",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "MoonCatsRescue - CryptoKitties Ancestor Discovered - What's Your Take?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvamnk",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618990731.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;This friday MoonCatRescue got discovered on ethereum after four years! It&amp;#39;s CryptoKitties earliest ancestor. Does anyone care if CryptoKitties is the first, second or third cat collectible on the blockchain?  What&amp;#39;s your take?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvamnk",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvamnk/mooncatsrescue_cryptokitties_ancestor_discovered/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvamnk/mooncatsrescue_cryptokitties_ancestor_discovered/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618990731.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello,  a dapper labs employee (and cryptokitties promoter) has put together a dedicated website for Generation 0 CryptoKitties, see [**gen0.co**](https://gen0.co/).\n\nIs this pseudo \"rarity\" myth / illusion to the max? Remember:  You can always right-click and save any kitty (for free). Or you can always design your own perfect kitty (for free) any time @ [**kittyhelper.co/kitty-constructor**](https://kittyhelper.co/kitty-constructor/), for example. \n\nWhat's your take? Are these gen-0 kitties worth anything? What's your price target for 2022?",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "New Website - Gen-0 CryptoKitties - gen0.co - Inside the Pseudo \"Rarity\" Myth / Illusion",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mval2i",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618990491.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,  a dapper labs employee (and cryptokitties promoter) has put together a dedicated website for Generation 0 CryptoKitties, see &lt;a href=\"https://gen0.co/\"&gt;&lt;strong&gt;gen0.co&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;\n\n&lt;p&gt;Is this pseudo &amp;quot;rarity&amp;quot; myth / illusion to the max? Remember:  You can always right-click and save any kitty (for free). Or you can always design your own perfect kitty (for free) any time @ &lt;a href=\"https://kittyhelper.co/kitty-constructor/\"&gt;&lt;strong&gt;kittyhelper.co/kitty-constructor&lt;/strong&gt;&lt;/a&gt;, for example. &lt;/p&gt;\n\n&lt;p&gt;What&amp;#39;s your take? Are these gen-0 kitties worth anything? What&amp;#39;s your price target for 2022?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/7mYSdy3CsamXY0Jb2xS4EpjxJlA7bm19iyE5CkaAweQ.jpg?auto=webp&amp;v=enabled&amp;s=180721f177c09dc0dc8b77ece2ee5abed55f3199",
+                  "width": 1366,
+                  "height": 734
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/7mYSdy3CsamXY0Jb2xS4EpjxJlA7bm19iyE5CkaAweQ.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=5c6f17de1b16bc2e2667278120166f1c5312c1f8",
+                    "width": 108,
+                    "height": 58
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/7mYSdy3CsamXY0Jb2xS4EpjxJlA7bm19iyE5CkaAweQ.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=060ebc693559e79263477853e122ca8a7c7efd44",
+                    "width": 216,
+                    "height": 116
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/7mYSdy3CsamXY0Jb2xS4EpjxJlA7bm19iyE5CkaAweQ.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=1d9e7ea4ea02b8ed9f689057ef3ead37a2d5cb95",
+                    "width": 320,
+                    "height": 171
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/7mYSdy3CsamXY0Jb2xS4EpjxJlA7bm19iyE5CkaAweQ.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=5f7a3c4c137f247b1f6de60de7ecb72978d54f36",
+                    "width": 640,
+                    "height": 343
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/7mYSdy3CsamXY0Jb2xS4EpjxJlA7bm19iyE5CkaAweQ.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=198dbf22881e3c1884554903cffb7a85756d3b0d",
+                    "width": 960,
+                    "height": 515
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/7mYSdy3CsamXY0Jb2xS4EpjxJlA7bm19iyE5CkaAweQ.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=25c20e67f4cd39475fad305b80684cbfff3da57e",
+                    "width": 1080,
+                    "height": 580
+                  }
+                ],
+                "variants": {
+                },
+                "id": "2iMTYTJ7EQgO8XOcCMstoSIL3tDhyG1q3ooK8sJvtrI"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mval2i",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mval2i/new_website_gen0_cryptokitties_gen0co_inside_the/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mval2i/new_website_gen0_cryptokitties_gen0co_inside_the/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618990491.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "author_flair_background_color": null,
+          "approved_at_utc": null,
+          "subreddit": "CryptoKittiesDev",
+          "selftext": "Hello,\n\n   I've put together [kittyverse-graphql - a little (lite) web client wrapper for the CryptoKitties Sales GraphQL Blockchain Data Service powered by the Graph](https://github.com/cryptocopycats/kittyverse/tree/master/kittyverse-graphql) that you can (re)use in your own scripts.  \n\n   See the README for some example queries to get you started writing your own scripts incl:\n\n-  Get the latest kitties sold in auctions\n-  Get the most expensive kitties sold in auctions\n-  Get the aggregated all-time auction totals\n\nHappy data wrangling. Cheers. Prost. The future is meow.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "kittyverse-graphql library - Open GraphQL Blockchain Data Query Service for CryptoKitties (Auction) Sales",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/CryptoKittiesDev",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_mvajo9",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "ignore_reports": false,
+          "ups": 1,
+          "domain": "self.CryptoKittiesDev",
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": true,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "subreddit_type": "restricted",
+          "created": 1618990292.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;ve put together &lt;a href=\"https://github.com/cryptocopycats/kittyverse/tree/master/kittyverse-graphql\"&gt;kittyverse-graphql - a little (lite) web client wrapper for the CryptoKitties Sales GraphQL Blockchain Data Service powered by the Graph&lt;/a&gt; that you can (re)use in your own scripts.  &lt;/p&gt;\n\n&lt;p&gt;See the README for some example queries to get you started writing your own scripts incl:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt; Get the latest kitties sold in auctions&lt;/li&gt;\n&lt;li&gt; Get the most expensive kitties sold in auctions&lt;/li&gt;\n&lt;li&gt; Get the aggregated all-time auction totals&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Happy data wrangling. Cheers. Prost. The future is meow.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": true,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "spam": false,
+          "is_crosspostable": true,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/0TViK9C_NENagvINtZjf7wsDo4Sa8ggdK2hw4YojOM8.jpg?auto=webp&amp;v=enabled&amp;s=3ee2de9740937d3bfdae8b5662408842be8f95de",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/0TViK9C_NENagvINtZjf7wsDo4Sa8ggdK2hw4YojOM8.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=26467e281d9d5837a25ee3cae32b7278aca127e4",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/0TViK9C_NENagvINtZjf7wsDo4Sa8ggdK2hw4YojOM8.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=8208d76e63ca92f56475a89c5152ae95d613e5da",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/0TViK9C_NENagvINtZjf7wsDo4Sa8ggdK2hw4YojOM8.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=473095b911322e36999ce79dbe58ebee46f56af3",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/0TViK9C_NENagvINtZjf7wsDo4Sa8ggdK2hw4YojOM8.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=8fdd1c69fe4e4c48936ea72090cbf7c500382a00",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/0TViK9C_NENagvINtZjf7wsDo4Sa8ggdK2hw4YojOM8.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=0ce7e12a03d0c435672580a09be5b50719e5b88a",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/0TViK9C_NENagvINtZjf7wsDo4Sa8ggdK2hw4YojOM8.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=e0e1f4a38e4c4d41520e014ecd9d0f20a811120f",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "cMQsDff5XQSk23dlaQZfFv5GEVcNWNYR1RyoSvsgT0U"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "removed": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "rte_mode": "markdown",
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_4afqam",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": 0,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "mvajo9",
+          "is_robot_indexable": true,
+          "report_reasons": [
+
+          ],
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "approved": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/CryptoKittiesDev/comments/mvajo9/kittyversegraphql_library_open_graphql_blockchain/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/CryptoKittiesDev/comments/mvajo9/kittyversegraphql_library_open_graphql_blockchain/",
+          "subreddit_subscribers": 128,
+          "created_utc": 1618990292.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      }
+    ],
+    "before": null
+  }
+}

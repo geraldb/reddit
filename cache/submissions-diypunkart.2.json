@@ -1,0 +1,3646 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": "t3_wlyg1i",
+    "dist": 25,
+    "modhash": "",
+    "geo_filter": "",
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "FYI:   I (Gerald Bauer) am the subreddit / forum mod and r/DIYPunkArt is now set to read-only, that is, archived.  \n\nIf you have any questions or comments, you are welcome to post at my [Help &amp; Support](https://github.com/geraldb/help) page.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "r/DIYPunkArt Now Read-Only - For Help &amp; Support (From The Mod - Gerald Bauer) See github.com/geraldb/help",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_134ko40",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1682942828.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;FYI:   I (Gerald Bauer) am the subreddit / forum mod and &lt;a href=\"/r/DIYPunkArt\"&gt;r/DIYPunkArt&lt;/a&gt; is now set to read-only, that is, archived.  &lt;/p&gt;\n\n&lt;p&gt;If you have any questions or comments, you are welcome to post at my &lt;a href=\"https://github.com/geraldb/help\"&gt;Help &amp;amp; Support&lt;/a&gt; page.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?auto=webp&amp;v=enabled&amp;s=a2d36efd92d5c1bdd2ac28bbb001b46a7e3fb5f5",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=1cbdf4e1cca2116aa819919ba5ef84cded267fff",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=eeece7aea01c05aef99e9f0a30a1567739ee89c3",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=dddf92e301cb1964a35196706f0c40352f209833",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=995fdbbe2c9d28aecdbffa0dfbf078cb366a7d95",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=59485f61b4df1c76fc873ad5a3607fd77dacb6fc",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/jKOAJFngU2MGMOcX4dU0_WUyHabXhtFK1VgegoKT8wo.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=901202b4ce54dad2e99a14c2b01ffce29d92f124",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "I-ZR0JawgkKfDjb6-OKjB2ADOcFPjF_FV_7L_Guxrkk"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "134ko40",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/134ko40/rdiypunkart_now_readonly_for_help_support_from/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/134ko40/rdiypunkart_now_readonly_for_help_support_from/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1682942828.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Greetings to you wherever you are! \n\nJust thought i would have a try at bringing out the best in you! I mean your computer! \n\nI just want to say that if anyone is interested in learning how to program, run code and have lots of fun at the same time, making your own copies of all that the metaverse has to offer, then you're in the right place, in this channel, you will learn everything that there is to know, the rest is down to how much you want to learn... \n\nJust let you all know, i didnt have a clue last year what coding was, ( and still don't! ) What an NFT is! Programming, operating the CMD, interactive ruby, gems, computing, generating scripts, and so much more.\nWell, now i have a much better idea of the latter and with the little time i have been here practicing and following along the tips, and asking questions, i am now able to have my computer print any punk i like, moonbird, ape, and the other million combinations, its endless\nI'm not going to do this full time as much as i would love too, but for those of you that has little spare time and for those who, have lots of time and are genuinely interested in this, then find some spare time, and start doing things with your laptop that you would otherwise think impossible, this channel is the perfect place for you to learn and have fun! \n\nStep 1, download Ruby!",
+          "author_fullname": "t2_ftfkw6b7",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "To all you, DIY punks!",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_yq2pw0",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 3,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 3,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1667951730.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Greetings to you wherever you are! &lt;/p&gt;\n\n&lt;p&gt;Just thought i would have a try at bringing out the best in you! I mean your computer! &lt;/p&gt;\n\n&lt;p&gt;I just want to say that if anyone is interested in learning how to program, run code and have lots of fun at the same time, making your own copies of all that the metaverse has to offer, then you&amp;#39;re in the right place, in this channel, you will learn everything that there is to know, the rest is down to how much you want to learn... &lt;/p&gt;\n\n&lt;p&gt;Just let you all know, i didnt have a clue last year what coding was, ( and still don&amp;#39;t! ) What an NFT is! Programming, operating the CMD, interactive ruby, gems, computing, generating scripts, and so much more.\nWell, now i have a much better idea of the latter and with the little time i have been here practicing and following along the tips, and asking questions, i am now able to have my computer print any punk i like, moonbird, ape, and the other million combinations, its endless\nI&amp;#39;m not going to do this full time as much as i would love too, but for those of you that has little spare time and for those who, have lots of time and are genuinely interested in this, then find some spare time, and start doing things with your laptop that you would otherwise think impossible, this channel is the perfect place for you to learn and have fun! &lt;/p&gt;\n\n&lt;p&gt;Step 1, download Ruby!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "yq2pw0",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "cryptobowzer",
+          "discussion_type": null,
+          "num_comments": 3,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/yq2pw0/to_all_you_diy_punks/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/yq2pw0/to_all_you_diy_punks/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1667951730.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\ntl;dr:   This is the official (and only) support forum for (crypo) punk's not dead, learn pixel art, profile pic(ture) as service, pixel art exchange, and friends.   Post your questions and commentary here (as new posts). Yes, you can. \n\n\n---\n\n   A reminder: This is NOT a read-only / announcement log.  You are more than welcome to introduce yourself,   ask questions,  share your punk (pixel) art and more.\n\n  Yes, you can.\n\nPS:  I will no longer post  (announcements) here  and the floor / the forum is all yours.   Please, do NOT contact me in private chat with your questions - if you have questions, please post your questions or comments here in the public forum. Yes, you can. Start a new thread / post today.\n\nPPS:  If you are wondering what I'm up to right now, see the [**Gerald Bauer's Code Monkey Diary / Updates - What's News?**](https://geraldb.github.io/) blog / website with weekly summaries.\n\nPPPS:  Some highlights in 2023:\n\n[**New Awesome 100 Ordinal Punks (Anno 2023) Notes - 24×24 Pixel Art on the (Bitcoin) Blockchain Page Started - Edits &amp; Updates Welcome**](https://gitlab.com/cryptopunksnotdead/cryptopunks/-/tree/master/awesome-ordinalpunks) - Gitlab Mirror Backup\n\n[**Step-By-Step Guide to Generate 100 Ordinal Punks In Your Own Terminal Via Text-Prompt**](https://gitlab.com/cryptopunksnotdead/cryptopunks/-/tree/master/ordinalpunks)  - Gitlab Mirror Backup\n\n[**artbase command-line tool - Download (&amp; Analyze / Archive) Your Own Pixel Art (Ethereum) Collections - A Step-By-Step Guide - 1000 Unordinal Punks**](https://github.com/pixelartexchange/artbase.sandbox.vol3/blob/master/README.md#yes-you-can----download--analyze--archive-your-own-pixel-art-collections----a-step-by-step-guide)\n\n[**Ordinals (Pixel Art) Sandbox (&amp; Cache)**](https://github.com/pixelartexchange/ordinals.sandbox) - Yes, you can! Start your own sandbox (&amp; cache) or \"right-clicker\" ordinal backup / archive / gallery. See  the step-by-step guide in the ordinals package (with the ordbase command-line tool) to get started.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Reminder: Introduce Yourself, Ask Questions, Share Your Punk (Pixel) Art, etc. - Yes, You Can",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_ynp5pw",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1682949083.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1667739170.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;tl;dr:   This is the official (and only) support forum for (crypo) punk&amp;#39;s not dead, learn pixel art, profile pic(ture) as service, pixel art exchange, and friends.   Post your questions and commentary here (as new posts). Yes, you can. &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;A reminder: This is NOT a read-only / announcement log.  You are more than welcome to introduce yourself,   ask questions,  share your punk (pixel) art and more.&lt;/p&gt;\n\n&lt;p&gt;Yes, you can.&lt;/p&gt;\n\n&lt;p&gt;PS:  I will no longer post  (announcements) here  and the floor / the forum is all yours.   Please, do NOT contact me in private chat with your questions - if you have questions, please post your questions or comments here in the public forum. Yes, you can. Start a new thread / post today.&lt;/p&gt;\n\n&lt;p&gt;PPS:  If you are wondering what I&amp;#39;m up to right now, see the &lt;a href=\"https://geraldb.github.io/\"&gt;&lt;strong&gt;Gerald Bauer&amp;#39;s Code Monkey Diary / Updates - What&amp;#39;s News?&lt;/strong&gt;&lt;/a&gt; blog / website with weekly summaries.&lt;/p&gt;\n\n&lt;p&gt;PPPS:  Some highlights in 2023:&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://gitlab.com/cryptopunksnotdead/cryptopunks/-/tree/master/awesome-ordinalpunks\"&gt;&lt;strong&gt;New Awesome 100 Ordinal Punks (Anno 2023) Notes - 24×24 Pixel Art on the (Bitcoin) Blockchain Page Started - Edits &amp;amp; Updates Welcome&lt;/strong&gt;&lt;/a&gt; - Gitlab Mirror Backup&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://gitlab.com/cryptopunksnotdead/cryptopunks/-/tree/master/ordinalpunks\"&gt;&lt;strong&gt;Step-By-Step Guide to Generate 100 Ordinal Punks In Your Own Terminal Via Text-Prompt&lt;/strong&gt;&lt;/a&gt;  - Gitlab Mirror Backup&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://github.com/pixelartexchange/artbase.sandbox.vol3/blob/master/README.md#yes-you-can----download--analyze--archive-your-own-pixel-art-collections----a-step-by-step-guide\"&gt;&lt;strong&gt;artbase command-line tool - Download (&amp;amp; Analyze / Archive) Your Own Pixel Art (Ethereum) Collections - A Step-By-Step Guide - 1000 Unordinal Punks&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://github.com/pixelartexchange/ordinals.sandbox\"&gt;&lt;strong&gt;Ordinals (Pixel Art) Sandbox (&amp;amp; Cache)&lt;/strong&gt;&lt;/a&gt; - Yes, you can! Start your own sandbox (&amp;amp; cache) or &amp;quot;right-clicker&amp;quot; ordinal backup / archive / gallery. See  the step-by-step guide in the ordinals package (with the ordbase command-line tool) to get started.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ynp5pw",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 4,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/ynp5pw/reminder_introduce_yourself_ask_questions_share/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/ynp5pw/reminder_introduce_yourself_ask_questions_share/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1667739170.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "",
+          "author_fullname": "t2_15hsve1q",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "is_gallery": true,
+          "title": "Is there a way to make the nft more visible, as the moonbird traits I got from here are in 24x24px which makes it blurry? How should I proceed?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 140,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "media_metadata": {
+            "xc5th1honow91": {
+              "status": "valid",
+              "e": "Image",
+              "m": "image/png",
+              "p": [
+                {
+                  "y": 108,
+                  "x": 108,
+                  "u": "https://preview.redd.it/xc5th1honow91.png?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=8308a106e81e262b3ed4fd2ffa3e125c6f76e9c9"
+                },
+                {
+                  "y": 216,
+                  "x": 216,
+                  "u": "https://preview.redd.it/xc5th1honow91.png?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=e4c5bb41fc021ab8d658e3011154cf37fdf4b2f0"
+                },
+                {
+                  "y": 320,
+                  "x": 320,
+                  "u": "https://preview.redd.it/xc5th1honow91.png?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=183084ea4962e99e9243a9f932bc381da69c5824"
+                },
+                {
+                  "y": 640,
+                  "x": 640,
+                  "u": "https://preview.redd.it/xc5th1honow91.png?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=664134f8e20530e275a748db69c43222ed9505bd"
+                },
+                {
+                  "y": 960,
+                  "x": 960,
+                  "u": "https://preview.redd.it/xc5th1honow91.png?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=b1d63d3bfd9ceddc56ea4352092ec86a778deb1e"
+                }
+              ],
+              "s": {
+                "y": 1024,
+                "x": 1024,
+                "u": "https://preview.redd.it/xc5th1honow91.png?width=1024&amp;format=png&amp;auto=webp&amp;v=enabled&amp;s=63fcc97573e7ac7b15fe61d32eeff327aff0b901"
+              },
+              "id": "xc5th1honow91"
+            },
+            "pkx439yrmow91": {
+              "status": "valid",
+              "e": "Image",
+              "m": "image/png",
+              "p": [
+                {
+                  "y": 108,
+                  "x": 108,
+                  "u": "https://preview.redd.it/pkx439yrmow91.png?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=e17fba8a722ea217e7631e3ee435aae4a2907d1f"
+                },
+                {
+                  "y": 216,
+                  "x": 216,
+                  "u": "https://preview.redd.it/pkx439yrmow91.png?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=639d11c3dcf82989c677d66eff62a08704ad1bdf"
+                },
+                {
+                  "y": 320,
+                  "x": 320,
+                  "u": "https://preview.redd.it/pkx439yrmow91.png?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=7c2cd7c66729301fe07072eba5034e8082dc5c7e"
+                },
+                {
+                  "y": 640,
+                  "x": 640,
+                  "u": "https://preview.redd.it/pkx439yrmow91.png?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=cffa08addccea3187e592ab3cfb006679c49d6ac"
+                },
+                {
+                  "y": 960,
+                  "x": 960,
+                  "u": "https://preview.redd.it/pkx439yrmow91.png?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=fd7675bafb0008431ed0bbca4c81badb02314169"
+                }
+              ],
+              "s": {
+                "y": 1024,
+                "x": 1024,
+                "u": "https://preview.redd.it/pkx439yrmow91.png?width=1024&amp;format=png&amp;auto=webp&amp;v=enabled&amp;s=c5c24d7ec62bd3d99911fb701859ba6cdc149966"
+              },
+              "id": "pkx439yrmow91"
+            }
+          },
+          "name": "t3_ygbcdz",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "ups": 3,
+          "domain": "reddit.com",
+          "media_embed": {
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "gallery_data": {
+            "items": [
+              {
+                "media_id": "pkx439yrmow91",
+                "id": 203161649
+              },
+              {
+                "media_id": "xc5th1honow91",
+                "id": 203161650
+              }
+            ]
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 3,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://a.thumbs.redditmedia.com/lIdU3bum9MhpoY6_0sEGPPF5t5GxDf60OMxnEcYrF44.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": false,
+          "subreddit_type": "restricted",
+          "created": 1667022334.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://www.reddit.com/gallery/ygbcdz",
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ygbcdz",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "hopepx",
+          "discussion_type": null,
+          "num_comments": 5,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/ygbcdz/is_there_a_way_to_make_the_nft_more_visible_as/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/gallery/ygbcdz",
+          "subreddit_subscribers": 57,
+          "created_utc": 1667022334.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n   to continue with making the punkbase machinery more (re)usable I've put together a third artbase.js demo.  Let's welcome goblinbase that lets you query the  4444 goblin town (pixel nutdbocks) collection (in 48×48px).\n\nTry [**pixelartexchange.github.io/artbase.js/goblinbase**](https://pixelartexchange.github.io/artbase.js/goblinbase/)  hosted via the static github pages service\nand find the source  in [**/goblinbase**](https://github.com/pixelartexchange/artbase.js/tree/master/goblinbase) in the artbase.js repo.\n\nQuestions and comments welcome.\n\nPS:  I renamed the attribute categories for more clarity ;-):\n\n- head    &lt;= nutdbock\n- body   &lt;= bood\n- eye_on_left  &lt;= eye_on_lfg\n- eye_on_right  &lt;=  eye_on_ryg\n- ears   &lt;= eirz\n- mouth   &lt;= undnzhoole\n- nose   &lt;= trahfolln\n- background   &lt;= bagygrnd\n\nIf anyone wants to start on a translation for the attribute names itself - you are more than welcome ;-).",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "AAAAAAAUUUUUGGGHHHHH Gobblins Goblinns GOBLINNNNNNNNns - goblinbase Now Live! Try @ pixelartexchange.github.io/artbase.js/goblinbase - Query the 4444 Goblin Town (Pixel Nutdbocks) in 48×48px",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x6nv5l",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1662404224.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1662403582.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;to continue with making the punkbase machinery more (re)usable I&amp;#39;ve put together a third artbase.js demo.  Let&amp;#39;s welcome goblinbase that lets you query the  4444 goblin town (pixel nutdbocks) collection (in 48×48px).&lt;/p&gt;\n\n&lt;p&gt;Try &lt;a href=\"https://pixelartexchange.github.io/artbase.js/goblinbase/\"&gt;&lt;strong&gt;pixelartexchange.github.io/artbase.js/goblinbase&lt;/strong&gt;&lt;/a&gt;  hosted via the static github pages service\nand find the source  in &lt;a href=\"https://github.com/pixelartexchange/artbase.js/tree/master/goblinbase\"&gt;&lt;strong&gt;/goblinbase&lt;/strong&gt;&lt;/a&gt; in the artbase.js repo.&lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n\n&lt;p&gt;PS:  I renamed the attribute categories for more clarity ;-):&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;head    &amp;lt;= nutdbock&lt;/li&gt;\n&lt;li&gt;body   &amp;lt;= bood&lt;/li&gt;\n&lt;li&gt;eye_on_left  &amp;lt;= eye_on_lfg&lt;/li&gt;\n&lt;li&gt;eye_on_right  &amp;lt;=  eye_on_ryg&lt;/li&gt;\n&lt;li&gt;ears   &amp;lt;= eirz&lt;/li&gt;\n&lt;li&gt;mouth   &amp;lt;= undnzhoole&lt;/li&gt;\n&lt;li&gt;nose   &amp;lt;= trahfolln&lt;/li&gt;\n&lt;li&gt;background   &amp;lt;= bagygrnd&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;If anyone wants to start on a translation for the attribute names itself - you are more than welcome ;-).&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x6nv5l",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x6nv5l/aaaaaaauuuuuggghhhhh_gobblins_goblinns/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/x6nv5l/aaaaaaauuuuuggghhhhh_gobblins_goblinns/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1662403582.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n   to continue with making the punkbase machinery more (re)usable I've put together a second artbase.js demo.  Let's welcome pudgypunkbase that lets you query the  8888 pudgy punks (pixel penguins) collection (in 24×24px).\n\nTry [**pixelartexchange.github.io/artbase.js/pudgypunkbase**](https://pixelartexchange.github.io/artbase.js/pudgypunkbase/)  hosted via the static github pages service\nand find the source  in [**/pudgypunkbase**](https://github.com/pixelartexchange/artbase.js/tree/master/pudgypunkbase) in the artbase.js repo.\n\nQuestions and comments welcome.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "pudgypunkbase Now Live! Try @ pixelartexchange.github.io/artbase.js/pudgypunkbase Or Run Your Own \"Serverless\" Local Copy - Query 8888 Pudgy Punks (Pixel Penguins) in 24×24px",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x5skkb",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1662312559.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;to continue with making the punkbase machinery more (re)usable I&amp;#39;ve put together a second artbase.js demo.  Let&amp;#39;s welcome pudgypunkbase that lets you query the  8888 pudgy punks (pixel penguins) collection (in 24×24px).&lt;/p&gt;\n\n&lt;p&gt;Try &lt;a href=\"https://pixelartexchange.github.io/artbase.js/pudgypunkbase/\"&gt;&lt;strong&gt;pixelartexchange.github.io/artbase.js/pudgypunkbase&lt;/strong&gt;&lt;/a&gt;  hosted via the static github pages service\nand find the source  in &lt;a href=\"https://github.com/pixelartexchange/artbase.js/tree/master/pudgypunkbase\"&gt;&lt;strong&gt;/pudgypunkbase&lt;/strong&gt;&lt;/a&gt; in the artbase.js repo.&lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x5skkb",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x5skkb/pudgypunkbase_now_live_try/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/x5skkb/pudgypunkbase_now_live_try/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1662312559.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n   to make the punkbase machinery more (re)usable I've started breaking out the artbase.js script in its own repo.  It's still the early days.  To try out the artbase.js machinery I've put together a first artbase demo.  Let's welcome 8bitbase that lets you query the  8888 eight bit (me) pixel head avatar collection (in 24×24px).\n\nTry [**pixelartexchange.github.io/artbase.js/8bitbase**](https://pixelartexchange.github.io/artbase.js/8bitbase/)  hosted via the static github pages service\nand find the source  in [**/8bitbase**](https://github.com/pixelartexchange/artbase.js/tree/master/8bitbase) in the artbase.js repo.\n\nQuestions and comments welcome.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "8bitbase Now Live! Try @ pixelartexchange.github.io/artbase.js/8bitbase/ Or Run Your Own \"Serverless\" Local Copy - Query 8888 Eight Bit (Pixel Heads) Avatars in 24×24px",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x5odrw",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1662301927.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;to make the punkbase machinery more (re)usable I&amp;#39;ve started breaking out the artbase.js script in its own repo.  It&amp;#39;s still the early days.  To try out the artbase.js machinery I&amp;#39;ve put together a first artbase demo.  Let&amp;#39;s welcome 8bitbase that lets you query the  8888 eight bit (me) pixel head avatar collection (in 24×24px).&lt;/p&gt;\n\n&lt;p&gt;Try &lt;a href=\"https://pixelartexchange.github.io/artbase.js/8bitbase/\"&gt;&lt;strong&gt;pixelartexchange.github.io/artbase.js/8bitbase&lt;/strong&gt;&lt;/a&gt;  hosted via the static github pages service\nand find the source  in &lt;a href=\"https://github.com/pixelartexchange/artbase.js/tree/master/8bitbase\"&gt;&lt;strong&gt;/8bitbase&lt;/strong&gt;&lt;/a&gt; in the artbase.js repo.&lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x5odrw",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x5odrw/8bitbase_now_live_try/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/x5odrw/8bitbase_now_live_try/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1662301927.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n   in the ongoing saga (or is that legal debate) about are cryptopunks (or computer-genarated pixel head / character images in 24×24px) copyrightable?\n\n   An \"old\" legal paper from 2012 titled [**\"Who Owns an Avatar?: Copyright, Creativity, and Virtual Worlds\"**](https://github.com/cryptopunksnotdead/punks.journal#january-2012) by Tyler T. Ochoa (Santa Clara University School of Law), 35 Pages  highlights a new angle not much discussed / debated before:\n\n   If you generate your own avatar (with millions of possible outcomes), do you own your own avatar?  Hint: Yes, federal copyright law in the United States (U.S.) says so. What's your take?  \n\n\nPS:\n\nTo make it more practical try the [**Design Your Own Matt &amp; John's® Ye Olde' Punk (Anno 2017) (24×24) Wizard »**](https://cryptopunksnotdead.github.io/pixelart.js/yeoldepunks/)  \n\nYes, you can! Generate your own originals that you own 100% forever. Questions and comments welcome.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Journal of (Generative) Punk (Pixel) Art Update - New Article - Who Owns an Avatar? [Hint: It's You!?]: Copyright, Creativity, and Virtual Worlds by Tyler T. Ochoa (Santa Clara University School of Law), 35 Pages, 2012",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x46lv3",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1662138496.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1662137879.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;in the ongoing saga (or is that legal debate) about are cryptopunks (or computer-genarated pixel head / character images in 24×24px) copyrightable?&lt;/p&gt;\n\n&lt;p&gt;An &amp;quot;old&amp;quot; legal paper from 2012 titled &lt;a href=\"https://github.com/cryptopunksnotdead/punks.journal#january-2012\"&gt;&lt;strong&gt;&amp;quot;Who Owns an Avatar?: Copyright, Creativity, and Virtual Worlds&amp;quot;&lt;/strong&gt;&lt;/a&gt; by Tyler T. Ochoa (Santa Clara University School of Law), 35 Pages  highlights a new angle not much discussed / debated before:&lt;/p&gt;\n\n&lt;p&gt;If you generate your own avatar (with millions of possible outcomes), do you own your own avatar?  Hint: Yes, federal copyright law in the United States (U.S.) says so. What&amp;#39;s your take?  &lt;/p&gt;\n\n&lt;p&gt;PS:&lt;/p&gt;\n\n&lt;p&gt;To make it more practical try the &lt;a href=\"https://cryptopunksnotdead.github.io/pixelart.js/yeoldepunks/\"&gt;&lt;strong&gt;Design Your Own Matt &amp;amp; John&amp;#39;s® Ye Olde&amp;#39; Punk (Anno 2017) (24×24) Wizard »&lt;/strong&gt;&lt;/a&gt;  &lt;/p&gt;\n\n&lt;p&gt;Yes, you can! Generate your own originals that you own 100% forever. Questions and comments welcome.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/j9dA0xevA0c-orQWo3gYJuaZDHadsgJaR0Te6Wyb8Y4.jpg?auto=webp&amp;v=enabled&amp;s=47d8e37ab1d8042addb0f009beba8bbaab9f1e1e",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/j9dA0xevA0c-orQWo3gYJuaZDHadsgJaR0Te6Wyb8Y4.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=6cfffd4ff2fbd842c220e3caef764bcc1fac0f74",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/j9dA0xevA0c-orQWo3gYJuaZDHadsgJaR0Te6Wyb8Y4.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=69c46f8abebe24d2b1ed8bbbaa104d8f927c6a11",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/j9dA0xevA0c-orQWo3gYJuaZDHadsgJaR0Te6Wyb8Y4.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=02abe685ce56f4bedc4fe88a3720c1df79080848",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/j9dA0xevA0c-orQWo3gYJuaZDHadsgJaR0Te6Wyb8Y4.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=2b386d1673af629d417592e7b178d13f50b5b95b",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/j9dA0xevA0c-orQWo3gYJuaZDHadsgJaR0Te6Wyb8Y4.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=59593990fb47b1536431415a3207dfe29903bb61",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/j9dA0xevA0c-orQWo3gYJuaZDHadsgJaR0Te6Wyb8Y4.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=959ac137b75409d83d7ee8190f1ab41d6dab33ba",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "NLW2nLjZMPSCHhwbWOxTLsC8XlJI37wxp2sB_kpfcO0"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x46lv3",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x46lv3/journal_of_generative_punk_pixel_art_update_new/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/x46lv3/journal_of_generative_punk_pixel_art_update_new/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1662137879.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n   for those one or two readers that follow along here a little \"undocumented\" tip on the [**artbase command-line tool**](https://github.com/pixelartexchange/artbase/tree/master/artbase) that I use to generate image collection composites:\n\n(1) To generate \"hand-phlipped\" composites of the first hundred images in the collection use:\n\n\n\n      $ artbase unfudables composite --limit 100\n      $ artbase unfudables composite --limit 100 --mirror\n\nTip: Use the --mirror flag to call-in Philip the Intern to \"hand-phlip\" the artwork one-by-one. Let's try the pudgies from last week:\n\n\n\n     $ artbase pudgies composite --limit 100\n     $ artbase pudgies composite --limit 100 --mirror\n\n\n(2) To generate all-in-one image collection composites as featured on the **r/RightClickSaveThis** channel  use:\n\n\n      $ artbase unfudables composite \n\nAnd for the pudgies:\n\n\n      $ artbase pudgies composite \n\n    \n\nThat's it.  Note: Make sure you have the latest version of artbase installed - see the [**artbase package / gem page**](https://rubygems.org/gems/artbase) for details on published versions.\n  \nQuestions and comments welcome.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "artbase (command line tool) corner /how-tos: generate your own all-in-one image collection composites ++ Bonus: Use --mirror to call in Philip the Intern To \"Hand-Phlip\" One-by-One the Artwork",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x3epm2",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1662056896.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1662056564.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;for those one or two readers that follow along here a little &amp;quot;undocumented&amp;quot; tip on the &lt;a href=\"https://github.com/pixelartexchange/artbase/tree/master/artbase\"&gt;&lt;strong&gt;artbase command-line tool&lt;/strong&gt;&lt;/a&gt; that I use to generate image collection composites:&lt;/p&gt;\n\n&lt;p&gt;(1) To generate &amp;quot;hand-phlipped&amp;quot; composites of the first hundred images in the collection use:&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;  $ artbase unfudables composite --limit 100\n  $ artbase unfudables composite --limit 100 --mirror\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;Tip: Use the --mirror flag to call-in Philip the Intern to &amp;quot;hand-phlip&amp;quot; the artwork one-by-one. Let&amp;#39;s try the pudgies from last week:&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt; $ artbase pudgies composite --limit 100\n $ artbase pudgies composite --limit 100 --mirror\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;(2) To generate all-in-one image collection composites as featured on the &lt;strong&gt;&lt;a href=\"/r/RightClickSaveThis\"&gt;r/RightClickSaveThis&lt;/a&gt;&lt;/strong&gt; channel  use:&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;  $ artbase unfudables composite \n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;And for the pudgies:&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;  $ artbase pudgies composite \n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;That&amp;#39;s it.  Note: Make sure you have the latest version of artbase installed - see the &lt;a href=\"https://rubygems.org/gems/artbase\"&gt;&lt;strong&gt;artbase package / gem page&lt;/strong&gt;&lt;/a&gt; for details on published versions.&lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/6uhudi8_DH3FiJ9_bbDywb2JhsqnX8xzEbNPJ9xQ_Jk.jpg?auto=webp&amp;v=enabled&amp;s=de765c488fbc079ca19bd1de2ceb50a508ebc6f2",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/6uhudi8_DH3FiJ9_bbDywb2JhsqnX8xzEbNPJ9xQ_Jk.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=389cafef9d70119ce9b31892939cf0f9a21a8864",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/6uhudi8_DH3FiJ9_bbDywb2JhsqnX8xzEbNPJ9xQ_Jk.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=a3a54eb8362847be1209d793a8ce0ce4abdbf9a6",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/6uhudi8_DH3FiJ9_bbDywb2JhsqnX8xzEbNPJ9xQ_Jk.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=8219473260a62bff0c598564fc4a10fb2298a98b",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/6uhudi8_DH3FiJ9_bbDywb2JhsqnX8xzEbNPJ9xQ_Jk.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=7dcf63461716c2ae63686bada43ab921b9a1c6fd",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/6uhudi8_DH3FiJ9_bbDywb2JhsqnX8xzEbNPJ9xQ_Jk.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=36ea862b6276da1f47eac8cd8c6e1d1e8546dada",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/6uhudi8_DH3FiJ9_bbDywb2JhsqnX8xzEbNPJ9xQ_Jk.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=787e47fb75e695a8fb4673c053e564f3f7912a8d",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "muVbaTCH_gXNZRZObf_ODBfB0pRkxnt6t7Ot6XaXUdc"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x3epm2",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 2,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x3epm2/artbase_command_line_tool_corner_howtos_generate/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/x3epm2/artbase_command_line_tool_corner_howtos_generate/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1662056564.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n   Phree the Phunks!  Yes, Philip the Intern phlipped the Punkbase (from right-looking to left-looking). \n\n  See [**cryptopunksnotdead.github.io/punkbase**](https://cryptopunksnotdead.github.io/punkbase/) \n for the live hosted punkbase via the static github pages service.\n\n Spoiler:  Yes, you can. The magic css (image) property is:\n\n     transform: scale(-1,1);\n\nComment / uncomment to flip between right &amp; left-looking style.\n\nQuestions and comments.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Philip the Intern Presents: Let's Phlip the Punkbase! Phree The Phunks! - Tip: Use transform: scale(-1,1) in CSS",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x2kloo",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1661969864.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;Phree the Phunks!  Yes, Philip the Intern phlipped the Punkbase (from right-looking to left-looking). &lt;/p&gt;\n\n&lt;p&gt;See &lt;a href=\"https://cryptopunksnotdead.github.io/punkbase/\"&gt;&lt;strong&gt;cryptopunksnotdead.github.io/punkbase&lt;/strong&gt;&lt;/a&gt; \n for the live hosted punkbase via the static github pages service.&lt;/p&gt;\n\n&lt;p&gt;Spoiler:  Yes, you can. The magic css (image) property is:&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt; transform: scale(-1,1);\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;Comment / uncomment to flip between right &amp;amp; left-looking style.&lt;/p&gt;\n\n&lt;p&gt;Questions and comments.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x2kloo",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x2kloo/philip_the_intern_presents_lets_phlip_the/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/x2kloo/philip_the_intern_presents_lets_phlip_the/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661969864.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n  a follow-up to [**Punkbase Now Live! Try @ cryptopunksnotdead.github.io/punkbase Or Run Your Own \"Serverless\" Local Copy**](https://old.reddit.com/r/DIYPunkArt/comments/x1psga/punkbase_now_live_try/).\n  \n  Let's try out some sql queries and let's look (and drill-down) for marilyn punkettes (w/ moles).\n\n  Try [**cryptopunksnotdead.github.io/punkbase**](https://cryptopunksnotdead.github.io/punkbase/) \n hosted via the static github pages service to follow along.\n\n\nClick on \"gender: f\" in any punkette and you will filter only punkettes.\nClick on \"head: Wild Blonde\" in any punkette and you will add a \"Wild Blonde\" filter\nresulting in 144 punkettes.\n\n\nOr try in \"raw\" sql:\n\n     select *\n     from   metadata\n     where  gender = \"f\" AND\n            head   = \"Wild Blonde\"\n\n=&gt; 144 punkettes\n\n\nNow let's drill down.  Click on \"skin_tone: Light\".\n\n\n    select *\n    from   metadata\n    where  gender    = \"f\" AND\n           head      = \"Wild Blonde\" AND\n           skin_tone = \"Light\"\n\n=&gt; 48 punkettes\n\nAnd now let's drill down further. Click on \"blemishes: Mole\".\n\n     select *\n     from   metadata\n     where  gender    = \"f\" AND\n           head      = \"Wild Blonde\" AND\n           skin_tone = \"Light\" AND\n           blemishes = \"Mole\"\n\n=&gt; 3 punkettes\n\nVoila! Three super-rare marilyns. Where's the blue-eyed marilyn with hot lipstick?\n\nTip - yes, you can  - generate your own ultra-rare never-before-seen original, see [**Design Your Own Matt &amp; John's® Ye Olde' Punk (Anno 2017) (24×24) Wizard »**](https://cryptopunksnotdead.github.io/punks.js/yeoldepunks/).\n\n\nQuestions and comments welcome.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Looking for (Wild Blonde) Marilyns (w/ Moles) - Punkbase SQL Query Examples",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x2jpo5",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1666546638.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1661967675.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;a follow-up to &lt;a href=\"https://old.reddit.com/r/DIYPunkArt/comments/x1psga/punkbase_now_live_try/\"&gt;&lt;strong&gt;Punkbase Now Live! Try @ cryptopunksnotdead.github.io/punkbase Or Run Your Own &amp;quot;Serverless&amp;quot; Local Copy&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;\n\n&lt;p&gt;Let&amp;#39;s try out some sql queries and let&amp;#39;s look (and drill-down) for marilyn punkettes (w/ moles).&lt;/p&gt;\n\n&lt;p&gt;Try &lt;a href=\"https://cryptopunksnotdead.github.io/punkbase/\"&gt;&lt;strong&gt;cryptopunksnotdead.github.io/punkbase&lt;/strong&gt;&lt;/a&gt; \n hosted via the static github pages service to follow along.&lt;/p&gt;\n\n&lt;p&gt;Click on &amp;quot;gender: f&amp;quot; in any punkette and you will filter only punkettes.\nClick on &amp;quot;head: Wild Blonde&amp;quot; in any punkette and you will add a &amp;quot;Wild Blonde&amp;quot; filter\nresulting in 144 punkettes.&lt;/p&gt;\n\n&lt;p&gt;Or try in &amp;quot;raw&amp;quot; sql:&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt; select *\n from   metadata\n where  gender = &amp;quot;f&amp;quot; AND\n        head   = &amp;quot;Wild Blonde&amp;quot;\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;=&amp;gt; 144 punkettes&lt;/p&gt;\n\n&lt;p&gt;Now let&amp;#39;s drill down.  Click on &amp;quot;skin_tone: Light&amp;quot;.&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;select *\nfrom   metadata\nwhere  gender    = &amp;quot;f&amp;quot; AND\n       head      = &amp;quot;Wild Blonde&amp;quot; AND\n       skin_tone = &amp;quot;Light&amp;quot;\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;=&amp;gt; 48 punkettes&lt;/p&gt;\n\n&lt;p&gt;And now let&amp;#39;s drill down further. Click on &amp;quot;blemishes: Mole&amp;quot;.&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt; select *\n from   metadata\n where  gender    = &amp;quot;f&amp;quot; AND\n       head      = &amp;quot;Wild Blonde&amp;quot; AND\n       skin_tone = &amp;quot;Light&amp;quot; AND\n       blemishes = &amp;quot;Mole&amp;quot;\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;=&amp;gt; 3 punkettes&lt;/p&gt;\n\n&lt;p&gt;Voila! Three super-rare marilyns. Where&amp;#39;s the blue-eyed marilyn with hot lipstick?&lt;/p&gt;\n\n&lt;p&gt;Tip - yes, you can  - generate your own ultra-rare never-before-seen original, see &lt;a href=\"https://cryptopunksnotdead.github.io/punks.js/yeoldepunks/\"&gt;&lt;strong&gt;Design Your Own Matt &amp;amp; John&amp;#39;s® Ye Olde&amp;#39; Punk (Anno 2017) (24×24) Wizard »&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x2jpo5",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x2jpo5/looking_for_wild_blonde_marilyns_w_moles_punkbase/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/x2jpo5/looking_for_wild_blonde_marilyns_w_moles_punkbase/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661967675.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "24px Originals &amp; Philip the Intern Presents: Are Unfudables (Apes &amp; Monke's) The New Unemployables (Punks)? The First Hundred Left-Looking Unfudables (Another Pixel Art Collection By The Skullcat Via Factoria)",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 140,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x1rlsy",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 3,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 3,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/jKEB0cC_ACSN5PUu-PWTxHpQJ4l2vNvJTFx1DegjtTY.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1661886621.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "github.com",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://github.com/pixelartexchange/artbase.sandbox/raw/master/unfudables/i/unfudables_left%402x.png",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/3chtejsCVvg7hZ6Wt2qT9WecFHTOnyDjoLDiyUCpY_w.png?auto=webp&amp;v=enabled&amp;s=b204dc93e3664b3e221b3daf72814f369b2fa031",
+                  "width": 480,
+                  "height": 480
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/3chtejsCVvg7hZ6Wt2qT9WecFHTOnyDjoLDiyUCpY_w.png?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=ac765994e0d87fb288ff47e5a88773d673461379",
+                    "width": 108,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/3chtejsCVvg7hZ6Wt2qT9WecFHTOnyDjoLDiyUCpY_w.png?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=eefa95eef36ed6094c3d24ebb58b3ee1dc61471d",
+                    "width": 216,
+                    "height": 216
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/3chtejsCVvg7hZ6Wt2qT9WecFHTOnyDjoLDiyUCpY_w.png?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=0c2e3cc5c1a947d125c6fcdda669583475f4ff76",
+                    "width": 320,
+                    "height": 320
+                  }
+                ],
+                "variants": {
+                },
+                "id": "f0LCQ76C1ep19aCAwfaUziA6a-xeEWmGPO3fHjAcrMQ"
+              }
+            ],
+            "enabled": true
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x1rlsy",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x1rlsy/24px_originals_philip_the_intern_presents_are/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://github.com/pixelartexchange/artbase.sandbox/raw/master/unfudables/i/unfudables_left%402x.png",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661886621.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n  a follow-up to [**punkbase - query punk metadata &amp; images via sql &amp; more - all-in-one single-file sqlite database, that is, punkbase.db (~5MB)**](https://old.reddit.com/r/DIYPunkArt/comments/x0vbsi/punkbase_query_punk_metadata_images_via_sql_more/)  I added the \"serverless\" webpage (with javascript machinery) and now you can query the punkbase online.\n\n  Try [**cryptopunksnotdead.github.io/punkbase**](https://cryptopunksnotdead.github.io/punkbase/)  hosted via the static github pages service.\n\nQuestions and comments welcome.\n\n\nPS: Yes, you can - run locally (no database server required) - download or clone the punkbase git repo and run a local webserver to serve the static web page and sqlite database. \n\nIn node use:\n\n     $ npx http-server\n\nIn ruby use:\n\n     $ ruby -run -e httpd . -p 8080\n\nOr use your local webserver of choice.\n\n--- \n\nPunkbase inspired by [**Moonbirdbase**](https://moonbirdbase.mixtape.network), [**Mferbase**](https://mferbase.mixtape.network/), and others by Skøgard.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Punkbase Now Live! Try @ cryptopunksnotdead.github.io/punkbase Or Run Your Own \"Serverless\" Local Copy",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x1psga",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1661882727.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1661882289.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;a follow-up to &lt;a href=\"https://old.reddit.com/r/DIYPunkArt/comments/x0vbsi/punkbase_query_punk_metadata_images_via_sql_more/\"&gt;&lt;strong&gt;punkbase - query punk metadata &amp;amp; images via sql &amp;amp; more - all-in-one single-file sqlite database, that is, punkbase.db (~5MB)&lt;/strong&gt;&lt;/a&gt;  I added the &amp;quot;serverless&amp;quot; webpage (with javascript machinery) and now you can query the punkbase online.&lt;/p&gt;\n\n&lt;p&gt;Try &lt;a href=\"https://cryptopunksnotdead.github.io/punkbase/\"&gt;&lt;strong&gt;cryptopunksnotdead.github.io/punkbase&lt;/strong&gt;&lt;/a&gt;  hosted via the static github pages service.&lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n\n&lt;p&gt;PS: Yes, you can - run locally (no database server required) - download or clone the punkbase git repo and run a local webserver to serve the static web page and sqlite database. &lt;/p&gt;\n\n&lt;p&gt;In node use:&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt; $ npx http-server\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;In ruby use:&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt; $ ruby -run -e httpd . -p 8080\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;Or use your local webserver of choice.&lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;Punkbase inspired by &lt;a href=\"https://moonbirdbase.mixtape.network\"&gt;&lt;strong&gt;Moonbirdbase&lt;/strong&gt;&lt;/a&gt;, &lt;a href=\"https://mferbase.mixtape.network/\"&gt;&lt;strong&gt;Mferbase&lt;/strong&gt;&lt;/a&gt;, and others by Skøgard.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x1psga",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x1psga/punkbase_now_live_try/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/x1psga/punkbase_now_live_try/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661882289.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n   as a follow-up to [**Turning Moonbirdbase into Punkbase - Single SQLite Database w/ Metadata &amp; Images - Query via (Offline) \"Serverless\" Webpage**](https://old.reddit.com/r/DIYPunkArt/comments/x04muq/turning_moonbirdbase_into_punkbase_single_sqlite/) I reworked the punkbase script to add all 10 000 punks to the metadata table incl. the generated images (base64-encoded) in 24×24 with transparent background.\n\n For more see the new top-level [**/punkbase repo »**](https://github.com/cryptopunksnotdead/punkbase) \n\nQuestions and comments welcome.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "punkbase - query punk metadata &amp; images via sql &amp; more - all-in-one single-file sqlite database, that is, punkbase.db (~5MB)",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x0vbsi",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1661796036.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;as a follow-up to &lt;a href=\"https://old.reddit.com/r/DIYPunkArt/comments/x04muq/turning_moonbirdbase_into_punkbase_single_sqlite/\"&gt;&lt;strong&gt;Turning Moonbirdbase into Punkbase - Single SQLite Database w/ Metadata &amp;amp; Images - Query via (Offline) &amp;quot;Serverless&amp;quot; Webpage&lt;/strong&gt;&lt;/a&gt; I reworked the punkbase script to add all 10 000 punks to the metadata table incl. the generated images (base64-encoded) in 24×24 with transparent background.&lt;/p&gt;\n\n&lt;p&gt;For more see the new top-level &lt;a href=\"https://github.com/cryptopunksnotdead/punkbase\"&gt;&lt;strong&gt;/punkbase repo »&lt;/strong&gt;&lt;/a&gt; &lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x0vbsi",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x0vbsi/punkbase_query_punk_metadata_images_via_sql_more/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/x0vbsi/punkbase_query_punk_metadata_images_via_sql_more/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661796036.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n   I am big fan of the work Skøgard - for example - \nMoonbirdbase (also available for Motherfuckers, Doodles, and some more collections) is the entire Moonbirds collection universe in a single Git repository - that you can browse &amp; query via a \"serverless\" webpage.\n\n See [moonbirdbase.mixtape.network](https://moonbirdbase.mixtape.network/) and the sources [github.com/mixtape-network/moonbirdbase](https://github.com/mixtape-network/moonbirdbase) with the docu &amp; more. \n\nNow wouldn't it be great to try it with your own collection?  I started to experiment today to replace the sqlite database\nwith my own that - surprise, surprise - incl. punks\nand guess what - it works \"out-of-the-box\".  Bonus:  The punk images get added \"inline\" in the metadata table base64 encoded.\n\nReplace the single-file mixtape.db with the punk version and reload the page - and voila - query the punks   (note: only a dozen so far incl. in the script).\n\nNote it's the early days if you want to try it out yourself - find the script to create the sqlite database (from scratch) in [**/punkbase**](https://github.com/cryptopunksnotdead/punks.sandbox/tree/master/punkbase) in the punk.sandbox.\n\nQuestions and comments welcome.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Turning Moonbirdbase into Punkbase - Single SQLite Database w/ Metadata &amp; Images - Query via (Offline) \"Serverless\" Webpage",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_x04muq",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1661717305.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1661717025.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;I am big fan of the work Skøgard - for example - \nMoonbirdbase (also available for Motherfuckers, Doodles, and some more collections) is the entire Moonbirds collection universe in a single Git repository - that you can browse &amp;amp; query via a &amp;quot;serverless&amp;quot; webpage.&lt;/p&gt;\n\n&lt;p&gt;See &lt;a href=\"https://moonbirdbase.mixtape.network/\"&gt;moonbirdbase.mixtape.network&lt;/a&gt; and the sources &lt;a href=\"https://github.com/mixtape-network/moonbirdbase\"&gt;github.com/mixtape-network/moonbirdbase&lt;/a&gt; with the docu &amp;amp; more. &lt;/p&gt;\n\n&lt;p&gt;Now wouldn&amp;#39;t it be great to try it with your own collection?  I started to experiment today to replace the sqlite database\nwith my own that - surprise, surprise - incl. punks\nand guess what - it works &amp;quot;out-of-the-box&amp;quot;.  Bonus:  The punk images get added &amp;quot;inline&amp;quot; in the metadata table base64 encoded.&lt;/p&gt;\n\n&lt;p&gt;Replace the single-file mixtape.db with the punk version and reload the page - and voila - query the punks   (note: only a dozen so far incl. in the script).&lt;/p&gt;\n\n&lt;p&gt;Note it&amp;#39;s the early days if you want to try it out yourself - find the script to create the sqlite database (from scratch) in &lt;a href=\"https://github.com/cryptopunksnotdead/punks.sandbox/tree/master/punkbase\"&gt;&lt;strong&gt;/punkbase&lt;/strong&gt;&lt;/a&gt; in the punk.sandbox.&lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/QiY0kUXRrxlZ5ia-tcskVxn30s-iU0nKriyAd-7XDLA.jpg?auto=webp&amp;v=enabled&amp;s=de1e2cb1106808be1c3e6ff9be1b14c560e1c182",
+                  "width": 1200,
+                  "height": 628
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/QiY0kUXRrxlZ5ia-tcskVxn30s-iU0nKriyAd-7XDLA.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=e4ee011541b0e85add3613eea56f61a2a48cf70b",
+                    "width": 108,
+                    "height": 56
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/QiY0kUXRrxlZ5ia-tcskVxn30s-iU0nKriyAd-7XDLA.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=0059f741dc8976100d3963a7b3e4985c9abd9acb",
+                    "width": 216,
+                    "height": 113
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/QiY0kUXRrxlZ5ia-tcskVxn30s-iU0nKriyAd-7XDLA.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=baeff3caa4ed61f25380f2ae1e8b3ffa212efd07",
+                    "width": 320,
+                    "height": 167
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/QiY0kUXRrxlZ5ia-tcskVxn30s-iU0nKriyAd-7XDLA.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=d758ea882105bbb6f1dd75b0d52b3dade1f44570",
+                    "width": 640,
+                    "height": 334
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/QiY0kUXRrxlZ5ia-tcskVxn30s-iU0nKriyAd-7XDLA.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=ab4d9c0fcd21020597b8b07887a7a9adc6f86fb2",
+                    "width": 960,
+                    "height": 502
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/QiY0kUXRrxlZ5ia-tcskVxn30s-iU0nKriyAd-7XDLA.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=1555f14c0b4f4daaaf273985a57725b1f1703b58",
+                    "width": 1080,
+                    "height": 565
+                  }
+                ],
+                "variants": {
+                },
+                "id": "aXQt9dL5M-KMVAI74p3VotjTyaLEjhUDa0wIF21vv1Q"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "x04muq",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/x04muq/turning_moonbirdbase_into_punkbase_single_sqlite/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/x04muq/turning_moonbirdbase_into_punkbase_single_sqlite/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661717025.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "28px Originals &amp; Philip the Intern Presents: Are (Pixel) Pudgies The New (Crypto) Pudgy Punks? The First Hundred Left-Looking (Pixel) Pudgies (A Pixel Art Pudgy Penguin Derivative By The Skullcat - No Rights Reserved)",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 140,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_wz95u9",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/ObZugwrkBXo9r8U3yF7bscL7btebNdWGvnl1I5xVW9g.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1661623111.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "github.com",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://github.com/pixelartexchange/artbase.sandbox/raw/master/pudgies/i/pudgies_left%402x.png",
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/XZ3J2_JI-L_DWDi78EV4sKKALnf4Ox6EUgGGf1CywQY.png?auto=webp&amp;v=enabled&amp;s=935a654638c36d12971eb02b732dd855f6da9865",
+                  "width": 560,
+                  "height": 560
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/XZ3J2_JI-L_DWDi78EV4sKKALnf4Ox6EUgGGf1CywQY.png?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=0445f9fd56077f4bd464990159598f7145ae5736",
+                    "width": 108,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/XZ3J2_JI-L_DWDi78EV4sKKALnf4Ox6EUgGGf1CywQY.png?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=1495d646e164ae93428bca0bdc9daf533c120a28",
+                    "width": 216,
+                    "height": 216
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/XZ3J2_JI-L_DWDi78EV4sKKALnf4Ox6EUgGGf1CywQY.png?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=bfb2829e14a578c654ccbc85b80ae8668391909b",
+                    "width": 320,
+                    "height": 320
+                  }
+                ],
+                "variants": {
+                },
+                "id": "LFVdctqp2lO0IMeKWfwgoNxMlQY8iGcp0wn7qdgIjdY"
+              }
+            ],
+            "enabled": true
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "wz95u9",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/wz95u9/28px_originals_philip_the_intern_presents_are/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://github.com/pixelartexchange/artbase.sandbox/raw/master/pudgies/i/pudgies_left%402x.png",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661623111.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n  to make it easier to (re)use the collection configuration / metadata I am adding a new alternate \"language-neutral\" format in yaml.  Let's look at an example e.g. Binary (Punk) Apes.  Before in ruby (script):   \n\n    ###\n    ##  see   http://binaryapes.org/\n    ##        https://opensea.io/collection/binaryapes\n     \n     COLLECTION  = TokenCollection.new( 'binaryapes', 10000,\n      token_base: 'ipfs://Qma9FdEsVsnvaUdMhkzFAkJ2MLeHMVFkx878reKYzzSJ4H/{id}.json',\n      image_base: 'ipfs://QmXZWjCdRevZ3J2AUd9PvTbwo4ef5re6oouoFBX7D2whfC/{id}.png',\n      format: '24x24',\n      source: '240x240',\n      offset: 1 )\n\nAnd the new alternate \"no-script / all-data\" format:\n\n    slug:       binaryapes\n    count:      10000\n    token_base: ipfs://Qma9FdEsVsnvaUdMhkzFAkJ2MLeHMVFkx878reKYzzSJ4H/{id}.json\n    image_base: ipfs://QmXZWjCdRevZ3J2AUd9PvTbwo4ef5re6oouoFBX7D2whfC/{id}.png\n    format:     24x24\n    source:     240x240\n    offset:     1      ## note: collection token count startin with 1  (NOT 0) !!!\n    \n    ### \n    ##  see   http://binaryapes.org/\n    ##        https://opensea.io/collection/binaryapes\n    web:      binaryapes.org\n    opensea:  binaryapes\n\n\nWhat's your take? What's your data format of choice?  Questions and comments welcome.\n\nPS:  You can find the first \"real-world\" in the wild collection metadata samples in the new alternate \"all-data\" format for easy (re)use in the [**/artbase.sandbox**](https://github.com/pixelartexchange/artbase.sandbox).",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "New Artbase (Alternate) Collection (Configuration / Metadata) Format - e.g. collection.yml - Request for Comments",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_wz4chx",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1662057144.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1661610814.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;to make it easier to (re)use the collection configuration / metadata I am adding a new alternate &amp;quot;language-neutral&amp;quot; format in yaml.  Let&amp;#39;s look at an example e.g. Binary (Punk) Apes.  Before in ruby (script):   &lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;###\n##  see   http://binaryapes.org/\n##        https://opensea.io/collection/binaryapes\n\n COLLECTION  = TokenCollection.new( &amp;#39;binaryapes&amp;#39;, 10000,\n  token_base: &amp;#39;ipfs://Qma9FdEsVsnvaUdMhkzFAkJ2MLeHMVFkx878reKYzzSJ4H/{id}.json&amp;#39;,\n  image_base: &amp;#39;ipfs://QmXZWjCdRevZ3J2AUd9PvTbwo4ef5re6oouoFBX7D2whfC/{id}.png&amp;#39;,\n  format: &amp;#39;24x24&amp;#39;,\n  source: &amp;#39;240x240&amp;#39;,\n  offset: 1 )\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;And the new alternate &amp;quot;no-script / all-data&amp;quot; format:&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;slug:       binaryapes\ncount:      10000\ntoken_base: ipfs://Qma9FdEsVsnvaUdMhkzFAkJ2MLeHMVFkx878reKYzzSJ4H/{id}.json\nimage_base: ipfs://QmXZWjCdRevZ3J2AUd9PvTbwo4ef5re6oouoFBX7D2whfC/{id}.png\nformat:     24x24\nsource:     240x240\noffset:     1      ## note: collection token count startin with 1  (NOT 0) !!!\n\n### \n##  see   http://binaryapes.org/\n##        https://opensea.io/collection/binaryapes\nweb:      binaryapes.org\nopensea:  binaryapes\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;What&amp;#39;s your take? What&amp;#39;s your data format of choice?  Questions and comments welcome.&lt;/p&gt;\n\n&lt;p&gt;PS:  You can find the first &amp;quot;real-world&amp;quot; in the wild collection metadata samples in the new alternate &amp;quot;all-data&amp;quot; format for easy (re)use in the &lt;a href=\"https://github.com/pixelartexchange/artbase.sandbox\"&gt;&lt;strong&gt;/artbase.sandbox&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/OztdaZhL5t8oP7_Ny8FuKyB0f5DYIIcmXwPYCquFo_8.jpg?auto=webp&amp;v=enabled&amp;s=28839fc6ea240921b5fa729e55db3511cf590a51",
+                  "width": 1200,
+                  "height": 600
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/OztdaZhL5t8oP7_Ny8FuKyB0f5DYIIcmXwPYCquFo_8.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=2f9c6507e0581cbee2d10d6062e522caf4f0c376",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/OztdaZhL5t8oP7_Ny8FuKyB0f5DYIIcmXwPYCquFo_8.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=934c09311742f1c4b76455c375f7c49d7c0773d9",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/OztdaZhL5t8oP7_Ny8FuKyB0f5DYIIcmXwPYCquFo_8.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=2b13dad18053264df12060f85f58f0fd72131f8a",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/OztdaZhL5t8oP7_Ny8FuKyB0f5DYIIcmXwPYCquFo_8.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=37c01c56d22e0cf32e0872f1dd67cbfee9c426ab",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/OztdaZhL5t8oP7_Ny8FuKyB0f5DYIIcmXwPYCquFo_8.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=d7013e6315d4a5204844ad849605d63a76cf29f3",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/OztdaZhL5t8oP7_Ny8FuKyB0f5DYIIcmXwPYCquFo_8.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=577b7df90593058288370d2a3e28db0bb7c9e032",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+                },
+                "id": "nAKk2gSL6o67R40UOGZJ2rVu9g10t1mr2TZPPwyp80Y"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "wz4chx",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/wz4chx/new_artbase_alternate_collection_configuration/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/wz4chx/new_artbase_alternate_collection_configuration/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661610814.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n  \n  a reminder - over at the **r/RightClickSaveThis** channel I added some more all-in-one image collect'em all - yes - right-click &amp; save downloads include:\n\n- 5000 Unemployables (24x24px)\n- 10 000 Galactic Alien Social Club (28x28px)\n- 8888 Pudgy (Penguin) Punks (24x24px)\n- and more",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "r/RightClickSaveThis Updates Incl. Collect'Em All! 5000 Unemployables (24x24px), 10 000 Galactic Alien Social Club (28x28px), 8888 Pudgy (Penguin) Punks (24x24px), &amp; More",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_wygjcr",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1661538520.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;a reminder - over at the &lt;strong&gt;&lt;a href=\"/r/RightClickSaveThis\"&gt;r/RightClickSaveThis&lt;/a&gt;&lt;/strong&gt; channel I added some more all-in-one image collect&amp;#39;em all - yes - right-click &amp;amp; save downloads include:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;5000 Unemployables (24x24px)&lt;/li&gt;\n&lt;li&gt;10 000 Galactic Alien Social Club (28x28px)&lt;/li&gt;\n&lt;li&gt;8888 Pudgy (Penguin) Punks (24x24px)&lt;/li&gt;\n&lt;li&gt;and more&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "wygjcr",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/wygjcr/rrightclicksavethis_updates_incl_collectem_all/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/wygjcr/rrightclicksavethis_updates_incl_collectem_all/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661538520.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "24px Originals &amp; Philip the Intern Presents: The First Hundred (Crypto) Left-Looking Pudgy P(h)unks (aka Penguins)",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 140,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_wuzcqn",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/lnXZeOa1rVxT7_2p1cJvyn3rSulw-03nzBac1oQGDbc.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1661188456.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "github.com",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://github.com/pixelartexchange/artbase.sandbox/raw/master/pudgypunks/i/pudgypunks_left%402x.png",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/kWlMQBCo3RVfFned_uoVtOgrRHMndfxcCfUkITC4mcY.png?auto=webp&amp;v=enabled&amp;s=08a4eb270b36af1d1bc717ec5b01e4f77019229e",
+                  "width": 480,
+                  "height": 480
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/kWlMQBCo3RVfFned_uoVtOgrRHMndfxcCfUkITC4mcY.png?width=108&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=c189e970f51649e1770ee6b025bed12a7e298c20",
+                    "width": 108,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/kWlMQBCo3RVfFned_uoVtOgrRHMndfxcCfUkITC4mcY.png?width=216&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=02fea99abf51cb2d3c133b4e6ab89e825eec2808",
+                    "width": 216,
+                    "height": 216
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/kWlMQBCo3RVfFned_uoVtOgrRHMndfxcCfUkITC4mcY.png?width=320&amp;crop=smart&amp;auto=webp&amp;v=enabled&amp;s=5de384b2069c31bc724fc93504fdcba6f37321d4",
+                    "width": 320,
+                    "height": 320
+                  }
+                ],
+                "variants": {
+                },
+                "id": "rGqSuLJAVkzg_TBi0jlHGmWwZnCM_xIxusHcx3CaR94"
+              }
+            ],
+            "enabled": true
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "wuzcqn",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/wuzcqn/24px_originals_philip_the_intern_presents_the/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://github.com/pixelartexchange/artbase.sandbox/raw/master/pudgypunks/i/pudgypunks_left%402x.png",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661188456.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n  I am a big fan of the amazing dice bear (avatar generator) project by Florian Körner and posted before:\n\n- [**Free Dice Bear (Avatar Generator) Version 4.9 Out - What's News? Five New Avatar Styles / Collections - Big Ears &amp; Big Ears (Neutral), Big Smile, Miniavs, Personas**](https://www.reddit.com/r/CryptoPunksDev/comments/piirt5/free_dice_bear_avatar_generator_version_49_out/)\n- [**Many More Free Profile Picture / Avatar Art Block Series (Incl. Avataaars by Pablo Stanley, 8 Biticon by Plastic Jam and More)**](https://www.reddit.com/r/CryptoPunksDev/comments/ph3o91/many_more_free_profile_picture_avatar_art_block/)\n- and some more   \n\nNot sure when the in-progress version 5.0 is getting ready but you can have a look at a new \"no-code\" visual dice bear (avatar generator) editor / designer / wizard - see [**editor.dicebear.com »**](https://editor.dicebear.com/)\n\nIf you are using Dice Bear you're welcome to share your experience or tips &amp; tricks.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Dice Bear (Avatar Generator) Editor / Designer / Wizard by Florian Körner",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_wtfxb2",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1661025302.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;I am a big fan of the amazing dice bear (avatar generator) project by Florian Körner and posted before:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://www.reddit.com/r/CryptoPunksDev/comments/piirt5/free_dice_bear_avatar_generator_version_49_out/\"&gt;&lt;strong&gt;Free Dice Bear (Avatar Generator) Version 4.9 Out - What&amp;#39;s News? Five New Avatar Styles / Collections - Big Ears &amp;amp; Big Ears (Neutral), Big Smile, Miniavs, Personas&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://www.reddit.com/r/CryptoPunksDev/comments/ph3o91/many_more_free_profile_picture_avatar_art_block/\"&gt;&lt;strong&gt;Many More Free Profile Picture / Avatar Art Block Series (Incl. Avataaars by Pablo Stanley, 8 Biticon by Plastic Jam and More)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;and some more&lt;br/&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Not sure when the in-progress version 5.0 is getting ready but you can have a look at a new &amp;quot;no-code&amp;quot; visual dice bear (avatar generator) editor / designer / wizard - see &lt;a href=\"https://editor.dicebear.com/\"&gt;&lt;strong&gt;editor.dicebear.com »&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;If you are using Dice Bear you&amp;#39;re welcome to share your experience or tips &amp;amp; tricks.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "wtfxb2",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/wtfxb2/dice_bear_avatar_generator_editor_designer_wizard/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/wtfxb2/dice_bear_avatar_generator_editor_designer_wizard/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1661025302.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n  as a follow-up to [**Profile Pict(ure) As A Service v0.1 - Try The Online (Demo) Installation Incl. Punks, Phunks, Marilyns, Marcs, Saudi Sheiks, Ye Olde' Punks (Anno 2017), &amp; More**](https://old.reddit.com/r/DIYPunkArt/comments/wfz5lv/profile_picture_as_a_service_v01_try_the_online/) I added a first batch of (spritesheet) attribute quick references / help pages for Marcs, Saudi Sheiks, Matt &amp; John's® Ye Olde' Punk V1/V2 (Anno 2017), &amp; Doge Shiba Inus.\n\n  Browse (or download or print) the (spritesheet) attribute quick reference (help) pages at the demo installation running at [**diypunkart.herokuapp.com/spritesheets »**](https://diypunkart.herokuapp.com/spritesheets)\n\n Questions and comments welcome.\n\nPS:  See [**/profilepic**](https://github.com/profilepic/profilepic) to setup your own profile pic(ture) as a service service.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "New (Spritesheet) Attribute Quick References (Help Pages)@ Profile Pic(ture) As A Service Incl. Marcs, Saudi Sheiks, Matt &amp; John's® Ye Olde' Punk V1/V2 (Anno 2017), Doge Shiba Inus &amp; More",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_wsl4za",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1660934817.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1660933536.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;as a follow-up to &lt;a href=\"https://old.reddit.com/r/DIYPunkArt/comments/wfz5lv/profile_picture_as_a_service_v01_try_the_online/\"&gt;&lt;strong&gt;Profile Pict(ure) As A Service v0.1 - Try The Online (Demo) Installation Incl. Punks, Phunks, Marilyns, Marcs, Saudi Sheiks, Ye Olde&amp;#39; Punks (Anno 2017), &amp;amp; More&lt;/strong&gt;&lt;/a&gt; I added a first batch of (spritesheet) attribute quick references / help pages for Marcs, Saudi Sheiks, Matt &amp;amp; John&amp;#39;s® Ye Olde&amp;#39; Punk V1/V2 (Anno 2017), &amp;amp; Doge Shiba Inus.&lt;/p&gt;\n\n&lt;p&gt;Browse (or download or print) the (spritesheet) attribute quick reference (help) pages at the demo installation running at &lt;a href=\"https://diypunkart.herokuapp.com/spritesheets\"&gt;&lt;strong&gt;diypunkart.herokuapp.com/spritesheets »&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n\n&lt;p&gt;PS:  See &lt;a href=\"https://github.com/profilepic/profilepic\"&gt;&lt;strong&gt;/profilepic&lt;/strong&gt;&lt;/a&gt; to setup your own profile pic(ture) as a service service.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "wsl4za",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/wsl4za/new_spritesheet_attribute_quick_references_help/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/wsl4za/new_spritesheet_attribute_quick_references_help/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1660933536.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n  as a follow-up to [**Profile Pict(ure) As A Service v0.1 - Try The Online (Demo) Installation Incl. Punks, Phunks, Marilyns, Marcs, Saudi Sheiks, Ye Olde' Punks (Anno 2017), &amp; More**](https://old.reddit.com/r/DIYPunkArt/comments/wfz5lv/profile_picture_as_a_service_v01_try_the_online/) I added a new design your own Saudi Sheik wizard page.\n\n  Try the v0.1.5 demo installation running at [**diypunkart.herokuapp.com/saudis »**](https://diypunkart.herokuapp.com/saudis)\n\n  Yes, you can. Generate your own free saudi sheik originals from scratch via (text) attributes from the built-in spritesheet.\n\n \n Questions and comments welcome.\n\nPS:  See [**/profilepic**](https://github.com/profilepic/profilepic) to setup your own profile pic(ture) as a service service.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "New Design Your Own Saudi Sheik Wizard @ Profile Pic(ture) As A Service - Try The Online (Demo) Installation Incl. Super-Rare Laser Eyes, MAX BIDDING, &amp; More",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_wskxi2",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1660933015.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;as a follow-up to &lt;a href=\"https://old.reddit.com/r/DIYPunkArt/comments/wfz5lv/profile_picture_as_a_service_v01_try_the_online/\"&gt;&lt;strong&gt;Profile Pict(ure) As A Service v0.1 - Try The Online (Demo) Installation Incl. Punks, Phunks, Marilyns, Marcs, Saudi Sheiks, Ye Olde&amp;#39; Punks (Anno 2017), &amp;amp; More&lt;/strong&gt;&lt;/a&gt; I added a new design your own Saudi Sheik wizard page.&lt;/p&gt;\n\n&lt;p&gt;Try the v0.1.5 demo installation running at &lt;a href=\"https://diypunkart.herokuapp.com/saudis\"&gt;&lt;strong&gt;diypunkart.herokuapp.com/saudis »&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Yes, you can. Generate your own free saudi sheik originals from scratch via (text) attributes from the built-in spritesheet.&lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n\n&lt;p&gt;PS:  See &lt;a href=\"https://github.com/profilepic/profilepic\"&gt;&lt;strong&gt;/profilepic&lt;/strong&gt;&lt;/a&gt; to setup your own profile pic(ture) as a service service.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "wskxi2",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/wskxi2/new_design_your_own_saudi_sheik_wizard_profile/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/wskxi2/new_design_your_own_saudi_sheik_wizard_profile/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1660933015.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Since the The Jeremy &amp; Florian's ® Expansion Punks are celebrating the 1-Year Anniversary today. Congrats!  Allow me to pump up the two-month old post to the front.\n\nFraudster trivia - did you know more than a year ago I published [**Inside ExpansionPunks - How the Zombie zero-attribute archetype was deduced using punks #8553 and #8127 and Much More by Jeremy Posvar**](https://old.reddit.com/r/CryptoPunksDev/comments/ot5r38/inside_expansionpunks_how_the_zombie/) over at the r/CryptoPunksDev channel and Jeremy Posvar offered to answer questions (pre-launch).\n\n&gt; Q: Obviously I am a big fan on open source &amp; data and the do-it-yourself (DIY) punk ethos. Any plans on your build out of the Punkverse, for example, on publishing the reverse-engineered images of all (200?) attribute parts? Or on starting, for example, a new github org with all your open source code, data &amp; documentation?\n&gt;\n&gt; A: We do plan to release a GitHub repository. We do aspire to be overly transparent with the community. Probably something the DAO directs as well.\n&gt;\n&gt; Thanks for the kind words and your support! Keep the questions coming! Glad to connect with another Punk enthusiast.\n\nNow it's the 1-Year Anniversary (post-launch) and obviously the \"we do plan to release a github repo\" is a broken promise. Nowadays it's all about the money, isn't it?   The DAO hiring a chief-marketing (or is that brand?) officer to pump up the tokens.  \n\n\n---\n\nHello,\n\n  on the [**\"debate\" if computer-generated 24x24 pixel images are copyrightable**](https://old.reddit.com/r/CryptoPunksDev/comments/vekcir/punks_faq_update_q_am_i_allowed_to_create_and/) (and by extension original art)?  Let's look at the   Jeremy &amp; Forian's® Expansion Punks fraudsters or is that crypo bro millionaire geniuses?   For some background reading see:\n\n- [**Inside the Expansion Punks Tokenomics - A Legit $1Million Get-Rich-Quick Cash Grab? Financial Fraud? What's Your Take Greater Fools?**](https://cryptopunksnotdead.github.io/inside#inside-the-expansionpunks-tokenomics-a-legit-1million-get-rich-q)\n- [**Inside the Expansion Punks Fraud - 'Classic' Crypto Punks Collection Attribute Generation Rules - Your Comments Welcome**](https://cryptopunksnotdead.github.io/inside#inside-the-expansion-punk-fraud-classic-crypto-punks-collection)\n- [**Inside The Million $$$ Expansion Punks Token Fraud Update - Q: Why this Microsoft employee (Jeremy Posvar) expanded an iconic 24x24 pixel art token collection? A: $$$ (Yes, It's All About Greed - Shame On You! - Wrapped Up In A Woke Diversity Narrative)**](https://old.reddit.com/r/CryptoPunksDev/comments/rww8gk/inside_the_million_expansion_punks_token_fraud/)\n\nAnyways, let's have a looksie at - yes, believe it or not - the official license and terms of service - [**expansionpunks.com/license**](https://expansionpunks.com/license). To quote:\n\n&gt; 2.1 Ownership Rights. Licensor [Crypto Bros' Jeremy &amp; Florian] represents to be the sole author and creator of the Permissible Work [that is, 10,000 computer-generated 24x24 bitmaps] and that the Permissible Work [that is, 10,000 computer-generated 24x24 bitmaps] is an original work. Licensor [Crypto Bros' Jeremy &amp; Florian] agrees to have the sole and exclusive right to enter into this Agreement and the full warrant and authority to grant the rights granted hereby.\n&gt; \n&gt; 2.2 Non-Exclusive. Licensee [You - The Greater Fool] acknowledges and agrees that the license granted herein is non-exclusive and that Licensor [Crypto Bros' Jeremy &amp; Florian] may license others to use the Permissible Work [that is, the computer-generated 24x24 bitmaps]. Licensor [Crypto Bros' Jeremy &amp; Florian] shall have the right to assign and/or license its rights and obligations under this Agreement and all its right, title and interest in the Permissible Work [that is, computer-generated 24x24 bitmaps] without the consent of Licensee [You - The Greater Fool]. Furthermore, Licensor [Crypto Bros' Jeremy &amp; Florian] reserves the right to use any character, including derivative artworks in any media of its choosing, including print or digital advertising, or any purely creative media.\n&gt;\n&gt; 2.3 Scope. Licensor [Crypto Bros' Jeremy &amp; Florian] hereby grants to Licensee [You - The Greater Fool], in accordance with the terms and conditions of this Agreement, a nonexclusive license to use the Permissible Work [that is, a computer-generated 24x24 bitmap] in the course of personal and commercial use and purposes. The license covers the non-exclusive right to reproduce, sell, and distribute the Permissible Work [that is, a computer-generated 24x24 bitmap] as an token in accordance with this Agreement.\n\n\nAnd on and on.\n\nHow absurd?  Original work, really?  A computer-generated 24x24 bitmap made-up of widely available free readymade 24x24 bitmaps?\n\nWhat's your take?    \n\n\nEven worse - of course - the marketing and selling by the crypto bros' in the name of inclusion, diversity, &amp; female empowerement.  Molly White - a crypto critic - posted an essay / article titled [**Predatory community**](https://blog.mollywhite.net/predatory-community/) and concludes:\n\n&gt; Groups that operate under the guise of inclusion, regardless of their intentions, are serving the greater goal of crypto that keeps the whole thing afloat: finding ever more fools to buy in so that the early investors can take their profits. And it is those latecomers who are left holding the bag in the end.\n&gt;\n&gt; With projects that seek to provide services and opportunities to members of marginalized groups who have previously not had access, but on bad terms that ultimately disadvantaged them, we see predatory inclusion. With projects that seek to create new communities of marginalized people to draw them in to risky speculative markets rife with scams and fraud, we are now seeing predatory community.   \n\nWhat's your take on Jeremy &amp; Florian?  Crypto bro geniuses or predatory fraudsters in the name of inclusion, diversity &amp; female empowerment?\n\nNote: Jeremy &amp; Florian pulled in about $+1 million each on the initial token offering - split (as \"hard-coded\" in the blockchain contract) in three parts - one third in Jeremy's pocket, one third in Florian's pocket and - yes - one third in the \"community\" fund to further the mission of  Jeremy &amp; Florian's® Expansion Punks   - mostly so far as I can tell - Jeremy buying female non-fungible tokens by female artist to get marketing buy-in &amp; support for - surprise, surprise -  the Jeremy &amp; Florian's® Expansion Punks collection.",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Crypto Bro Fraudster Case Study - The Jeremy &amp; Florian's ® Expansion Punks - Celebrating 1 Year Anniversary! - Jeremy Posvar (Ex-Microsoft) &amp; Florian Uhde (Ex-IBM) - Raking In Millions of Free Money In The Name Of Inclusion &amp; Diversity &amp; Female Empowerment",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_wrr17s",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1660847526.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Since the The Jeremy &amp;amp; Florian&amp;#39;s ® Expansion Punks are celebrating the 1-Year Anniversary today. Congrats!  Allow me to pump up the two-month old post to the front.&lt;/p&gt;\n\n&lt;p&gt;Fraudster trivia - did you know more than a year ago I published &lt;a href=\"https://old.reddit.com/r/CryptoPunksDev/comments/ot5r38/inside_expansionpunks_how_the_zombie/\"&gt;&lt;strong&gt;Inside ExpansionPunks - How the Zombie zero-attribute archetype was deduced using punks #8553 and #8127 and Much More by Jeremy Posvar&lt;/strong&gt;&lt;/a&gt; over at the &lt;a href=\"/r/CryptoPunksDev\"&gt;r/CryptoPunksDev&lt;/a&gt; channel and Jeremy Posvar offered to answer questions (pre-launch).&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;Q: Obviously I am a big fan on open source &amp;amp; data and the do-it-yourself (DIY) punk ethos. Any plans on your build out of the Punkverse, for example, on publishing the reverse-engineered images of all (200?) attribute parts? Or on starting, for example, a new github org with all your open source code, data &amp;amp; documentation?&lt;/p&gt;\n\n&lt;p&gt;A: We do plan to release a GitHub repository. We do aspire to be overly transparent with the community. Probably something the DAO directs as well.&lt;/p&gt;\n\n&lt;p&gt;Thanks for the kind words and your support! Keep the questions coming! Glad to connect with another Punk enthusiast.&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;Now it&amp;#39;s the 1-Year Anniversary (post-launch) and obviously the &amp;quot;we do plan to release a github repo&amp;quot; is a broken promise. Nowadays it&amp;#39;s all about the money, isn&amp;#39;t it?   The DAO hiring a chief-marketing (or is that brand?) officer to pump up the tokens.  &lt;/p&gt;\n\n&lt;hr/&gt;\n\n&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;on the &lt;a href=\"https://old.reddit.com/r/CryptoPunksDev/comments/vekcir/punks_faq_update_q_am_i_allowed_to_create_and/\"&gt;&lt;strong&gt;&amp;quot;debate&amp;quot; if computer-generated 24x24 pixel images are copyrightable&lt;/strong&gt;&lt;/a&gt; (and by extension original art)?  Let&amp;#39;s look at the   Jeremy &amp;amp; Forian&amp;#39;s® Expansion Punks fraudsters or is that crypo bro millionaire geniuses?   For some background reading see:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://cryptopunksnotdead.github.io/inside#inside-the-expansionpunks-tokenomics-a-legit-1million-get-rich-q\"&gt;&lt;strong&gt;Inside the Expansion Punks Tokenomics - A Legit $1Million Get-Rich-Quick Cash Grab? Financial Fraud? What&amp;#39;s Your Take Greater Fools?&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://cryptopunksnotdead.github.io/inside#inside-the-expansion-punk-fraud-classic-crypto-punks-collection\"&gt;&lt;strong&gt;Inside the Expansion Punks Fraud - &amp;#39;Classic&amp;#39; Crypto Punks Collection Attribute Generation Rules - Your Comments Welcome&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://old.reddit.com/r/CryptoPunksDev/comments/rww8gk/inside_the_million_expansion_punks_token_fraud/\"&gt;&lt;strong&gt;Inside The Million $$$ Expansion Punks Token Fraud Update - Q: Why this Microsoft employee (Jeremy Posvar) expanded an iconic 24x24 pixel art token collection? A: $$$ (Yes, It&amp;#39;s All About Greed - Shame On You! - Wrapped Up In A Woke Diversity Narrative)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Anyways, let&amp;#39;s have a looksie at - yes, believe it or not - the official license and terms of service - &lt;a href=\"https://expansionpunks.com/license\"&gt;&lt;strong&gt;expansionpunks.com/license&lt;/strong&gt;&lt;/a&gt;. To quote:&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;2.1 Ownership Rights. Licensor [Crypto Bros&amp;#39; Jeremy &amp;amp; Florian] represents to be the sole author and creator of the Permissible Work [that is, 10,000 computer-generated 24x24 bitmaps] and that the Permissible Work [that is, 10,000 computer-generated 24x24 bitmaps] is an original work. Licensor [Crypto Bros&amp;#39; Jeremy &amp;amp; Florian] agrees to have the sole and exclusive right to enter into this Agreement and the full warrant and authority to grant the rights granted hereby.&lt;/p&gt;\n\n&lt;p&gt;2.2 Non-Exclusive. Licensee [You - The Greater Fool] acknowledges and agrees that the license granted herein is non-exclusive and that Licensor [Crypto Bros&amp;#39; Jeremy &amp;amp; Florian] may license others to use the Permissible Work [that is, the computer-generated 24x24 bitmaps]. Licensor [Crypto Bros&amp;#39; Jeremy &amp;amp; Florian] shall have the right to assign and/or license its rights and obligations under this Agreement and all its right, title and interest in the Permissible Work [that is, computer-generated 24x24 bitmaps] without the consent of Licensee [You - The Greater Fool]. Furthermore, Licensor [Crypto Bros&amp;#39; Jeremy &amp;amp; Florian] reserves the right to use any character, including derivative artworks in any media of its choosing, including print or digital advertising, or any purely creative media.&lt;/p&gt;\n\n&lt;p&gt;2.3 Scope. Licensor [Crypto Bros&amp;#39; Jeremy &amp;amp; Florian] hereby grants to Licensee [You - The Greater Fool], in accordance with the terms and conditions of this Agreement, a nonexclusive license to use the Permissible Work [that is, a computer-generated 24x24 bitmap] in the course of personal and commercial use and purposes. The license covers the non-exclusive right to reproduce, sell, and distribute the Permissible Work [that is, a computer-generated 24x24 bitmap] as an token in accordance with this Agreement.&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;And on and on.&lt;/p&gt;\n\n&lt;p&gt;How absurd?  Original work, really?  A computer-generated 24x24 bitmap made-up of widely available free readymade 24x24 bitmaps?&lt;/p&gt;\n\n&lt;p&gt;What&amp;#39;s your take?    &lt;/p&gt;\n\n&lt;p&gt;Even worse - of course - the marketing and selling by the crypto bros&amp;#39; in the name of inclusion, diversity, &amp;amp; female empowerement.  Molly White - a crypto critic - posted an essay / article titled &lt;a href=\"https://blog.mollywhite.net/predatory-community/\"&gt;&lt;strong&gt;Predatory community&lt;/strong&gt;&lt;/a&gt; and concludes:&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;Groups that operate under the guise of inclusion, regardless of their intentions, are serving the greater goal of crypto that keeps the whole thing afloat: finding ever more fools to buy in so that the early investors can take their profits. And it is those latecomers who are left holding the bag in the end.&lt;/p&gt;\n\n&lt;p&gt;With projects that seek to provide services and opportunities to members of marginalized groups who have previously not had access, but on bad terms that ultimately disadvantaged them, we see predatory inclusion. With projects that seek to create new communities of marginalized people to draw them in to risky speculative markets rife with scams and fraud, we are now seeing predatory community.   &lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;What&amp;#39;s your take on Jeremy &amp;amp; Florian?  Crypto bro geniuses or predatory fraudsters in the name of inclusion, diversity &amp;amp; female empowerment?&lt;/p&gt;\n\n&lt;p&gt;Note: Jeremy &amp;amp; Florian pulled in about $+1 million each on the initial token offering - split (as &amp;quot;hard-coded&amp;quot; in the blockchain contract) in three parts - one third in Jeremy&amp;#39;s pocket, one third in Florian&amp;#39;s pocket and - yes - one third in the &amp;quot;community&amp;quot; fund to further the mission of  Jeremy &amp;amp; Florian&amp;#39;s® Expansion Punks   - mostly so far as I can tell - Jeremy buying female non-fungible tokens by female artist to get marketing buy-in &amp;amp; support for - surprise, surprise -  the Jeremy &amp;amp; Florian&amp;#39;s® Expansion Punks collection.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "wrr17s",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/wrr17s/crypto_bro_fraudster_case_study_the_jeremy/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/wrr17s/crypto_bro_fraudster_case_study_the_jeremy/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1660847526.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hi Gerald just want to say that i am still having having so much fun and good times learning how to running of the scripts from your repositories on GitHub and so on, this morning ive had a  practice running the shilling central bank node, mine your own block 1 at a time from awesome blockchains! ill try put a picture here later ( Austrias finest non finite supply of digital money) a lot of your commentary really makes me laugh out loud. \n\np.s - still struggling in certain areas, some areas im struggling when using interactive ruby, ill try put some examples here later and see if anything stands out that i am doing wrong.\n\nanyway have a marvelous day",
+          "author_fullname": "t2_ftfkw6b7",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Program junkies",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_wqlhe2",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1660732157.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hi Gerald just want to say that i am still having having so much fun and good times learning how to running of the scripts from your repositories on GitHub and so on, this morning ive had a  practice running the shilling central bank node, mine your own block 1 at a time from awesome blockchains! ill try put a picture here later ( Austrias finest non finite supply of digital money) a lot of your commentary really makes me laugh out loud. &lt;/p&gt;\n\n&lt;p&gt;p.s - still struggling in certain areas, some areas im struggling when using interactive ruby, ill try put some examples here later and see if anything stands out that i am doing wrong.&lt;/p&gt;\n\n&lt;p&gt;anyway have a marvelous day&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "wqlhe2",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "cryptobowzer",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/wqlhe2/program_junkies/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/wqlhe2/program_junkies/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1660732157.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "DIYPunkArt",
+          "selftext": "Hello,\n\n  as a follow-up to [**New Serverless Edition! World's 1st Historic Open-Source Public Domain (No Rights Reserved) Spritesheet-Powered Design Your Own Matt &amp; John's® Ye Olde' Punk (Anno 2017) Wizard Running in 100% JavaScript in Your Browser**](https://old.reddit.com/r/DIYPunkArt/comments/wl2z2g/new_serverless_edition_worlds_1st_historic/)  I uploaded a new version  that now includes female zombies, apes, &amp; aliens and I started to add to all male or female-only attributes the (missing) pendant.\nSo far the new attributes include:\n\nFor females: Shaved Head (f), Peak Spike (f),\nVampire Hair (f), Purple Hair (f),\n Small Shades (f),\n Cowboy Hat (f),\n Fedora (f),\n Hoodie (f),\n Beanie (f),\n Top Hat (f),\n Do-rag (f),\n Police Cap (f),\n Cap Forward (f)\n \nFor males:\nStraight Hair (m),\nStraight Hair Dark (m),\n Straight Hair Blonde (m),\n Blonde Short (m),\n Blonde Bob (m),\nWild Blonde (m),\nWild White Hair (m),\n Orange Side (m),\n Dark Hair (m),\n Pigtails (m),\n Pink With Hat (m),\n Half Shaved (m),\n Red Mohawk (m),\n Welding Goggles (m),\n Pilot Helmet (m),\n  Tassle Hat (m),\n  Tiara (m),\n Choker (m)\n\n\nTry the (updated) static serverless demo installation / copy over at the (Crypto) Punk's Not Dead org @ [**/pixelart.js/yeoldepunks »**](https://cryptopunksnotdead.github.io/pixelart.js/yeoldepunks/)\n\n\nBonus:  I added the \"official\" bot archetype (male &amp; female with antenna optional).\n\nQuestions and comments welcome.\n\nPS: If you want the old ye olde' punk version back (without any added attribute pendants) - now rebranded the \"strict\" (or is that authentic?) genesis 2017 version -  see  [**/pixelart.js/yeoldepunks/2017 »**](https://cryptopunksnotdead.github.io/pixelart.js/yeoldepunks/2017)",
+          "author_fullname": "t2_bu67h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Serverless Edition Update! Design Your Own Matt &amp; John's® Ye Olde' Punk (Anno 2017) Wizard Now Incl. Female Zombies, Apes &amp; Aliens; Vampire Hair (f), Purple Hair (f), Peak Spike (f), Wilde Blonde (m), Orange Side (m), Half Shaved (m) &amp; Much More",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/DIYPunkArt",
+          "hidden": false,
+          "pwls": null,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_wlyg1i",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "restricted",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1660324923.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1660242344.0,
+          "link_flair_type": "text",
+          "wls": null,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.DIYPunkArt",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello,&lt;/p&gt;\n\n&lt;p&gt;as a follow-up to &lt;a href=\"https://old.reddit.com/r/DIYPunkArt/comments/wl2z2g/new_serverless_edition_worlds_1st_historic/\"&gt;&lt;strong&gt;New Serverless Edition! World&amp;#39;s 1st Historic Open-Source Public Domain (No Rights Reserved) Spritesheet-Powered Design Your Own Matt &amp;amp; John&amp;#39;s® Ye Olde&amp;#39; Punk (Anno 2017) Wizard Running in 100% JavaScript in Your Browser&lt;/strong&gt;&lt;/a&gt;  I uploaded a new version  that now includes female zombies, apes, &amp;amp; aliens and I started to add to all male or female-only attributes the (missing) pendant.\nSo far the new attributes include:&lt;/p&gt;\n\n&lt;p&gt;For females: Shaved Head (f), Peak Spike (f),\nVampire Hair (f), Purple Hair (f),\n Small Shades (f),\n Cowboy Hat (f),\n Fedora (f),\n Hoodie (f),\n Beanie (f),\n Top Hat (f),\n Do-rag (f),\n Police Cap (f),\n Cap Forward (f)&lt;/p&gt;\n\n&lt;p&gt;For males:\nStraight Hair (m),\nStraight Hair Dark (m),\n Straight Hair Blonde (m),\n Blonde Short (m),\n Blonde Bob (m),\nWild Blonde (m),\nWild White Hair (m),\n Orange Side (m),\n Dark Hair (m),\n Pigtails (m),\n Pink With Hat (m),\n Half Shaved (m),\n Red Mohawk (m),\n Welding Goggles (m),\n Pilot Helmet (m),\n  Tassle Hat (m),\n  Tiara (m),\n Choker (m)&lt;/p&gt;\n\n&lt;p&gt;Try the (updated) static serverless demo installation / copy over at the (Crypto) Punk&amp;#39;s Not Dead org @ &lt;a href=\"https://cryptopunksnotdead.github.io/pixelart.js/yeoldepunks/\"&gt;&lt;strong&gt;/pixelart.js/yeoldepunks »&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Bonus:  I added the &amp;quot;official&amp;quot; bot archetype (male &amp;amp; female with antenna optional).&lt;/p&gt;\n\n&lt;p&gt;Questions and comments welcome.&lt;/p&gt;\n\n&lt;p&gt;PS: If you want the old ye olde&amp;#39; punk version back (without any added attribute pendants) - now rebranded the &amp;quot;strict&amp;quot; (or is that authentic?) genesis 2017 version -  see  &lt;a href=\"https://cryptopunksnotdead.github.io/pixelart.js/yeoldepunks/2017\"&gt;&lt;strong&gt;/pixelart.js/yeoldepunks/2017 »&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_6hqo51",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "wlyg1i",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "geraldbauer",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": null,
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/DIYPunkArt/comments/wlyg1i/serverless_edition_update_design_your_own_matt/",
+          "parent_whitelist_status": null,
+          "stickied": false,
+          "url": "https://www.reddit.com/r/DIYPunkArt/comments/wlyg1i/serverless_edition_update_design_your_own_matt/",
+          "subreddit_subscribers": 57,
+          "created_utc": 1660242344.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      }
+    ],
+    "before": null
+  }
+}
